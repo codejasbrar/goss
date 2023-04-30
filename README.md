@@ -6,3 +6,5 @@
 
 `Store Preview link` - https://th52pph7gskf74oq-72877867287.shopifypreview.com
 Password- gossamer
+
+`Bug is in this file` Section -Icons_3d
