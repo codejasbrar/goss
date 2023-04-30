@@ -1,0 +1,166 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_topm }}px;
+    padding-bottom: {{ section.settings.padding_bottomm }}px;
+    padding-left: {{ section.settings.padding_leftm }}px;
+    padding-right: {{ section.settings.padding_rightm }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-left: {{ section.settings.padding_left }}px;
+      padding-right: {{ section.settings.padding_right }}px;
+    }
+  }
+{%- endstyle -%}
+<section class="reviews-section section-{{ section.id }}-padding"  style="background-color:{{section.settings.sectionbackground}};">
+ <div class="section-container">
+        <div class="image-block">
+            <img src="{{ section.settings.review-image | image_url }}" >
+        </div>
+        <div class="content-block">
+           {%if section.settings.review-title != blank %}
+               <div class="header-title">
+                   {{ section.settings.review-title }}
+               </div>
+           {% endif%}
+           {%if section.settings.review-copy != blank %}
+               <div class="review-copy">
+                   <p class="copy-content">{{ section.settings.review-copy }}</p>
+               </div>
+           {% endif%}
+           {%if section.settings.review-text != blank %}
+              <div class="copy-link">
+                <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+                  <a class="review-link" href="{{ section.settings.review-link }}">{{ section.settings.review-text }}</a>
+              </div>
+          {% endif%}
+        </div>
+ </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Reviews",
+  "settings": [
+     {
+       "type": "color",
+       "id": "sectionbackground",
+       "label": "Background"
+     },
+     {
+        "type":"image_picker",
+        "id":"review-image",
+        "label":"Select Image"
+     },
+     {
+       "type":"text",
+       "id": "review-title",
+       "label":"Title"
+     },
+     {
+        "type":"text",
+        "id": "review-copy",
+        "label":"Copy Content"
+      },
+     {
+        "type":"text",
+        "id": "review-text",
+        "label":"Link Text"
+      },
+     {
+        "type":"url",
+        "id": "review-link",
+        "label":"Link"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "padding_left",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding left",
+        "default": 30
+      },
+       {
+         "type": "range",
+         "id": "padding_right",
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px",
+         "label": "Padding Right",
+         "default": 30
+       },
+       {
+         "type": "range",
+         "id": "padding_topm",
+         "min": 0,
+         "max": 100,
+         "step": 4,
+         "unit": "px",
+         "label": "Mobile Padding Top",
+         "default": 20
+       },
+       {
+         "type": "range",
+         "id": "padding_bottomm",
+         "min": 0,
+         "max": 100,
+         "step": 4,
+         "unit": "px",
+         "label": "Mobile Padding Bottom",
+         "default": 20
+       },
+       {
+         "type": "range",
+         "id": "padding_leftm",
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px",
+         "label": "Mobile Padding left",
+         "default": 20
+       },
+        {
+          "type": "range",
+          "id": "padding_rightm",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "px",
+          "label": "Mobile Padding Right",
+          "default": 20
+        }
+
+    ],
+    "presets": [
+      {
+        "name": "Product Reviews"
+      }
+   ]
+}
+{% endschema %}

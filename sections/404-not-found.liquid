@@ -1,0 +1,83 @@
+{{ '404-not-found.css' | asset_url | stylesheet_tag }}
+<section class="page-not-found-section" id="page-not-found-section">
+  <div class="page-not-found">
+    <div class="row title_content_row">
+      <div class="col-12 col-md-12 title_content_block">
+        <div class="left-content">
+          {% if section.settings.title != blank %}
+            <h1>{{ section.settings.title }}</h1>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="row product_content_row">
+      <div class="col-12 col-md-12 product_content">
+        <div class="product-content-div">
+          {% if section.settings.heading != blank %}
+            <h2>{{ section.settings.heading }}</h2>
+          {% endif %}
+          <div class="product-img-btn">
+            {% if section.settings.background_image != blank %}
+              <img src="{{ section.settings.product_image | img_url : 'master'}}">
+            {% endif %}
+            {% if section.settings.btn_text != blank and section.settings.btn_url != blank %}
+              <a href="{{ section.settings.btn_url }}">{{ section.settings.btn_text }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row background_content_row">
+      <div class="col-12 col-md-12 bg_image">
+        <div class="bg-image">
+          {% if section.settings.background_image != blank %}
+            <img src="{{ section.settings.background_image | img_url : 'master'}}">
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "404 Not Found Head",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Main Title"
+      },
+      {
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "404 Background Image"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading"
+      },
+      {
+        "type": "image_picker",
+        "id": "product_image",
+        "label": "Product Image"
+      }, {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button Text"
+      }, {
+        "type": "url",
+        "id": "btn_url",
+        "label": "Button URL"
+      }
+    ],
+    "presets": [
+      {
+        "name": "404 Not Found Head"
+      }
+    ]
+
+  }
+{% endschema %}

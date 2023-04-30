@@ -1,0 +1,200 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_topm }}px;
+    padding-bottom: {{ section.settings.padding_bottomm }}px;
+    padding-left: {{ section.settings.padding_leftm }}px;
+    padding-right: {{ section.settings.padding_rightm }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-left: {{ section.settings.padding_left }}px;
+      padding-right: {{ section.settings.padding_right }}px;
+    }
+  }
+{%- endstyle -%}
+<section class="recommend-section section-{{ section.id }}-padding"  style="background-color:{{section.settings.sectionbackground}};">
+ <div class="section-container">
+        <div class="image-block">
+            <img src="{{ section.settings.reco-image | image_url }}" >
+        </div>
+        <div class="content-block">
+           {%if section.settings.reco-title != blank %}
+               <div class="header-title">
+                   {{ section.settings.reco-title }}
+               </div>
+           {% endif%}
+           {%if section.settings.reco-text != blank %}
+               <div class="reco-copy">
+                    <p class="copy-content">{{ section.settings.reco-copy }}
+                     <a class="reco-link" href="{{ section.settings.reco-link }}">
+                      {{ section.settings.reco-text }}
+                     </a>
+                    </p>
+               </div>
+           {% endif%}
+           {%if section.settings.reco-subtitle != blank %}
+              <div class="sub-title">
+                  {{ section.settings.reco-subtitle }}
+              </div>
+          {% endif%}
+          <ul class="recommended_article">
+          {%- for block in section.blocks -%}
+                <li><a href="{{ block.settings.article-link }}">{{ block.settings.article-text }}</a></li>
+          {%- endfor -%}
+          </ul>
+        </div>
+ </div>
+</section>
+
+{% schema %}
+{
+  "name": "recommended Article",
+  "settings": [
+     {
+       "type": "color",
+       "id": "sectionbackground",
+       "label": "Background"
+     },
+     {
+        "type":"image_picker",
+        "id":"reco-image",
+        "label":"Select Image"
+     },
+     {
+       "type":"text",
+       "id": "reco-title",
+       "label":"Title"
+     },
+     {
+        "type":"text",
+        "id": "reco-copy",
+        "label":"Copy Content"
+      },
+     {
+        "type":"text",
+        "id": "reco-text",
+        "label":"Link Text"
+      },
+     {
+        "type":"url",
+        "id": "review-link",
+        "label":"Link"
+      },
+      {
+        "type":"text",
+        "id": "reco-subtitle",
+        "label":"Section Sub Title"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "padding_left",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Padding left",
+        "default": 30
+      },
+       {
+         "type": "range",
+         "id": "padding_right",
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px",
+         "label": "Padding Right",
+         "default": 30
+       },
+       {
+         "type": "range",
+         "id": "padding_topm",
+         "min": 0,
+         "max": 100,
+         "step": 4,
+         "unit": "px",
+         "label": "Mobile Padding Top",
+         "default": 20
+       },
+       {
+         "type": "range",
+         "id": "padding_bottomm",
+         "min": 0,
+         "max": 100,
+         "step": 4,
+         "unit": "px",
+         "label": "Mobile Padding Bottom",
+         "default": 20
+       },
+       {
+         "type": "range",
+         "id": "padding_leftm",
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px",
+         "label": "Mobile Padding left",
+         "default": 20
+       },
+        {
+          "type": "range",
+          "id": "padding_rightm",
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "px",
+          "label": "Mobile Padding Right",
+          "default": 20
+        }
+
+    ],
+    "blocks":[
+    {
+          "type": "@app"
+    },
+    {
+      "type": "article",
+      "name": "you may also like",
+      "settings": [
+        {
+          "type": "text",
+          "id": "article-text",
+          "label": "Add Text"
+        },
+        {
+           "type": "url",
+           "id": "article-link",
+           "label": "Add link"
+       }
+      ]
+    }
+   ],
+    "presets": [
+      {
+        "name": "Recommended Article"
+      }
+   ]
+}
+{% endschema %}

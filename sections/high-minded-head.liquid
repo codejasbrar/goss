@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="{{ 'high-minded-head.css' | asset_url }}" >
+<section class="high-minded-head-section" id="high-minded-head-section">
+  <div class="high-minded-head">
+    <div class="row content_row">
+      <div class="col-8 col-md-8 content_block">
+        <div class="left-content">
+          {% if article.title != blank %}
+            <h1>{{ article.title }}</h1>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-4 col-md-4 empty_block">&nbsp;</div>
+    </div>
+    <div class="row content_row">
+      <div class="col-8 col-md-8 content_block">
+        <div class="left-content">
+          {% if section.settings.headingone != blank %}
+            <h2>{{ section.settings.headingone }}</h2>
+          {% endif %}
+          {% if section.settings.textinfo != blank %}
+            <p>{{ section.settings.textinfo }}</p>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-4 col-md-4 content_block">
+        <div class="right-content right-image">
+          {% if article.image != blank %}
+            <img src="{{article.image | img_url : 'master'}}">
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "High Minded Head",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "headingone",
+        "label": "Heading One"
+      }, {
+        "type": "text",
+        "id": "textinfo",
+        "label": "Text Info"
+      }
+    ],
+    "presets": [
+      {
+        "name": "High Minded Head"
+      }
+    ]
+
+  }
+{% endschema %}

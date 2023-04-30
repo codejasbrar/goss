@@ -1,0 +1,98 @@
+{{ 'heading-content-link-two.css' | asset_url | stylesheet_tag }}
+<section class="heading-content-link-two-section" id="heading-content-link-two-section">
+    <div class="heading-content-link-two">
+      <div class="row content_row">
+        <div class="col-3 col-md-3 content_block">
+          <div class="left-content">
+            {% if section.settings.heading != blank %}
+              <h2>{{ section.settings.heading }}</h2>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-4 col-md-4 content_block">
+          <div class="center-content">
+            {% if section.settings.descriptionone != blank %}
+              <p>{{ section.settings.descriptionone }}</p>
+            {% endif %}
+            {% if section.settings.followtextone != blank %}
+              <span>{{ section.settings.followtextone }}
+                {% if section.settings.linkurlone != blank and section.settings.linktextone != blank %}
+                  <a href="{{ section.settings.linkurlone }}">{{ section.settings.linktextone }}</a>
+                {% endif %}
+              </span>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-4 col-md-4 content_block">
+          <div class="center-content">
+            {% if section.settings.descriptiontwo != blank %}
+              <p>{{ section.settings.descriptiontwo }}</p>
+            {% endif %}
+            {% if section.settings.followtexttwo != blank %}
+              <span>{{ section.settings.followtexttwo }}
+                {% if section.settings.linkurltwo != blank and section.settings.linktexttwo != blank %}
+                  <a href="{{ section.settings.linkurltwo }}">{{ section.settings.linktexttwo }}</a>
+                {% endif %}
+              </span>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-1 col-md-1 empty_block">&nbsp;</div>
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "Heading Content Link Two",
+      "tag": "section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "descriptionone",
+          "label": "Description One"
+        },
+        {
+          "type": "url",
+          "id": "linkurlone",
+          "label": "Link URL One"
+        },
+        {
+          "type": "text",
+          "id": "linktextone",
+          "label": "Link Text One"
+        }, {
+          "type": "text",
+          "id": "followtextone",
+          "label": "Follow Text One"
+        }, {
+          "type": "textarea",
+          "id": "descriptiontwo",
+          "label": "Description Two"
+        }, {
+          "type": "url",
+          "id": "linkurltwo",
+          "label": "Link URL Two"
+        }, {
+          "type": "text",
+          "id": "linktexttwo",
+          "label": "Link Text Two"
+        }, {
+          "type": "text",
+          "id": "followtexttwo",
+          "label": "Follow Text Two"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Heading Content Link Two"
+        }
+      ]
+  
+    }
+  {% endschema %}

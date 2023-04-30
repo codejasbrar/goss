@@ -1,0 +1,100 @@
+.heading-banner-content-section {
+    padding: 30px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-8 {
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-4 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.heading-banner-content-section .center-content {
+    padding: 0 5em;
+}
+
+.heading-banner-content-section .left-content h2 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    padding: 0 30px;
+    margin-bottom: 0;
+}
+
+.heading-banner-content-section .left-content img {
+    width: 100%;
+}
+
+.heading-banner-content-section .center-content p {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #0A3422;
+}
+
+.heading-banner-content-section .left-content img {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:768px) {
+
+    .heading-banner-content-section {
+        padding: 0;
+    }
+
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-8 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .heading-banner-content-section .left-content h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+        padding: 0 20px;
+    }
+
+    .heading-banner-content-section .center-content p {
+        font-size: 17px;
+    }
+
+    .heading-banner-content-section .center-content {
+        padding: 30px;
+    }
+
+    .heading-banner-content-section .left-content img {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .empty_block {
+        display: none;
+    }
+}

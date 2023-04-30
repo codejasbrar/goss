@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {}
+    },
+    "a336bada-89d7-4337-ae4f-b1646f8e2c20": {
+      "type": "high-minded-head",
+      "settings": {
+        "headingone": "Unpacking <br> <span>toothpaste’s <\/span> <br>   box of tricks",
+        "textinfo": "WORDS: ELISABETH SHERMAN <br>ART: PHILOTHEUS NISC"
+      }
+    },
+    "3ef83d23-a8b6-433d-991c-a02c392a87e9": {
+      "type": "high-minded-content",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_134.png",
+        "imageinfo": "<p>This article originally appeared in <a href=\"#\" target=\"_blank\">VOLUME FOUR: INSIDE<\/a>.<\/p>",
+        "heading": "Symmetrical stacks of shimmering, rectangular boxes. Holographic labels promising total, complete, maximum, sparkling, advanced, and optic whitening and cavity protection.",
+        "description": "This is the toothpaste aisle at the supermarket, a candy store of personal hygiene. Scanning the rows upon rows of boxes puts me into a trance. It’s as satisfying as biting into a frosty ice cream bar. Maybe I’m just a sucker for good marketing. I think my favorite is Crest Complete Whitening Plus Scope, a double helix of mint mouthwash splitting the blue and green box down the middle.\n<br><br>\nWhen I was a kid, my mom bought Aquafresh, red and blue stripes of gel sandwiching one of white paste emblazoned across the front like a patriotic banner. That’s the box that probably began my obsession: the supernova graphic behind the friendly Aquafresh label promised to make the monotony of tooth brushing “EXTREME,” while clouds of soft, foaming bubbles scrubbing away at my teeth would burst into “ACTION.” Toothpaste is among life’s most banal necessities, and yet the packaging is pure magic: stare at the boxes for long enough and the goopy paste inside the soft, fat tube becomes a faded memory. Now it’s glamorous, now it’s bursting with freshness."
+      }
+    },
+    "53e34b01-24ca-41cd-a053-bde9f8960257": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18456179573015__53e34b01-24ca-41cd-a053-bde9f8960257-1680516671ae30fd79-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18456179573015__53e34b01-24ca-41cd-a053-bde9f8960257-1680516671ae30fd79-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18456179573015__53e34b01-24ca-41cd-a053-bde9f8960257-1680516671ae30fd79-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18456179573015__53e34b01-24ca-41cd-a053-bde9f8960257-1680516671ae30fd79-0",
+        "template--18456179573015__53e34b01-24ca-41cd-a053-bde9f8960257-1680516671ae30fd79-1",
+        "template--18456179573015__53e34b01-24ca-41cd-a053-bde9f8960257-1680516671ae30fd79-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_83.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "61d03191-55a1-42e2-9fd5-38b01a400427": {
+      "type": "high-minded-content",
+      "settings": {
+        "imageinfo": "",
+        "heading": "",
+        "description": "The packaging didn’t always look this way. In the early 1900s, it was called “dental powder” and came in squat metal tins decorated with ornate labels that pledged to “cleanse” your teeth, to make them “beautiful.” But even then, the labels conveyed a sense of urgency, reminding us to be hypervigilant over the health of the bones protruding from our faces, like tiny tombstones. In the 1950s, “dental powder” turned to “dental cream,” accompanied by “Colgate” printed in TRON-like letters on a solid red background. But the product itself remained in flat, one-dimensional boxes well into the eighties: Crest packages were dull, metallic grey, and the futuristic Colgate font of the fifties had been replaced by a more rounded, friendly mark—hardly the slanted, aggressive lettering we see now.\n<br><br>\nToday, the graphics glitter, and though the same primary colors are deployed across almost every brand (red, blue, white, and sometimes green), they are now more vivid, more blindingly cheerful, like a grin pulled too tight across an anxious mouth. Toothpaste advertising is both scary and reassuring, leaping off the shelf to scream—CLEANS! GUARDS!—at you while declaring that under its care you will be disease-free, you will achieve purity. Every brand—the Sensodynes, Aims, and Arm & Hammers, too—evoke feelings of cleanliness, vowing to repair (rejuvenate, strengthen, restore) what we didn’t even realize had been damaged. Almost every box across every brand features the word “fresh” or a graphic that resembles an exploding firework.\n<br><br>\nSometimes there’s an extra flourish to make the toothpaste look professional. Take the Colgate Total box, another favorite: a white pinstripe background breaks up the red block reserved for the logo, and to the right, a shimmery multicolored oval surrounds “Total,” a little gold clock floating behind it. This one protects not just your teeth, but your cheeks and gums too, a police officer for your whole mouth.\n<br><br>\nAssurances of a clean mouth are one thing, but there’s more at work here: toothpaste packaging creates a deeply satisfying pattern of order. It’s symmetry. It’s organization. There is a simple geometry to the boxes—sharp rectangles, fluid ovals, and neat text bordered by a string of bubbles or a gold stripe. Maybe I have no control over the trajectory of my life. It’s possible that only fate or angels can decide what path I take. But toothpaste offers the illusion of agency. Here is my stubborn message to the universe: I will bring structure and order into my home with this juicy tube of toothpaste. I will scrub my teeth until they sparkle.\n<br><br>\nThis is the strange spell cast by the toothpaste box. Toothpaste packaging isn’t selling toothpaste. It’s selling one of the most appealing and delusional ideas in the world: that what we buy can bring our troubled human brains any kind of peace. That perhaps we are all just one toothpaste tube away from joy."
+      }
+    },
+    "3054aea3-de44-4afd-bd0a-1852011519f6": {
+      "type": "high-minded-winking",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_84.png",
+        "title": "HIGH MINDED: <br><span>Winking<\/span>",
+        "heading": "Saying everything in the blink of an eye.",
+        "linkurl": "#",
+        "linktext": "Read More"
+      }
+    },
+    "558eef9d-edb0-4921-af86-1f298d5fce72": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18722364129582__558eef9d-edb0-4921-af86-1f298d5fce72-16818331199ef97295-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe",
+            "heading_size": "h1"
+          }
+        },
+        "template--18722364129582__558eef9d-edb0-4921-af86-1f298d5fce72-16818331199ef97295-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you sign up for our (very good) newsletter, featuring recommendations, interviews, products, launches, and more.<\/p>"
+          }
+        },
+        "template--18722364129582__558eef9d-edb0-4921-af86-1f298d5fce72-16818331199ef97295-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18722364129582__558eef9d-edb0-4921-af86-1f298d5fce72-16818331199ef97295-0",
+        "template--18722364129582__558eef9d-edb0-4921-af86-1f298d5fce72-16818331199ef97295-1",
+        "template--18722364129582__558eef9d-edb0-4921-af86-1f298d5fce72-16818331199ef97295-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a336bada-89d7-4337-ae4f-b1646f8e2c20",
+    "3ef83d23-a8b6-433d-991c-a02c392a87e9",
+    "53e34b01-24ca-41cd-a053-bde9f8960257",
+    "61d03191-55a1-42e2-9fd5-38b01a400427",
+    "3054aea3-de44-4afd-bd0a-1852011519f6",
+    "558eef9d-edb0-4921-af86-1f298d5fce72"
+  ]
+}

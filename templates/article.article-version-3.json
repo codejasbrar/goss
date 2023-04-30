@@ -1,0 +1,328 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a174f0c7-28a8-49bd-a2bb-42a1ca44ff53": {
+      "type": "how-to-banner",
+      "settings": {
+        "bg-color": "",
+        "fline": "How to",
+        "sline": "Roll A",
+        "tline": "Sensible Joint",
+        "padding_top": 100,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "eeddce07-775a-4b1f-8d25-60a2d0227913": {
+      "type": "custom-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_86.png",
+        "imagemb": "shopify:\/\/shop_images\/image_63.png",
+        "image-width": 100,
+        "image-margin-top": 10,
+        "image-margin-bottom": 10,
+        "image_align": "right",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 20,
+        "padding_right": 20,
+        "padding_topm": 0,
+        "padding_bottomm": 0,
+        "padding_leftm": 0,
+        "padding_rightm": 0
+      }
+    },
+    "f007e182-3f68-4096-805b-bcbb96c1db5c": {
+      "type": "twocolumn",
+      "settings": {
+        "fc-heading": "",
+        "fc-content": "",
+        "sc-heading": "There are many ways to roll a joint. We have found this way to be the easiest to teach and to pick up. Don't worry, we’re sure your way is also great!",
+        "sc-content": "",
+        "sc-content-mwidth": 260,
+        "fc-width": 10,
+        "sc-width": 820,
+        "list-gap": 10,
+        "padding_top": 12,
+        "padding_bottom": 0,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "4ccd02e1-68db-4b2d-a821-39d2f4cc2fcb": {
+      "type": "custom-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_65.png",
+        "imagemb": "shopify:\/\/shop_images\/image_65.png",
+        "image-width": 27,
+        "image-margin-top": 10,
+        "image-margin-bottom": 10,
+        "image_align": "center",
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_left": 0,
+        "padding_right": 0,
+        "padding_topm": 12,
+        "padding_bottomm": 12,
+        "padding_leftm": 0,
+        "padding_rightm": 0
+      }
+    },
+    "e8e3bf14-8030-48f7-87da-588e318367ea": {
+      "type": "twocolumn",
+      "settings": {
+        "fc-heading": "1. Break It Up",
+        "fc-content": "",
+        "sc-heading": "",
+        "sc-content": "Using a grinder, sharp scissors, or your fingers, break up about half a gram of weed (a couple of small buds, basically) into a neat pile. There’s really no such thing as too fine, but you definitely don’t want your weed to be too big. Aim for about the size of minced garlic.",
+        "sc-content-mwidth": 640,
+        "fc-width": 230,
+        "sc-width": 640,
+        "list-gap": 80,
+        "padding_top": 40,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 8,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "afbabdf6-8e87-4464-9d06-1bc03a16a072": {
+      "type": "twocolumn",
+      "disabled": true,
+      "settings": {
+        "fc-heading": "Gear up before you smoke up.",
+        "fc-content": "This guide is brought to you in partnership with On and their new Cloudmonster running shoe.\n<br><br>\nIt’s weird for a reason. (Learn more about why here.)",
+        "sc-heading": "We’ve all heard of runner’s high, the state of bliss that naturally occurs while exercising, and more specifically running. It’s a feeling athletes literally spend their lives chasing.",
+        "sc-content": "As soon as you get high, the likelihood of you actually going for a run diminishes by the second. When it comes to working out in general, the goal is always to minimize the potential impediments that could get in the way of you getting out the door. If you’re smoking or vaping, be sure to have all your gear on ahead of time. Lace up those shoes, throw on whatever knee or ankle braces you require, and make sure you’ve found your headphones (bonus if they’re already untangled—people have decided against running for less). If you’re going with edibles, the time between eating and onset is actually the perfect period to get yourself together, a bottle of water filled, and maybe a quick stretch or warmup.",
+        "sc-content-mwidth": 640,
+        "fc-width": 260,
+        "sc-width": 830,
+        "list-gap": 140,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "9603aa1d-8dcb-49e9-9a23-68d0ad963a00": {
+      "type": "twocolumn",
+      "settings": {
+        "fc-heading": "2. Fold And Pour",
+        "fc-content": "",
+        "sc-heading": "",
+        "sc-content": "Place your rolling paper on a flat surface, gum-side up across the top. Now fold the lower half in half again, so you have two creases: one in the middle and one a quarter of the way from the bottom. (This extra crease is not required, but it helps.) Pour your nicely ground bud evenly along the lower of the two creases. It’s okay if it’s thicker in the middle; like batter, it’ll roll out.",
+        "sc-content-mwidth": 640,
+        "fc-width": 260,
+        "sc-width": 640,
+        "list-gap": 50,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "ed018a1d-cf97-4fe8-a3c6-1537e111531d": {
+      "type": "custom-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Roll-a-joint-1.png",
+        "imagemb": "shopify:\/\/shop_images\/Roll-a-joint-1.png",
+        "image-width": 40,
+        "image-margin-top": 10,
+        "image-margin-bottom": 10,
+        "image_align": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "5c43547e-f18d-4be1-a54b-b2aea035d2a4": {
+      "type": "twocolumn",
+      "settings": {
+        "fc-heading": "3. Start Rolling",
+        "fc-content": "",
+        "sc-heading": "",
+        "sc-content": "Pick up your paper with both thumbs and both index fingers, careful not to spill. Slowly roll your flowerand paper back and forth between your fingers until it starts to feel like a firm cylinder, almost like a cigarette. You’ll know you’re done when the mixture is packed together enough that it keeps its round shape on its own. This step takes practice, but you'll quickly get the hang of it.",
+        "sc-content-mwidth": 640,
+        "fc-width": 230,
+        "sc-width": 640,
+        "list-gap": 80,
+        "padding_top": 20,
+        "padding_bottom": 12,
+        "padding_left": 20,
+        "padding_right": 20,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "9c317b53-aff5-43e9-ba22-f71419290598": {
+      "type": "custom-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Roll-a-joint-3.png",
+        "imagemb": "shopify:\/\/shop_images\/Roll-a-joint-3.png",
+        "image-width": 40,
+        "image-margin-top": 10,
+        "image-margin-bottom": 10,
+        "image_align": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "padding_topm": 16,
+        "padding_bottomm": 16,
+        "padding_leftm": 0,
+        "padding_rightm": 0
+      }
+    },
+    "d7733840-61c2-4d81-8e81-028a374d78eb": {
+      "type": "twocolumn",
+      "settings": {
+        "fc-heading": "4. Tuck and Seal",
+        "fc-content": "",
+        "sc-heading": "",
+        "sc-content": "With your tight (but not too tight) cylinder of flower sitting in the bottom crease, tuck the bottom of the paper over the flower and into itself. Your flower should be completely surrounded by paper. After you’ve rolled the flower almost to the top of the paper, lick the edge along the gum line. Carefully finish rolling as the now-sticky end forms a nice seal for your just-about-finished joint. Most people naturally turn their joints into more of a cone shape, but don’t feel pressured to. Do whatever feels right to you.",
+        "sc-content-mwidth": 640,
+        "fc-width": 250,
+        "sc-width": 720,
+        "list-gap": 50,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "45819efa-8ac1-41ef-81fa-06483147dfe4": {
+      "type": "custom-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_68.png",
+        "imagemb": "shopify:\/\/shop_images\/image_68.png",
+        "image-width": 40,
+        "image-margin-top": 10,
+        "image-margin-bottom": 10,
+        "image_align": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 0,
+        "padding_rightm": 20
+      }
+    },
+    "f5833e4b-fb75-4cc3-90e2-98e5cbe8bbb3": {
+      "type": "twocolumn",
+      "settings": {
+        "fc-heading": "5. Shake, Shake, Shake",
+        "fc-content": "",
+        "sc-heading": "",
+        "sc-content": "Pinch one end of your joint (the wider end if you rolled a cone) and using a flick of your wrist, shake it back and forth to pack it even tighter. It should look like you’re rudely signaling for the bill at a restaurant. (Alternatively, you can use any long, thin object to push the flower down.) Once it feels nice and firm, give the end a little twist or feel free to carefully tear off the excess paper.\n<br><br>\nYou now have a nice, personally rolled joint to smoke with friends, family, or, of course, alone.",
+        "sc-content-mwidth": 640,
+        "fc-width": 230,
+        "sc-width": 860,
+        "list-gap": 70,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "7fbfb902-3ce8-4df1-a1f0-a15eb3fee097": {
+      "type": "custom-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_67.png",
+        "imagemb": "shopify:\/\/shop_images\/image_67.png",
+        "image-width": 20,
+        "image-margin-top": 10,
+        "image-margin-bottom": 10,
+        "image_align": "right",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 16,
+        "padding_bottomm": 16,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "79b9b7e2-7b6d-4e6a-8a6a-9e6db1239963": {
+      "type": "highmindedpost",
+      "settings": {
+        "bgcolor": "#f6d9c3",
+        "title": "HIGH MINDED: <br> Winking",
+        "postimage": "shopify:\/\/shop_images\/image_84.png",
+        "barline": "Saying everything in the blink of an eye.",
+        "readmore": "Read More",
+        "readmoreurl": "#",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 16,
+        "padding_bottomm": 16,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a174f0c7-28a8-49bd-a2bb-42a1ca44ff53",
+    "eeddce07-775a-4b1f-8d25-60a2d0227913",
+    "f007e182-3f68-4096-805b-bcbb96c1db5c",
+    "4ccd02e1-68db-4b2d-a821-39d2f4cc2fcb",
+    "e8e3bf14-8030-48f7-87da-588e318367ea",
+    "afbabdf6-8e87-4464-9d06-1bc03a16a072",
+    "9603aa1d-8dcb-49e9-9a23-68d0ad963a00",
+    "ed018a1d-cf97-4fe8-a3c6-1537e111531d",
+    "5c43547e-f18d-4be1-a54b-b2aea035d2a4",
+    "9c317b53-aff5-43e9-ba22-f71419290598",
+    "d7733840-61c2-4d81-8e81-028a374d78eb",
+    "45819efa-8ac1-41ef-81fa-06483147dfe4",
+    "f5833e4b-fb75-4cc3-90e2-98e5cbe8bbb3",
+    "7fbfb902-3ce8-4df1-a1f0-a15eb3fee097",
+    "79b9b7e2-7b6d-4e6a-8a6a-9e6db1239963"
+  ]
+}

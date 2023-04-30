@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "blogbackground": "#cbedd0",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20,
+        "explore-title": "Evergreen",
+        "explore-button": "",
+        "explore-buttonurl": "",
+        "blog-copy": "Evergreen introduction copy here. This is dummy text. It is intended to be read but has no meaning.",
+        "post_limit": 20,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false
+      }
+    },
+    "17ed5a4b-7890-463d-a4e1-92b2138b11cc": {
+      "type": "volumeeight",
+      "settings": {
+        "vimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_3aa67368-e323-4706-8be2-b8419d5d188b.gif",
+        "vtext": "Volume 8 OUT NOW",
+        "vbackground": "#ffef80",
+        "explore-title": "Featuring",
+        "explore-b1": "JASON STEWART",
+        "explore-b1u": "",
+        "explore-b2": "Kenisha White",
+        "explore-b2u": "",
+        "explore-b3": "Pia Riverola & More",
+        "explore-b3u": "",
+        "explore-button": "EXPLORE",
+        "explore-buttonurl": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17ed5a4b-7890-463d-a4e1-92b2138b11cc"
+  ]
+}

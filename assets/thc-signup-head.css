@@ -1,0 +1,165 @@
+.Sign_Up main#MainContent {
+    margin-top: -85px;
+    overflow: hidden;
+}
+
+.Sign_up .shopify-section-group-footer-group{
+    z-index: 9;
+}
+
+.thc-signup-section .signup-section {
+    position: relative;
+}
+
+.thc-signup-section .signup-section img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    min-height: 812px;
+}
+
+.thc-signup-section .signup-form-div .desktop-title {
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #F4F5EF;
+}
+
+.thc-signup-section .signup-form-div .mobile-title {
+    display: none;
+}
+
+.thc-signup-section .signup-form-div {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    width: 25%;
+}
+
+.thc-signup-section .signup-form-div input,
+.thc-signup-section .signup-form-div select {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid #F4F5EF;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #F4F5EF;
+}
+
+.thc-signup-section .signup-form-div select option {
+    color: #000;
+    padding: 5px;
+}
+
+.thc-signup-section .signup-form-div button {
+    width: 100%;
+    padding: 15px;
+    background-color: #F4F5EF;
+    border: 1px solid #F4F5EF;
+    margin: 10px 0;
+    border-radius: 3px;
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #0A3422;
+    cursor: pointer;
+}
+
+.thc-signup-section .signup-form-div input::placeholder {
+    color: #F4F5EF;
+    opacity: 1;
+}
+
+.thc-signup-section .signup-form-div input:focus {
+    box-shadow: 0 0 0 0 !important;
+    border: 1px solid #F4F5EF;
+    outline: none;
+}
+
+.thc-signup-section svg {
+    font-family: 'Ginto';
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    top: -5%;
+    fill: #f4f5ef;
+}
+
+.thc-signup-section svg path {
+    fill: transparent;
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .thc-signup-section .signup-form-div {
+        width: 40%;
+    }
+
+    .thc-signup-section .signup-form-div {
+        top: 30%;
+    }
+
+    .thc-signup-section svg {
+        top: 0;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .thc-signup-section .signup-form-div {
+        top: 25%;
+    }
+
+    .thc-signup-section svg {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .thc-signup-section .signup-form-div .mobile-title {
+        font-family: 'Ginto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 100%;
+        text-align: center;
+        color: #F4F5EF;
+        display: block;
+    }
+
+    .thc-signup-section .signup-form-div {
+        top: 30%;
+    }
+
+    .thc-signup-section .signup-form-div .desktop-title {
+        display: none;
+    }
+
+    .thc-signup-section .signup-form-div {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .thc-signup-section svg {
+        display: none;
+    }
+}

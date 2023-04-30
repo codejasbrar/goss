@@ -1,0 +1,222 @@
+.stockists-right-section {
+    position: sticky;
+    top: 0;
+    background: #cbeed0;
+}
+.Stockists main#MainContent {
+    margin-top: -85px;
+    background-color: #CBEDD0;
+}
+
+.stockists-section {
+    margin-top: 85px;
+    padding: 20px 30px;
+    padding-bottom: 50px;
+}
+
+.stockists-section .title_content_block h1 {
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    margin-top: 0;
+}
+
+.stockists-section .heading_content_row .left-content {
+    margin-top: 6em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col-12,
+.col-md-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-9 {
+    max-width: 75%;
+    flex: 0 0 75%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.stockists-section .tab {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.stockists-section .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 30px 15px 0;
+    transition: 0.3s;
+
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #8E8E8E;
+}
+
+/* Change background color of buttons on hover */
+.stockists-section .tab button:hover {
+    color: #0A3422;
+}
+
+/* Create an active/current tablink class */
+.stockists-section .tab button.active {
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #0A3422;
+}
+
+/* Style the tab content */
+.stockists-section .tabcontent {
+    display: none;
+    border-top: 1px solid #585858;
+}
+
+.stockists-section .side-bar-row {
+    position: sticky;
+    top: 0;
+}
+
+.stockists-section nav ul {
+    padding: 0;
+}
+
+.stockists-section nav li {
+    list-style: none;
+}
+
+.stockists-section nav li a {
+    text-decoration: none;
+    color: #8E8E8E;
+    display: block;
+    transition: all ease-out 250ms;
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    padding: 1px 0;
+}
+
+.stockists-section nav li a:hover {
+    color: #0A3422;
+}
+
+.stockists-section .active {
+    color: #0A3422;
+}
+
+.stockists-section .main-content h2 {
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+}
+
+.stockists-section .main-content p {
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #0A3422;
+    padding-right: 25px;
+}
+
+.stockists-section .main-content p a {
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #0A3422;
+    display: block;
+}
+
+@media only screen and (max-width:768px) {
+
+    .col-3,
+    .col-9,
+    .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .stockists-section .main-content .col-3 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .stockists-section .main-content p {
+        padding-right: 15px;
+    }
+
+    .stockists-section {
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    .stockists-section .title_content_block h1 {
+        font-size: 38px;
+    }
+
+    .stockists-section .tab button,
+    .stockists-section .tab button.active,
+    .stockists-section nav li a,
+    .stockists-section .main-content h2 {
+        font-size: 19px;
+    }
+
+    .stockists-section .tab button {
+        width: 100%;
+        padding: 0;
+    }
+
+    .stockists-section .tab button:last-child {
+        padding-bottom: 16px;
+    }
+
+    .stockists-section .side-bar-row {
+        position: relative;
+        top: unset;
+        border-bottom: 1px solid #585858;
+    }
+}

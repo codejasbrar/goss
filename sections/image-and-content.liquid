@@ -1,0 +1,115 @@
+<section class="image-and-content-section {{ section.settings.css_class | replace: ' ','_' }}" id="image-and-content-section">
+    <div class="image-and-content">
+      <div class="grid-col-3 col-3 list-col">
+        <div class="left-content">
+          {% if section.settings.list != blank %}
+            <div class="content-list">
+              {{ section.settings.list | newline_to_br }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="grid-col-6 col-6 heading-and-description-col">
+        <div class="center-content">
+          {% if section.settings.heading != blank %}
+            <h2>{{ section.settings.heading }}</h2>
+          {% endif %}
+          {% if section.settings.content != blank %}
+            {{ section.settings.content | newline_to_br }}
+          {% else %}
+            <p>{{ article.content }}</p>
+          {% endif %}
+        </div>
+      </div>
+      <div class="grid-col-3 col-3 image-col">
+        <div class="right-content">
+          {% if section.settings.show_video %}
+            {% if section.settings.rightvideo != blank %}
+              <div class="split-media">
+                <video
+                  width="100%"
+                  autoplay
+                  muted
+                  loop>
+                  <source src="{{ section.settings.rightvideo }}" type="video/mp4">
+                </video>
+              </div>
+            {% endif %}
+          {% else %}
+            <div class="img-div">
+              {% if section.settings.rightimage != blank %}
+                <img src="{{ section.settings.rightimage | img_url: 'master' }}">
+              {% endif %}
+            {% endif %}
+            {% if section.settings.imagetitle != blank %}
+              <p>{{ section.settings.imagetitle }}</p>
+            {% endif %}
+            {% if section.settings.buynowtext != blank %}
+              <a href="{{ section.settings.buynowurl }}">
+                {{ section.settings.buynowtext }}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "Image and Content",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "list",
+          "label": "List Items"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Content Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_video",
+          "label": "Show Video"
+        }, {
+          "type": "text",
+          "id": "rightvideo",
+          "label": "Enter Video url",
+          "info": "Use .mp4 version only"
+        }, {
+          "type": "image_picker",
+          "id": "rightimage",
+          "label": "Right Image"
+        }, {
+          "type": "text",
+          "id": "imagetitle",
+          "label": "Image Title"
+        }, {
+          "type": "url",
+          "id": "buynowurl",
+          "label": "Buy Now URL"
+        }, {
+          "type": "text",
+          "id": "buynowtext",
+          "label": "Buy Now Text"
+        }, {
+          "type": "text",
+          "id": "css_class",
+          "label": "Add Custom Css class"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Image and Content"
+        }
+      ]
+  
+    }
+  {% endschema %}

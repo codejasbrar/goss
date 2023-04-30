@@ -1,0 +1,127 @@
+{{ 'thc-signup-head.css' | asset_url | stylesheet_tag }}
+<section class="thc-signup-section" id="thc-signup-section">
+    <div class="signup-section">
+      <img src="{{ section.settings.bg_image | img_url : 'master' }}">
+  
+      <div class="animated-text-path">
+        <svg id="svg" viewBox="60 0 360 400" xmlns="http://www.w3.org/2000/svg">
+          <path id="curve" d="M100,100 h200 a40,40 0 0 1 40,40 v200 a40,40 0 0 1 -40,40 h-200 a40,40 0 0 1 -40,-40 v-200 a40,40 0 0 1 40,-40 z"></path>
+          <text x="-2000" style="transform-origin: top left; transform: translateY(100%) rotate(-90deg);">
+            <textPath xlink:href="#curve">
+                {% if section.settings.main_text != blank %}
+              {{ section.settings.main_text }} {{ section.settings.main_text }} {{ section.settings.main_text }} {{ section.settings.main_text }} {{ section.settings.main_text }} {{ section.settings.main_text }} {{ section.settings.main_text }}
+              {% endif %}
+              <!-- THC IS COMING TO GOSSAMER. SIGN UP TO KEEP. THC IS COMING TO GOSSAMER. SIGN UP TO KEEP. THC IS COMING TO GOSSAMER. SIGN UP TO KEEP. THC IS COMING TO GOSSAMER. SIGN UP TO KEEP. THC IS COMING TO GOSSAMER. SIGN UP TO KEEP. THC IS COMING TO GOSSAMER. SIGN UP TO KEEP. THC IS COMING TO GOSSAMER. SIGN UP TO KEEP. -->
+            </textPath>
+            <animate attributeName="x" dur="120s" values="-4000;0" repeatCount="indefinite"></animate>
+          </text>
+        </svg>
+      </div>
+  
+      <div class="signup-form-div">
+        <h3 class="desktop-title">{{ section.settings.desktop_title }}</h3>
+        <h3 class="mobile-title">{{ section.settings.mobile_title }}</h3>
+        <div class="form">
+          {% form 'customer' %}
+            {{ form.errors | default_errors }}
+            <div class="email">
+              <input
+                type="email"
+                name="signup[email]"
+                id="email"
+                placeholder="Email address" />
+            </div>
+            <div class="base-location">
+              <select id="base-location" name="signup[base_location]">
+                {% if section.settings.location0 != blank %}
+                <option>{{ section.settings.location0 }}</option>
+                {% endif %}
+                {% if section.settings.location1 != blank %}
+                <option>{{ section.settings.location1 }}</option>
+                {% endif %}
+                {% if section.settings.location2 != blank %}
+                <option>{{ section.settings.location2 }}</option>
+                {% endif %}
+                {% if section.settings.location3 != blank %}
+                <option>{{ section.settings.location3 }}</option>
+                {% endif %}
+                {% if section.settings.location4 != blank %}
+                <option>{{ section.settings.location4 }}</option>
+                {% endif %}
+                {% if section.settings.location5 != blank %}
+                <option>{{ section.settings.location5 }}</option>
+                {% endif %}
+              </select>
+            </div>
+            <div class="submit">
+              <button type="submit" name="signup">{{ section.settings.btn_text }}</button>
+            </div>
+          {% endform %}
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "THC Signup Head",
+      "tag": "section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg_image",
+          "label": "BG Image"
+        }, {
+          "type": "text",
+          "id": "desktop_title",
+          "label": "Desktop Title"
+        }, {
+          "type": "text",
+          "id": "mobile_title",
+          "label": "Mobile Title"
+        }, {
+            "type": "text",
+            "id": "main_text",
+            "label": "Main text"
+          }, {
+            "type": "text",
+            "id": "location0",
+            "label": "Location placeholder"
+          }, {
+            "type": "text",
+            "id": "location1",
+            "label": "Location 1"
+          }, {
+            "type": "text",
+            "id": "location2",
+            "label": "Location 2"
+          }, {
+            "type": "text",
+            "id": "location3",
+            "label": "Location 3"
+          }, {
+            "type": "text",
+            "id": "location4",
+            "label": "Location 4"
+          }, {
+            "type": "text",
+            "id": "location5",
+            "label": "Location 5"
+          }, {
+            "type": "text",
+            "id": "location6",
+            "label": "Location 6"
+          }, {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text",
+            "default": "Sign-up"
+          }
+      ],
+      "presets": [
+        {
+          "name": "THC Signup Head"
+        }
+      ]
+    }
+  {% endschema %}

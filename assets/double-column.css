@@ -1,0 +1,76 @@
+.double-column-container{
+    max-width:1220px;margin:0 auto;
+}
+.row-content{
+    display: flex;
+}
+.fc-heading{
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #0A3422;
+    margin-bottom:10px;
+}
+.fc-content{
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #0A3422;
+    margin-bottom:10px;
+}
+.fc-image-content img{
+    width:100%;
+    margin-bottom:20px;
+}
+.sc-heading{
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    color: #0A3422;
+    margin-bottom:50px;
+}
+.sc-content{
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #0A3422;
+    margin-bottom:30px;
+}
+@media screen and (max-width:767px){
+    .double-column-container{
+        max-width:100%;margin:0 auto;
+    }
+    .row-content{
+        flex-wrap: wrap;
+    }
+    .fc,.sc{width:100% !important;}
+    .fc-heading{
+        font-size: 26px;
+        margin-bottom:20px;
+    }
+    .fc-content{
+        margin-bottom:30px;
+    }
+    .sc-heading{
+        font-size: 26px;
+        margin-bottom:50px;
+    }
+    .sc-content{
+        font-size: 17px;
+        margin-bottom:30px;
+    }
+}

@@ -1,0 +1,172 @@
+<section id="hero_banner">
+    <div class="spliter {% if section.settings.enable_spliter %} spliter_active {% endif %}">
+        <div class="splitone">
+                <div class="row">
+                    <div class="col-12 col-md-12 banner_image" style="background-image: url({{ section.settings.image | img_url: 'master' }});">
+                        <div class="main_heading">
+                            {% if section.settings.heading_image != blank %}
+                                {{ section.settings.heading_image | img_url: 'master' | img_tag: 'alt', 'desktop_only' }}
+                            {% endif %}
+                            {% if section.settings.mb_heading_image != blank %}
+                                {{ section.settings.mb_heading_image | img_url: 'master' | img_tag: 'alt', 'mobile_only' }}
+                            {% endif %}
+                        </div>
+                        <div class="small_heading">
+                            <h3>{{ section.settings.small_heading | newline_to_br }}</h3>
+                            <a href="{{ section.settings.btn_url }}" class="custom_btn transparent-btn">{{ section.settings.btn_text }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="splittwo">
+                <div class="spliter_inner" style="background-color:{{section.settings.splitbackground}};">
+                    {% if  section.settings.show_video %}
+                      {% if  section.settings.splitvideo != blank %}
+                        <div class="split-media">
+                            <video width="320" autoplay muted loop>
+                              <source src="{{ section.settings.splitvideo }}" type="video/mp4">
+                            </video>
+                        </div>
+                      {% endif %}
+                    {% else %}
+                        <div class="split-media">
+                            <img src="{{ section.settings.splitimage | image_url }}">
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="spliter-bar" style="background-color:#FFEC73;">
+                    <div class="bar-content" >
+                        <p>
+                          {% if section.settings.spaceimage != blank %}
+                          <img src="{{section.settings.spaceimage | img_url }}" > 
+                          {% endif %}
+                          {% if section.settings.spacegif != blank %}
+                          <img src="{{section.settings.spacegif | img_url }}" > 
+                          {% endif %}
+                          <span class="volbartxt">
+                            <img src="{{ 'leftbrace.svg' | asset_url }}">
+                            {{ section.settings.spacetext }} 
+                            <img src="{{ 'rightbrace.svg' | asset_url }}">
+                          </span> 
+                          {% if section.settings.spaceimage != blank %}
+                          <img src="{{section.settings.spaceimage | img_url }}" > 
+                          {% endif %}
+                          {% if section.settings.spacegif != blank %}
+                          <img src="{{section.settings.spacegif | img_url }}" > 
+                          {% endif %}
+                          <span class="volbartxt">
+                            <img src="{{ 'leftbrace.svg' | asset_url }}"> 
+                            {{ section.settings.spacetext }} 
+                            <img src="{{ 'rightbrace.svg' | asset_url }}">
+                          </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+<style>
+@media only screen and (max-width:480px) {
+  {% if section.settings.mb_image != blank %}
+    .banner_image{
+        background-image: url({{section.settings.mb_image | img_url: 'master'}}) !important;
+        background-size: cover;
+    }
+  {% endif %}
+}
+</style>
+
+{% schema %}
+{
+  "name": "Hero banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mb_image",
+      "label": "Image(Mobile)"
+    },
+    {
+      "type": "image_picker",
+      "id": "heading_image",
+      "label": "Heading image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mb_heading_image",
+      "label": "Heading image(Mobile)"
+    },
+    {
+      "type": "textarea",
+      "id": "small_heading",
+      "label": "Small Heading"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button url"
+    },
+    {
+         "type": "header",
+         "content": "Spliter Banner Settings"
+    },
+    {
+       "type": "checkbox",
+       "id": "enable_spliter",
+       "default": false,
+       "label": "Enable Split Banner"
+     },
+     {
+         "type": "color",
+         "id": "splitbackground",
+         "label": "background Color"
+     },
+     {
+         "type": "checkbox",
+         "id": "show_video",
+         "label": "Show Video"
+     },
+     {
+         "type": "text",
+         "id": "splitvideo",
+         "label": "Enter Video url",
+         "info": "Use .mp4 version only"
+     },
+     {
+         "type": "image_picker",
+         "id": "splitimage",
+         "label": "Select Image"
+     },
+     {
+         "type": "image_picker",
+         "id": "spaceimage",
+         "label": "Bar Image"
+     },
+     {
+         "type": "image_picker",
+         "id": "spacegif",
+         "label": "Bar Gif"
+     },
+     {
+         "type": "text",
+         "id": "spacetext",
+         "label": "Bar Text"
+     }
+    ],
+    "presets": [
+      {
+        "name": "Hero banner"
+      }
+      ]
+}
+{% endschema %}

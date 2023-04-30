@@ -1,0 +1,94 @@
+{{ 'terms-of-use-head.css' | asset_url | stylesheet_tag }}
+<section class="terms-section" id="terms-section">
+    <div class="terms">
+      <div class="row title_content_row">
+        <div class="col-12 col-md-12 title_content_block">
+          <div class="left-content">
+            {% if page.title != blank %}
+              <h1>{{ page.title }}</h1>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+  
+      <div class="row heading_content_row">
+        {%- for block in section.blocks -%}
+          <div class="col-12 col-md-12 {{ block.type }} {% if block.settings.heading != blank %} heading-border-top {% endif %}">
+            <div class="row">
+              {% case block.type %}
+                {% when 'terms_headings' %}
+                <div class="col-3 col-md-3 left_heading_content_block">
+                  <div class="left-content">
+                    {% if block.settings.heading != blank %}
+                      <h2 id="{{ block.settings.heading }}">{{ block.settings.heading }}</h2>
+                    {% endif %}
+                  </div>
+                </div>
+                {% when 'terms_content' %}
+                <div class="col-3 col-md-3 empty_block">&nbsp;</div>
+                <div class="col-6 col-md-6 terms_content_block">
+                  <div class="right-content">
+                    {% if block.settings.terms_title != blank %}
+                      <h3>{{ block.settings.terms_title }}</h3>
+                    {% endif %}
+                    {% if block.settings.terms_description != blank %}
+                      <p>{{ block.settings.terms_description }}</p>
+                    {% endif %}
+                    {% if block.settings.terms_description_two != blank %}
+                      <p class="terms-description-two">{{ block.settings.terms_description_two }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="col-3 col-md-3 empty_block">&nbsp;</div>
+              {% endcase %}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "Terms of use Head",
+      "tag": "section",
+      "settings": [],
+      "blocks": [
+        {
+          "type": "terms_headings",
+          "name": "Terms Headings",
+          "settings": [
+            {
+              "type": "text",
+              "id": "heading",
+              "label": "Heading"
+            }
+          ]
+        }, {
+          "type": "terms_content",
+          "name": "Terms Content",
+          "settings": [
+            {
+              "type": "text",
+              "id": "terms_title",
+              "label": "Terms Title"
+            }, {
+              "type": "richtext",
+              "id": "terms_description",
+              "label": "Terms Description"
+            }, {
+              "type": "textarea",
+              "id": "terms_description_two",
+              "label": "Terms Description Two"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Terms of use Head"
+        }
+      ]
+  
+    }
+  {% endschema %} 

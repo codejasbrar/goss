@@ -1,0 +1,237 @@
+<link rel="stylesheet" href="{{ 'double-column.css' | asset_url }}" >
+<style>
+
+  .section-{{ section.id }}-padding {
+     padding-top: {{ section.settings.padding_topm }}px;
+     padding-bottom: {{ section.settings.padding_bottomm }}px;
+     padding-left: {{ section.settings.padding_leftm }}px;
+     padding-right: {{ section.settings.padding_rightm }}px;
+   }
+
+   @media screen and (min-width: 750px) {
+     .section-{{ section.id }}-padding {
+       padding-top: {{ section.settings.padding_top }}px;
+       padding-bottom: {{ section.settings.padding_bottom }}px;
+       padding-left: {{ section.settings.padding_left }}px;
+       padding-right: {{ section.settings.padding_right }}px;
+     }
+     .main-{{section.id}} {
+        gap:{{section.settings.list-gap}}px;
+        margin-top:{{block.settings.margin-top}}px;
+        margin-bottom:{{block.settings.margin-bottom}}px;
+     }
+     .fc-{{section.id}} {
+        width: {{section.settings.fc-width}}px;
+     }
+     .sc-{{section.id}} {
+        width: {{section.settings.sc-width}}px;
+     }
+   }
+</style>
+<section class="double-column section-{{ section.id }}-padding" >
+    <div class="double-column-container">
+        <div class="row-content main-{{section.id}}">
+            <div class="fc fc-{{section.id}}">
+                {%if section.settings.fc-image != blank %}
+                    <div class="fc-image-content">
+                        <img src="{{ section.settings.fc-image | img_url:'master' }}">
+                    </div>
+                {% endif %}
+                {%if section.settings.fc-heading != blank %}
+                    <div class="fc-heading">
+                        {{section.settings.fc-heading}}
+                    </div>
+                {% endif %}
+                {%if section.settings.fc-content != blank %}
+                    <div class="fc-content">
+                        {{section.settings.fc-content}}
+                    </div>
+                {% endif %}
+            </div>
+            <div class="sc sc-{{section.id}}">
+                {%if section.settings.sc-heading != blank %}
+                    <div class="sc-heading">
+                        {{section.settings.sc-heading}}
+                    </div>
+                {% endif %}
+                {%if section.settings.sc-content != blank %}
+                    <div class="sc-content" style="max-width:{{section.settings.sc-content-mwidth}}px;">
+                        {{section.settings.sc-content}}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Double Column",
+  "settings": [
+      {
+        "type": "header",
+        "content": "First Column Content"
+      },
+      {
+        "type": "image_picker",
+        "id": "fc-image",
+        "label": "Add image"
+      },
+      {
+        "type": "text",
+        "id": "fc-heading",
+        "label": "Heading"
+       },
+      {
+        "type": "textarea",
+        "id": "fc-content",
+        "label": "Add Content"
+      },
+      {
+      "type": "header",
+      "content": "Second Column Content"
+    },
+    {
+       "type": "text",
+       "id": "sc-heading",
+       "label": "Heading"
+     },
+     {
+        "type": "textarea",
+        "id": "sc-content",
+        "label": "Add Content"
+      },
+     {
+         "type": "range",
+         "id": "sc-content-mwidth",
+         "min": 10,
+         "max": 1000,
+         "step": 10,
+         "default": 260,
+         "unit": "px",
+         "label": "copy max Width"
+      },
+      {
+          "type": "range",
+          "id": "fc-width",
+          "min": 10,
+          "max": 1000,
+          "step": 10,
+          "default": 640,
+          "unit": "px",
+          "label": "Fisrt Column Width"
+       },
+      {
+          "type": "range",
+          "id": "sc-width",
+          "min": 10,
+          "max": 1000,
+          "step": 10,
+          "default": 260,
+          "unit": "px",
+          "label": "Second Column Width"
+       },
+      {
+          "type": "range",
+          "id": "list-gap",
+          "min": 10,
+          "max": 1000,
+          "step": 10,
+          "default": 30,
+          "unit": "px",
+          "label": "column's Gap"
+       },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Left",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "padding_right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding Right",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "padding_topm",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Mobile Padding Top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottomm",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Mobile Padding Bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_leftm",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile Padding Left",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_rightm",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile Padding Right",
+      "default": 20
+    }
+
+    ],
+    "presets": [
+      {
+        "name": "Double Column"
+      }
+      ]
+}
+{% endschema %}
+

@@ -1,0 +1,108 @@
+.coll-feature-section{
+    padding-top:75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coll-feature-section .feature-media {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 290px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 53px;
+    border-radius: 4px;
+}
+.coll-feature-section .feature-text {
+    display: block;
+    overflow: hidden;
+}
+.coll-feature-section .feature-text p {
+    font-weight: 500;
+    font-size: 88px;
+    line-height: 100%;
+    font-family: 'Neue';
+    color: #ffffff;
+    white-space: nowrap;
+    position: relative;
+    left: -14px;
+    margin:0;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+}
+.coll-feature-section .feature-text p .featuredscroll-title{
+    font-size:90px;
+    font-family:'Ginto';
+}
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+.coll-feature-section .feature-bar {
+    border-top: 1px solid #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-title{
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #F4F5EF;
+}
+.feature-button {
+    width: 252px;
+    text-align: center;
+}
+.explore-links{
+    width:84%;
+}
+.feature-button .btn {
+    font-family: 'Neue';
+    display: block;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 15px 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.feature-button .btn:hover{
+    background-color: #ffffff;
+    color:#0A3422;
+}
+
+@media screen and (max-width:767px){
+    .coll-feature-section{
+        padding-top:66px;
+    }
+    .coll-feature-section .feature-text p {
+        font-weight: 500;
+        font-size: 58px;
+        line-height: 100%;
+    }
+    .coll-feature-section .feature-bar {
+        flex-wrap: wrap;
+        padding:20px;
+    }
+    .feature-title {
+        width:100%;
+        font-size: 22px;
+        line-height: 140%;
+        margin-bottom:10px;
+    }
+    .feature-button{width:100%}
+}

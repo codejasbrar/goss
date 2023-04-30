@@ -1,0 +1,188 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f087f54d-7564-4516-a8b4-68c63d2179e7": {
+      "type": "faqs-head",
+      "blocks": {
+        "2ad26766-e325-4b01-82d7-c081c3916036": {
+          "type": "faq_headings",
+          "settings": {
+            "heading": "Products"
+          }
+        },
+        "ce7d38a5-3453-4800-8803-f6425412f403": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "653b0415-717f-4345-9779-510fd256baf8": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "c8b5d66b-9a71-447c-aa33-64150aa618c7": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "ddcf81f7-3221-4a5e-921b-8a0ecbcbeb38": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "9d80f930-5282-4bc5-8296-521ba224c1cf": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "5c9fa1f3-0f4b-4b29-b8ae-d8cbe00b0dbe": {
+          "type": "faq_headings",
+          "settings": {
+            "heading": "Magzine"
+          }
+        },
+        "b705aa1d-74c1-46d2-a3d3-17326777d5c5": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "2e74dec4-504a-4429-a89c-24cef2694999": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "24891dff-19d4-4b8b-9fc9-c99fd5d0c753": {
+          "type": "faq_headings",
+          "settings": {
+            "heading": "Orders"
+          }
+        },
+        "711684b0-0dba-4857-ae1b-8e2d2c30703d": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "17cfa075-9616-4546-993b-6b12509f341f": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "5d69c791-1fae-4bbb-8091-48b0d605bf97": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "642b181c-4247-4d03-a583-dd6355bff07a": {
+          "type": "faq_headings",
+          "settings": {
+            "heading": "Returns"
+          }
+        },
+        "284573a1-ad6b-4ded-a56f-e3c26f76e062": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        },
+        "e291f639-89cd-4a8e-9c94-6ec05b299a2e": {
+          "type": "faq_accordions",
+          "settings": {
+            "accordion_title": "This is example FAQ question",
+            "accordion_description": "This is example FAQ description"
+          }
+        }
+      },
+      "block_order": [
+        "2ad26766-e325-4b01-82d7-c081c3916036",
+        "ce7d38a5-3453-4800-8803-f6425412f403",
+        "653b0415-717f-4345-9779-510fd256baf8",
+        "c8b5d66b-9a71-447c-aa33-64150aa618c7",
+        "ddcf81f7-3221-4a5e-921b-8a0ecbcbeb38",
+        "9d80f930-5282-4bc5-8296-521ba224c1cf",
+        "5c9fa1f3-0f4b-4b29-b8ae-d8cbe00b0dbe",
+        "b705aa1d-74c1-46d2-a3d3-17326777d5c5",
+        "2e74dec4-504a-4429-a89c-24cef2694999",
+        "24891dff-19d4-4b8b-9fc9-c99fd5d0c753",
+        "711684b0-0dba-4857-ae1b-8e2d2c30703d",
+        "17cfa075-9616-4546-993b-6b12509f341f",
+        "5d69c791-1fae-4bbb-8091-48b0d605bf97",
+        "642b181c-4247-4d03-a583-dd6355bff07a",
+        "284573a1-ad6b-4ded-a56f-e3c26f76e062",
+        "e291f639-89cd-4a8e-9c94-6ec05b299a2e"
+      ],
+      "settings": {}
+    },
+    "d9b28207-e7d9-4021-af20-f7aac40830dd": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18495433769239__d9b28207-e7d9-4021-af20-f7aac40830dd-1680855728238dfbbc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--18495433769239__d9b28207-e7d9-4021-af20-f7aac40830dd-1680855728238dfbbc-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you sign up for our (very good) newsletter, featuring recommendations, interviews, products, launches, and more.<\/p>"
+          }
+        },
+        "template--18495433769239__d9b28207-e7d9-4021-af20-f7aac40830dd-1680855728238dfbbc-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18495433769239__d9b28207-e7d9-4021-af20-f7aac40830dd-1680855728238dfbbc-0",
+        "template--18495433769239__d9b28207-e7d9-4021-af20-f7aac40830dd-1680855728238dfbbc-1",
+        "template--18495433769239__d9b28207-e7d9-4021-af20-f7aac40830dd-1680855728238dfbbc-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f087f54d-7564-4516-a8b4-68c63d2179e7",
+    "d9b28207-e7d9-4021-af20-f7aac40830dd"
+  ]
+}

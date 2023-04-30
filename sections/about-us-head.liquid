@@ -1,0 +1,48 @@
+{{ 'about-us-head.css' | asset_url | stylesheet_tag }}
+<section class="about-us-section" id="about-us-section">
+    <div class="about-us">
+      <div class="row content_row">
+        <div class="col-12 col-md-12 content_block">
+          <div class="left-content">
+            {% if section.settings.heading != blank %}
+              <h1>{{ section.settings.heading }}</h1>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="row content_row">
+        <div class="col-8 col-md-8 content_block">
+          <div class="left-content">
+            {% if section.settings.description != blank %}
+              <p>{{ section.settings.description }}</p>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-4 col-md-4 empty_block">&nbsp;</div>
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "About Us Head",
+      "tag": "section",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        }, {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        }
+      ],
+      "presets": [
+        {
+          "name": "About Us Head"
+        }
+      ]
+  
+    }
+  {% endschema %}

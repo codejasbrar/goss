@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "faa1f9a7-e790-4ef7-af00-d43d00e09cf2": {
+      "type": "glossary-head",
+      "blocks": {
+        "30829620-115f-42b0-beaa-e0d1440c0a8a": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "A"
+          }
+        },
+        "ebb60b9d-e6c5-4ee1-a469-d4f93dbd10b6": {
+          "type": "glossary_accordions",
+          "settings": {
+            "accordion_title": "A glossary term",
+            "accordion_description": "A glossary termA glossary termA glossary termA glossary termA glossary termA glossary termA glossary termA glossary termA glossary term"
+          }
+        },
+        "3fb14cdb-971b-406d-a675-f655229bdf7f": {
+          "type": "glossary_accordions",
+          "settings": {
+            "accordion_title": "A glossary termA glossary termA glossary termA glossary term",
+            "accordion_description": "A glossary termA glossary termA glossary termA glossary termA glossary termA glossary term"
+          }
+        },
+        "a3b3b3c2-a115-4e5c-9aa0-db48bd483cb8": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "B"
+          }
+        },
+        "f4e41449-7287-4348-b20a-c2b646b11ae8": {
+          "type": "glossary_accordions",
+          "settings": {
+            "accordion_title": "B glossary term",
+            "accordion_description": "A glossary termA glossary termA glossary termA glossary termA glossary termA glossary term"
+          }
+        },
+        "029ec50a-be7d-4a1f-a826-f3c82db46223": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "C"
+          }
+        },
+        "347f247e-f4a4-4a34-8c66-6267a02f30b0": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "D"
+          }
+        },
+        "ccad2b0e-690c-4a86-ae24-83cdf0cfaf9c": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "E"
+          }
+        },
+        "9a7af758-0896-4992-bf0a-816e2863d3ad": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "F"
+          }
+        },
+        "653c6bda-1916-43b0-934b-1cc3ab8ed6c3": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "G"
+          }
+        },
+        "08d78238-47be-43dd-9b1c-e745416593e3": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "H"
+          }
+        },
+        "0eed7933-32be-4ed9-9e28-c765b2748c2a": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "I"
+          }
+        },
+        "c8e341b6-26a7-4fb4-95f0-a08dd06035e7": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "J"
+          }
+        },
+        "3aa1d537-7fdd-4ec9-9353-029477720a3e": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "K"
+          }
+        },
+        "1c9cedc1-6e3c-423a-9089-fcf08aa21949": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "L"
+          }
+        },
+        "27cb712d-51a2-4593-ada8-70a5241bb45b": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "M"
+          }
+        },
+        "18745a0d-750b-43ca-aeae-e57236692ed1": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "N"
+          }
+        },
+        "93f039c7-7251-49d7-919b-a74874d348db": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "O"
+          }
+        },
+        "7bf55eee-cfa6-462f-92f8-21723396ffef": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "P"
+          }
+        },
+        "672b14a4-3212-4902-a8e3-082f1c9ea999": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "Q"
+          }
+        },
+        "75c0409a-ea15-4360-9d17-5d6a359025b8": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "R"
+          }
+        },
+        "2c03a836-4311-4fa8-bfcd-ede52f2b4438": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "S"
+          }
+        },
+        "b20034a8-16d0-4f13-b57a-f8047420bd1d": {
+          "type": "glossary_accordions",
+          "settings": {
+            "accordion_title": "",
+            "accordion_description": ""
+          }
+        },
+        "a917c1d7-8e70-47af-bf7c-517f77a9f40d": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "T"
+          }
+        },
+        "9db674e5-e17f-473c-9656-c0a28259faac": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "U"
+          }
+        },
+        "c8e4029a-cc0f-44b1-9b94-b9a019ab1145": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "V"
+          }
+        },
+        "09f6e36c-d998-4dd4-8308-3c88676c08de": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "W"
+          }
+        },
+        "5cf93539-354c-4e50-abcf-e84cd4b86809": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "X"
+          }
+        },
+        "db642e0e-c5e0-4e89-83c6-d80e2c7875d3": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "Y"
+          }
+        },
+        "475b631b-4666-4b84-95d8-82d8fe933c45": {
+          "type": "glossary_accordions",
+          "settings": {
+            "accordion_title": "",
+            "accordion_description": ""
+          }
+        },
+        "e5f499c1-bf26-43e1-8724-1b9e24722410": {
+          "type": "glossary_headings",
+          "settings": {
+            "heading": "Z"
+          }
+        }
+      },
+      "block_order": [
+        "30829620-115f-42b0-beaa-e0d1440c0a8a",
+        "ebb60b9d-e6c5-4ee1-a469-d4f93dbd10b6",
+        "3fb14cdb-971b-406d-a675-f655229bdf7f",
+        "a3b3b3c2-a115-4e5c-9aa0-db48bd483cb8",
+        "f4e41449-7287-4348-b20a-c2b646b11ae8",
+        "029ec50a-be7d-4a1f-a826-f3c82db46223",
+        "347f247e-f4a4-4a34-8c66-6267a02f30b0",
+        "ccad2b0e-690c-4a86-ae24-83cdf0cfaf9c",
+        "9a7af758-0896-4992-bf0a-816e2863d3ad",
+        "653c6bda-1916-43b0-934b-1cc3ab8ed6c3",
+        "08d78238-47be-43dd-9b1c-e745416593e3",
+        "0eed7933-32be-4ed9-9e28-c765b2748c2a",
+        "c8e341b6-26a7-4fb4-95f0-a08dd06035e7",
+        "3aa1d537-7fdd-4ec9-9353-029477720a3e",
+        "1c9cedc1-6e3c-423a-9089-fcf08aa21949",
+        "27cb712d-51a2-4593-ada8-70a5241bb45b",
+        "18745a0d-750b-43ca-aeae-e57236692ed1",
+        "93f039c7-7251-49d7-919b-a74874d348db",
+        "7bf55eee-cfa6-462f-92f8-21723396ffef",
+        "672b14a4-3212-4902-a8e3-082f1c9ea999",
+        "75c0409a-ea15-4360-9d17-5d6a359025b8",
+        "2c03a836-4311-4fa8-bfcd-ede52f2b4438",
+        "b20034a8-16d0-4f13-b57a-f8047420bd1d",
+        "a917c1d7-8e70-47af-bf7c-517f77a9f40d",
+        "9db674e5-e17f-473c-9656-c0a28259faac",
+        "c8e4029a-cc0f-44b1-9b94-b9a019ab1145",
+        "09f6e36c-d998-4dd4-8308-3c88676c08de",
+        "5cf93539-354c-4e50-abcf-e84cd4b86809",
+        "db642e0e-c5e0-4e89-83c6-d80e2c7875d3",
+        "475b631b-4666-4b84-95d8-82d8fe933c45",
+        "e5f499c1-bf26-43e1-8724-1b9e24722410"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "faa1f9a7-e790-4ef7-af00-d43d00e09cf2"
+  ]
+}

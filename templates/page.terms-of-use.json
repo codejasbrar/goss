@@ -1,0 +1,187 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "675f22e7-0099-433d-aa58-8e1b6674fcf5": {
+      "type": "terms-of-use-head",
+      "blocks": {
+        "0e28c24f-e529-4538-8050-1dc83e0d6a38": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "",
+            "terms_description": "<p><strong>Welcome to <\/strong><a href=\"#\" target=\"_blank\" title=\"#\"><strong>www.Gossamer.co<\/strong><\/a><strong> (the “Site”), the website and online services of Gossamer HQ Inc. (“Gossamer,” “we” or “us”)! Gossamer is a lifestyle and cannabis publication that examines travel, food, and culture through a “green lens” (collectively with the Site and any other products or services offered by us, the “Services”). Before using any of the Services, please note that all content, materials, or services provided on or through the Site may be used solely under the following legally binding terms and conditions (these “Terms”).<\/strong><\/p>",
+            "terms_description_two": "PLEASE READ THESE TERMS CAREFULLY AND ONLY USE THE SITE AND SERVICES IF YOU AGREE TO THEM. WHEN YOU USE THE SERVICES, YOU ARE ACKNOWLEDGING THAT YOU MEET ALL OF OUR ELIGIBILITY REQUIREMENTS FOR USING THE SERVICES AND THAT YOU AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT ACCEPT THESE TERMS OR DO NOT SATISFY THE ELIGIBILITY REQUIREMENTS SET FORTH BELOW, YOU MAY NOT ACCESS AND\/OR USE THE SITE OR SERVICES."
+          }
+        },
+        "687cc577-3e7e-4e15-a240-d755ac8d4e94": {
+          "type": "terms_headings",
+          "settings": {
+            "heading": "1."
+          }
+        },
+        "132d917a-0582-456e-83d3-e080273d3f7c": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "The featured contents provided through our Services are for educations and entertainment purposes only, and are not medical advice.",
+            "terms_description": "",
+            "terms_description_two": "OUR SERVICES FEATURE CONTENT ABOUT CANNABIS AND OTHER RELATED SUBSTANCES THAT ARE ILLEGAL UNDER FEDERAL LAW AS WELL AS UNDER STATE LAW IN CERTAIN STATES. WE DO NOT ENDORSE AND ARE NOT RESPONSIBLE FOR MATERIALS MADE AVAILABLE ON THE SITE, IN OUR NEWSLETTER, OR FOR THE SERVICES THAT MAY PROMOTE, CONDONE, ADVOCATE, LICIT OR ILLICIT DRUG USE, OR ILLEGAL ACTIVITIES. ALL CONTENT ON THE SITE IS FOR EDUCATIONAL AND ENTERTAINMENT PURPOSES ONLY.\n<br><br>\nGOSSAMER DOES NOT OFFER MEDICAL ADVICE. THE CONTENTS OF THE SERVICES HAVE NOT BEEN EVALUATED BY THE FEDERAL DRUG ADMINISTRATION NOR APPROVED BY ANY OTHER GOVERNMENT OR OFFICIAL BODY. NOTHING IN GOSSAMER CONTENT (AS DEFINED BELOW) OR THESE SERVICES IS INTENDED TO BE A SUBSTITUTE FOR PROFESSIONAL MEDICAL ADVICE, DIAGNOSIS, OR TREATMENT. IF YOU HAVE CONCERNS ABOUT THE USE OF CANNABIS AND YOUR HEALTH, YOU SHOULD TALK TO YOUR DOCTOR. THIS IS ESPECIALLY TRUE FOR YOUTH, PREGNANT OR BREASTFEEDING WOMEN AND THOSE WHO NEED HELP TO STOP USING MARIJUANA. IF YOU THINK YOU ARE HAVING A MEDICAL EMERGENCY, CALL YOUR HEALTH CARE PROFESSIONAL, OR 911, IMMEDIATELY. THE FOLLOWING DISCLAIMERS AND LIMITATIONS ON LIABILITY DOES NOT LIMIT THE GENERAL DISCLAIMERS AND LIMITATIONS ON LIABILITY IN SECTIONS 5 AND 6 OR ELSEWHERE IN THE TERMS."
+          }
+        },
+        "7e38c8dd-59f4-4650-8e5d-b2efaf4b6365": {
+          "type": "terms_headings",
+          "settings": {
+            "heading": "2."
+          }
+        },
+        "8209b8ae-adde-4f32-9e97-bfc357b73386": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "You may not use the Gossamer site if you are under 21 years old.",
+            "terms_description": "<p>The Services are not intended for use by anyone under the age of 21. If you are under the age of 21, you are not permitted to use the Services. You can only use or receive the Services to the extent the laws of your jurisdiction do not bar you from doing so. Please make sure your use of the Services is in compliance with all laws, rules and regulations that apply to you.<br\/><\/p>",
+            "terms_description_two": ""
+          }
+        },
+        "2204a97e-3ddf-4e1b-8ab7-da5d51cd5b45": {
+          "type": "terms_headings",
+          "settings": {
+            "heading": "3."
+          }
+        },
+        "3bac2bf6-7267-4ecf-9587-cc64433fe2c0": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "Sometimes Gossamer may change this Agreement. We will try to let you know as soon as we do.",
+            "terms_description": "<p>Gossamer may provide notifications, whether such notifications are required by law or are for marketing or other business related purposes, to you via email notice, written or hard copy notice, or through posting of such notice on our website, as determined by Gossamer in our sole discretion. Gossamer reserves the right to determine the form and means of providing notifications to our Users, provided that you may opt out of certain means of notification as described in this Agreement. Gossamer may, in its sole discretion, modify or update this Agreement from time to time, and so you should review this page periodically. When we change the Agreement in a material manner, we will update the ‘last modified’ date at the bottom of this page. Your continued use of Gossamer Site after any such change constitutes your acceptance of the new Terms of Use. If you do not agree to any of these terms or any future Terms of Use, do not use or access (or continue to access) Gossamer Site.<\/p>",
+            "terms_description_two": ""
+          }
+        },
+        "23f20400-48d0-48c6-a9e7-167ffa246980": {
+          "type": "terms_headings",
+          "settings": {
+            "heading": "4."
+          }
+        },
+        "6406af6d-8f9b-4704-8c49-fa6f16663a4c": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "We may make changes to our Services from time to time.",
+            "terms_description": "<p>We reserve the right to change, suspend, discontinue, cancel or terminate the Services or any part of the Services at any time in our sole discretion. We will not be liable to you or any third party for any modification, suspension or discontinuance of the Services.<\/p>",
+            "terms_description_two": ""
+          }
+        },
+        "30309887-b6f4-4daf-86d6-ecc716869c60": {
+          "type": "terms_headings",
+          "settings": {
+            "heading": "5."
+          }
+        },
+        "c670b000-1a7d-42ba-a76a-ff14ddcce60f": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "Privacy is really important to us at Gossamer. Make sure to read our Privacy Policy to learn what we do with your information.",
+            "terms_description": "<p>Our <a href=\"#\" target=\"_blank\" title=\"#\">Privacy Policy<\/a> (the “Privacy Policy”) details how we collect and use your information. Please review it if you would like to know more about how we collect, use, and treat your information.<\/p>",
+            "terms_description_two": ""
+          }
+        },
+        "31208c41-97af-4f3f-8263-c1abf5942f52": {
+          "type": "terms_headings",
+          "settings": {
+            "heading": "6."
+          }
+        },
+        "3792bb7d-2b3f-4d0a-9677-dcf7b41308fe": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "We do not make any representations or warranties through our Services, and you will be solely responsible for your reliance.",
+            "terms_description": "<p>The Service is provided on an “as is” and “as available” basis. We do not make any representations, warranties or guarantees with respect to the completeness, reliability, accuracy, quality, availability or legality of the Services or any information or guidance provided in connection with the Services. We expressly disclaim all warranties (express or implied) with regard to the information contained on the Site or otherwise made available to you through the Services, including but not limited to, warranties of merchantability, non-infringement and fitness for a particular purpose.<br\/><br\/>You are solely responsible for your use of and reliance on the Services and any information contained herein, and you acknowledge and agree that your use of the Services or reliance on any such information is done at your own risk, including the risk of physical injury, harm or death. You further acknowledge and agree that you are solely responsible for the results of any actions or omissions that you may choose to take as a result of using the Services and for any loss, damage or other liability that may arise in connection therewith. Unless prohibited by law, you further assume all liability for any claims, suits or grievances filed against you, including, but not limited to, all damages related to your actions or omissions that you may choose to take as a result of using the Services or relying on any information contained in the Services.<\/p>",
+            "terms_description_two": ""
+          }
+        },
+        "ff071a44-0b09-420f-af71-812ced16cb06": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "",
+            "terms_description": "",
+            "terms_description_two": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, EXCEPT FOR DAMAGES ARISING FROM OUR WILLFUL MISCONDUCT, GROSS NEGLIGENCE, OR FRAUD IN NO EVENT WILL WE OR OUR OFFICERS, DIRECTORS, EMPLOYEES, CONTRACTORS, AGENTS, SUPPLIERS OR SERVICE PROVIDERS BE LIABLE TO YOU WITH RESPECT TO THE SERVICES OR THE INFORMATION PROVIDED TO YOU THROUGH THE SERVICE FOR ANY CONSEQUENTIAL, INCIDENTAL, SPECIAL, INDIRECT OR DIRECT DAMAGES OF ANY KIND, WHETHER ARISING IN CONTRACT, NEGLIGENCE, TORT, STRICT LIABILITY OR OTHER LEGAL OR EQUITABLE THEORY, AND REGARDLESS OF WHETHER SUCH PARTY HAS BEEN NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES. THESE DISCLAIMERS AND LIMITATIONS OF LIABILITY ARE MADE TO THE FULLEST EXTENT PERMITTED BY LAW.\n<br><br>"
+          }
+        },
+        "15f6ecf6-4c46-43bd-a0a8-cd4f8854c657": {
+          "type": "terms_content",
+          "settings": {
+            "terms_title": "",
+            "terms_description": "<p>Please do not do harmful or illegal things on the Gossamer Site. We describe some of the things you may not do below.<br\/><br\/>You may only use the Services in accordance with these Terms or any other policies that we may provide to you. You agree not to use (or encourage anyone else to use) the Services in manner that: violates any law, statute, ordinance or regulation; infringes or violates the intellectual property rights or proprietary rights, rights of publicity or privacy, or other rights of any other third party; modifies, adapts, translates, reverse engineers, decompiles, disassembles any of the contents of the Services into any form not so intended to be read; scrapes any portion of the Services of Gossamer Content (as defined below); is harmful, fraudulent, threatening, abusive, harassing, tortuous, defamatory, vulgar, obscene or libelous; violates the security of any computer network, or cracks any passwords or security encryption codes; runs “spam” on the Services or otherwise interferes with the Services (including by placing an unreasonable load on the Services’ infrastructure).<\/p>",
+            "terms_description_two": ""
+          }
+        }
+      },
+      "block_order": [
+        "0e28c24f-e529-4538-8050-1dc83e0d6a38",
+        "687cc577-3e7e-4e15-a240-d755ac8d4e94",
+        "132d917a-0582-456e-83d3-e080273d3f7c",
+        "7e38c8dd-59f4-4650-8e5d-b2efaf4b6365",
+        "8209b8ae-adde-4f32-9e97-bfc357b73386",
+        "2204a97e-3ddf-4e1b-8ab7-da5d51cd5b45",
+        "3bac2bf6-7267-4ecf-9587-cc64433fe2c0",
+        "23f20400-48d0-48c6-a9e7-167ffa246980",
+        "6406af6d-8f9b-4704-8c49-fa6f16663a4c",
+        "30309887-b6f4-4daf-86d6-ecc716869c60",
+        "c670b000-1a7d-42ba-a76a-ff14ddcce60f",
+        "31208c41-97af-4f3f-8263-c1abf5942f52",
+        "3792bb7d-2b3f-4d0a-9677-dcf7b41308fe",
+        "ff071a44-0b09-420f-af71-812ced16cb06",
+        "15f6ecf6-4c46-43bd-a0a8-cd4f8854c657"
+      ],
+      "settings": {}
+    },
+    "7c2facda-9edf-4397-8035-51b66c4233ec": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18658011250967__7c2facda-9edf-4397-8035-51b66c4233ec-16819173733c31e77c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--18658011250967__7c2facda-9edf-4397-8035-51b66c4233ec-16819173733c31e77c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you sign up for our (very good) newsletter, featuring recommendations, interviews, products, launches, and more.<\/p>"
+          }
+        },
+        "template--18658011250967__7c2facda-9edf-4397-8035-51b66c4233ec-16819173733c31e77c-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18658011250967__7c2facda-9edf-4397-8035-51b66c4233ec-16819173733c31e77c-0",
+        "template--18658011250967__7c2facda-9edf-4397-8035-51b66c4233ec-16819173733c31e77c-1",
+        "template--18658011250967__7c2facda-9edf-4397-8035-51b66c4233ec-16819173733c31e77c-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "675f22e7-0099-433d-aa58-8e1b6674fcf5",
+    "7c2facda-9edf-4397-8035-51b66c4233ec"
+  ]
+}

@@ -1,0 +1,114 @@
+<section class="volume-section" style="background-color:{{section.settings.vbackground}};">
+ <div class="section-container">
+        {% if  section.settings.vimage != blank %}
+        <div class="volume-media">
+            <img src="{{ section.settings.vimage | image_url }}">
+        </div>
+        {% endif %}
+        {% if  section.settings.vtext != blank %}
+            <div class="volume-text">
+                <p>{{ section.settings.vtext }}</p>
+            </div>
+        {% endif %}
+
+    <div class="explore-volume">
+        {%if section.settings.explore-title != blank %}
+        <div class="explore-title">
+            {{ section.settings.explore-title }}
+        </div>
+        {% endif%}
+        <div class="explore-links">
+            <ul>
+                {%if section.settings.explore-b1 != blank %}
+                    <li><a href="{{ section.settings.explore-b1u }}">{{ section.settings.explore-b1 }}</a></li>
+                {% endif%}
+                {%if section.settings.explore-b2 != blank %}
+                    <li><a href="{{ section.settings.explore-b2u }}">{{ section.settings.explore-b2 }}</a></li>
+                {% endif%}
+                {%if section.settings.explore-b3 != blank %}
+                     <li><a href="{{ section.settings.explore-b3u }}">{{ section.settings.explore-b3 }}</a></li>
+                {% endif%}
+            </ul>
+        </div>
+        {%if section.settings.explore-button != blank %}
+        <div class="explore-button">
+            <a href="{{ section.settings.explore-buttonurl }}" class="btn">{{ section.settings.explore-button }}</a>
+        </div>
+        {% endif%}
+    </div>
+ </div>
+</section>
+
+{% schema %}
+{
+  "name": "Volume Eight",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "vimage",
+      "label": "Volume Image"
+    },
+    {
+        "type": "text",
+        "id": "vtext",
+        "label": "Volume Text"
+      },
+       {
+       "type": "color",
+       "id": "vbackground",
+       "label": "volume Background"
+     },
+     {
+         "type": "text",
+         "id": "explore-title",
+         "label": "Explore Title",
+         "default": "Featuring"
+       },
+      {
+         "type": "text",
+         "id": "explore-b1",
+         "label": "Explore Breadcrum one"
+       },
+       {
+      "type": "url",
+      "id": "explore-b1u",
+      "label": "Explore Breadcrum one url"
+     },
+     {
+        "type": "text",
+        "id": "explore-b2",
+        "label": "Explore Breadcrum Two"
+      },
+     {
+        "type": "url",
+        "id": "explore-b2u",
+        "label": "Explore Breadcrum Two url"
+      },
+     {
+        "type": "text",
+        "id": "explore-b3",
+        "label": "Explore Breadcrum Three"
+      },
+     {
+        "type": "url",
+        "id": "explore-b3u",
+        "label": "Explore Breadcrum Three url"
+      },
+     {
+       "type": "text",
+       "id": "explore-button",
+       "label": "Explore button Text"
+     },
+     {
+       "type": "url",
+       "id": "explore-buttonurl",
+       "label": "Explore Button url"
+     }
+    ],
+    "presets": [
+      {
+        "name": "Volume Eight"
+      }
+   ]
+}
+{% endschema %}

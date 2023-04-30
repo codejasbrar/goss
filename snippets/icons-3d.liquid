@@ -1,0 +1,45 @@
+<div class="video__wrapper">
+<video id="{{ id | replace: ' ', '_' }}" class="{{ id | replace: ' ', '_' }}">
+    {% if url contains 'webm' %}
+     <source src="{{ url }}" type="video/webm">
+    {% endif %}
+    {% if url contains 'mp4' %}
+     <source src="{{ url }}" type="video/mp4">
+    {% endif %}
+</video>
+</div>
+
+
+<script>
+  const options_{{ id | replace: ' ', '_' }} = {
+    leftBound: '0.1', // => 10% of window width
+    rightBound: '0.9' // => 90% of window width
+  };
+  const video_{{ id | replace: ' ', '_' }} = document.querySelector('.{{ id | replace: ' ', '_' }}');
+  const frameRate_{{ id | replace: ' ', '_' }} = 24;
+  const time_{{ id | replace: ' ', '_' }} = { frame_{{ id | replace: ' ', '_' }}: 0 };
+  video_{{ id | replace: ' ', '_' }}.pause();
+  
+//   console.log(video_{{ id | replace: ' ', '_' }}.offsetWidth);
+  
+  const map_{{ id | replace: ' ', '_' }} = (num, in_min, in_max, out_min, out_max) => {
+    return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+  };
+
+  const mouseMove_{{ id | replace: ' ', '_' }} = e => {
+    const x = e.clientX || e.touches[0].clientX;
+    const y = e.clientY || e.touches[0].clientY;
+    TweenMax.to(time_{{ id | replace: ' ', '_' }}, 1, {
+      // Mouse catches progress from 10% to 90% of window width
+      frame: Math.min(video_{{ id | replace: ' ', '_' }}.duration - 0.1, Math.max(0, map_{{ id | replace: ' ', '_' }}(x, video_{{ id | replace: ' ', '_' }}.clientWidth * options_{{ id | replace: ' ', '_' }}.leftBound, video_{{ id | replace: ' ', '_' }}.clientWidth * options_{{ id | replace: ' ', '_' }}.rightBound, 0, video_{{ id | replace: ' ', '_' }}.duration))),
+      ease: Power2.easeOut });
+  };
+  const loop_{{ id | replace: ' ', '_' }} = setInterval(() => {
+    video_{{ id | replace: ' ', '_' }}.currentTime = time_{{ id | replace: ' ', '_' }}.frame_{{ id | replace: ' ', '_' }};
+  }, 100);
+
+   video_{{ id | replace: ' ', '_' }}.addEventListener('mousemove', mouseMove_{{ id | replace: ' ', '_' }});
+   video_{{ id | replace: ' ', '_' }}.addEventListener('touchstart', mouseMove_{{ id | replace: ' ', '_' }});
+   video_{{ id | replace: ' ', '_' }}.addEventListener('touchmove', mouseMove_{{ id | replace: ' ', '_' }});
+  
+  </script>  

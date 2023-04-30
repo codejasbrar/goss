@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "14561b21-076d-47a4-9323-07b282a6de50": {
+      "type": "newsletter-head",
+      "settings": {
+        "page_title": "Subscribe CTA",
+        "unsubscribe_line": "unsubscribe at any time. no spam, ever."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "14561b21-076d-47a4-9323-07b282a6de50"
+  ]
+}

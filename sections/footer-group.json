@@ -1,0 +1,62 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About",
+            "menu": "about"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Explore",
+            "menu": "explore"
+          }
+        },
+        "1d29f410-4fed-469d-997e-833ce80e6f1e": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Contact",
+            "menu": "contact"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "1d29f410-4fed-469d-997e-833ce80e6f1e"
+      ],
+      "settings": {
+        "color_scheme": "#f4f5ef",
+        "brandimage": "shopify:\/\/shop_images\/gossamer_logotype.svg",
+        "brandimage_width": 365,
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,22 @@
+<section class="article-top-section" id="article-top-section">
+  <div class="article-banner-section">
+    <img src="{{article.image | img_url : 'master'}}">
+    <div class="text-content">
+      <h1>{{ article.title }}</h1>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Article Head",
+    "tag": "section",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Article Head"
+      }
+    ]
+
+  }
+{% endschema %}

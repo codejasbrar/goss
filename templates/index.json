@@ -1,0 +1,314 @@
+{
+  "sections": {
+    "548c6bc5-f241-4c3a-a70d-e8834aad4524": {
+      "type": "hero-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_11.png",
+        "mb_image": "shopify:\/\/shop_images\/image_12.png",
+        "small_heading": "For people who \nalso smoke weed.",
+        "btn_text": "Call to Action",
+        "btn_url": "",
+        "enable_spliter": true,
+        "splitbackground": "#3b9d4b",
+        "show_video": true,
+        "splitvideo": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c10601426160467e88773d17a20c66cf.webm",
+        "splitimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_b9211253-9800-44cb-8da5-e2efb765dee8.gif",
+        "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg",
+        "spacetext": "VOLUME 8 NOW AVILABLE"
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1c5e4992-1df7-47b8-85b7-632e76ebab90": {
+      "type": "single-text",
+      "settings": {
+        "text": "Looking at the world—travel, design, art, culture, and food—through a green lens.",
+        "text_size": 38,
+        "padding-v": 25,
+        "padding-h": 30,
+        "content_width": 890,
+        "content_align": "left",
+        "content_v_align": "center",
+        "content_h_align": "left",
+        "text_color": "#0a3422",
+        "text_sizem": 25,
+        "content_align_m": "left",
+        "content_v_align_m": "center",
+        "content_h_align_m": "left",
+        "padding-vm": 20,
+        "padding-hm": 20
+      }
+    },
+    "a18018ef-cb69-4d36-8a09-1525b5699daa": {
+      "type": "selected-products",
+      "disabled": true,
+      "settings": {
+        "headingtext": "Selected Products",
+        "collection": "featured",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-products",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "1c83421c-e4bd-483a-b2d8-8ed839ba28e7": {
+      "type": "collections-list",
+      "blocks": {
+        "7c77f53c-be08-414d-9191-a7a181d37e14": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "gossamer-alex-proba-home",
+            "collectiontitle": "Energy",
+            "collectionimage": "shopify:\/\/shop_images\/image_45.png"
+          }
+        },
+        "0c97dea2-e6e9-4002-98aa-46ce635cb1b0": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "gossamer-strange-paradise",
+            "collectiontitle": "Sleep",
+            "collectionimage": "shopify:\/\/shop_images\/dusk-mockup_1.png"
+          }
+        },
+        "ac143570-03c7-4131-aceb-cf5e85d342ee": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "holiday-gift-sets",
+            "collectiontitle": "Focus",
+            "collectionimage": "shopify:\/\/shop_images\/Dawn-Hero.png"
+          }
+        },
+        "90981f39-931d-4bd4-8681-9d51cb30033f": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "cbd",
+            "collectiontitle": "Calm",
+            "collectionimage": "shopify:\/\/shop_images\/image_48.png"
+          }
+        }
+      },
+      "block_order": [
+        "7c77f53c-be08-414d-9191-a7a181d37e14",
+        "0c97dea2-e6e9-4002-98aa-46ce635cb1b0",
+        "ac143570-03c7-4131-aceb-cf5e85d342ee",
+        "90981f39-931d-4bd4-8681-9d51cb30033f"
+      ],
+      "settings": {
+        "headingtext": "Explore our Collections"
+      }
+    },
+    "302a1009-cedc-499c-b0c5-f95d4107363c": {
+      "type": "quote-slider",
+      "blocks": {
+        "bacda181-56ff-4bdf-a0c7-39c49704c53c": {
+          "type": "Slide",
+          "settings": {
+            "quote_image": "shopify:\/\/shop_images\/the-Strategist.svg",
+            "quotecontent": "“This is a compact, animated press pull-quote slider.”"
+          }
+        },
+        "b0b96356-9c38-4244-a899-580bdc071b11": {
+          "type": "Slide",
+          "settings": {
+            "quote_image": "shopify:\/\/shop_images\/BOF.svg",
+            "quotecontent": "“This is a compact, animated press pull-quote slider.”"
+          }
+        },
+        "b1b353fd-cb15-47ad-bd1f-ac9c6412455b": {
+          "type": "Slide",
+          "settings": {
+            "quote_image": "shopify:\/\/shop_images\/WSJ.svg",
+            "quotecontent": "“This is a compact, animated press pull-quote slider.”"
+          }
+        }
+      },
+      "block_order": [
+        "bacda181-56ff-4bdf-a0c7-39c49704c53c",
+        "b0b96356-9c38-4244-a899-580bdc071b11",
+        "b1b353fd-cb15-47ad-bd1f-ac9c6412455b"
+      ],
+      "settings": {
+        "headingtext": "",
+        "sectionbackground": "",
+        "sliderspeed": 6000
+      }
+    },
+    "14a3e314-2a6d-40d2-81e9-6a2e07504e20": {
+      "type": "homeblog",
+      "settings": {
+        "blogbackground": "#cbedd0",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20,
+        "explore-title": "Evergreen",
+        "explore-button": "Explore Articles",
+        "explore-buttonurl": "",
+        "blog-copy": "Evergreen introduction copy here. This is dummy text. It is intended to be read but has no meaning.",
+        "blog": "news",
+        "post_limit": 7,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false
+      }
+    },
+    "8e6ac0a8-10ec-4db6-98fb-82e00eed95b9": {
+      "type": "volumeeight",
+      "settings": {
+        "vimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif.gif",
+        "vtext": "Volume 8 OUT NOW Volume 8 OUT NOW Volume 8 OUT NOW",
+        "vbackground": "#ffef80",
+        "explore-title": "FEATURING",
+        "explore-b1": "JASON STEWART",
+        "explore-b1u": "",
+        "explore-b2": "Kenisha White",
+        "explore-b2u": "",
+        "explore-b3": "Pia Riverola & More",
+        "explore-b3u": "",
+        "explore-button": "Explore",
+        "explore-buttonurl": ""
+      }
+    },
+    "4bd63cd7-2a4d-45f7-88b4-00c8352056d3": {
+      "type": "icons-3d",
+      "settings": {}
+    },
+    "7f7de537-1f5a-417f-a43b-5176c0e7890a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18169357402391__7f7de537-1f5a-417f-a43b-5176c0e7890a-1678576510b68a064b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe",
+            "heading_size": "h1"
+          }
+        },
+        "template--18169357402391__7f7de537-1f5a-417f-a43b-5176c0e7890a-1678576510b68a064b-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you sign up for our (very good) newsletter, featuring recommendations, interviews, products, launches, and more.<\/p>"
+          }
+        },
+        "template--18169357402391__7f7de537-1f5a-417f-a43b-5176c0e7890a-1678576510b68a064b-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18169357402391__7f7de537-1f5a-417f-a43b-5176c0e7890a-1678576510b68a064b-0",
+        "template--18169357402391__7f7de537-1f5a-417f-a43b-5176c0e7890a-1678576510b68a064b-1",
+        "template--18169357402391__7f7de537-1f5a-417f-a43b-5176c0e7890a-1678576510b68a064b-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "548c6bc5-f241-4c3a-a70d-e8834aad4524",
+    "image_banner",
+    "1c5e4992-1df7-47b8-85b7-632e76ebab90",
+    "a18018ef-cb69-4d36-8a09-1525b5699daa",
+    "featured_collection",
+    "1c83421c-e4bd-483a-b2d8-8ed839ba28e7",
+    "302a1009-cedc-499c-b0c5-f95d4107363c",
+    "14a3e314-2a6d-40d2-81e9-6a2e07504e20",
+    "8e6ac0a8-10ec-4db6-98fb-82e00eed95b9",
+    "4bd63cd7-2a4d-45f7-88b4-00c8352056d3",
+    "7f7de537-1f5a-417f-a43b-5176c0e7890a"
+  ]
+}

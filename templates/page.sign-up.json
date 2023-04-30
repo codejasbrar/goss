@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "afef8055-bd93-46c7-901c-e8d3e787a4fe": {
+      "type": "thc-signup-head",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/red_flowers_1.png",
+        "desktop_title": "Subscribe CTA",
+        "mobile_title": "THC Updates CTA",
+        "main_text": "THC IS COMING TO GOSSAMER. SIGN UP TO KEEP.",
+        "location0": "Where are you based?",
+        "location1": "Location 1",
+        "location2": "Location 2",
+        "location3": "Location 3",
+        "location4": "Location 4",
+        "location5": "Location 5",
+        "location6": "Location 6",
+        "btn_text": "Sign-up"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "afef8055-bd93-46c7-901c-e8d3e787a4fe"
+  ]
+}

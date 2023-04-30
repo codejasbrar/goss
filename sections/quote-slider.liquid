@@ -1,0 +1,97 @@
+<style>
+
+</style>
+<section class="quote_section" style="background-color:{{ section.settings.sectionbackground }}">
+    <div class="section_container">
+        {%- if section.settings.headingtext != blank -%}
+            <div class="section_header">
+                <h1>{{ section.settings.headingtext }}</h1>
+            </div>
+        {%- endif -%}
+        <div class="section_content">
+            <div class="collection_content">
+                <div class="quote-slider">
+                    {%- for block in section.blocks -%}
+                        <div class="slide" >
+                            <img src="{{ block.settings.quote_image | image_url }}">
+                            <span>{{ block.settings.quotecontent }}</span>
+                        </div>
+                    {%- endfor -%}
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+$(document).ready(function(){
+  $('.quote-slider').slick({
+      slidesToShow: 1.5,
+      slidesToScroll: 1,
+      variableWidth:true,
+      arrows: false,
+      autoplay:true,
+      speed:{{ section.settings.sliderspeed }},
+      autoplaySpeed: 5000,
+      draggable:true,
+      responsive: [
+          {
+            breakpoint: 767,
+            settings: {
+              arrows: false,
+              variableWidth:false,
+              slidesToShow: 1
+            }
+          }
+       ]
+  });
+});
+</script>
+{% schema %}
+{
+  "name": "Quote Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "headingtext",
+      "label": "Heading"
+    },
+    {
+       "type":"color",
+       "id": "sectionbackground",
+       "label": "Background"
+    },{
+        "type": "range",
+        "id": "sliderspeed",
+        "min": 1000,
+        "max": 8000,
+        "step": 100,
+        "label": "Slider Speed",
+        "default": 5000
+    }
+    ],
+  "blocks": [
+    {
+      "type": "Slide",
+      "name": "Quote Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "quote_image",
+          "label": "Select Image"
+        },
+        {
+           "type": "text",
+           "id": "quotecontent",
+           "label": "Quote Content"
+       }
+      ]
+    }
+  ],
+    "presets": [
+      {
+        "name": "Quote Slider"
+      }
+      ]
+}
+{% endschema %}

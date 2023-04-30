@@ -1,0 +1,140 @@
+.article main#MainContent {
+    margin-top: -85px;
+}
+
+.high-minded-head-section {
+    background-color: #4568C1;
+}
+
+.high-minded-head-section .high-minded-head {
+    padding: 20px 30px;
+}
+
+.high-minded-head-section .high-minded-head .left-content h1,
+.high-minded-head-section .high-minded-head .left-content h2 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 101%;
+    letter-spacing: -0.04em;
+    color: #F4F5EF;
+    margin-top: 85px;
+}
+
+.high-minded-head-section .high-minded-head .left-content h1 span {
+    margin-left: 18%;
+}
+
+.high-minded-head-section .high-minded-head .left-content h2 {
+    margin-bottom: 35px;
+}
+
+.high-minded-head-section .high-minded-head .left-content h2 span {
+    margin-left: 10%;
+}
+
+.high-minded-head-section .high-minded-head .left-content p {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #F4F5EF;
+}
+
+.high-minded-head-section .high-minded-head .right-content {
+    text-align: right;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-8 {
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-4 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.col-2 {
+    max-width: 16.66%;
+    flex: 0 0 16.66%;
+}
+
+.article .header__menu-item span,
+.article .mega-menu__content a {
+    color: #fff;
+}
+
+.header__menu-item .icon path {
+    fill: #fff;
+}
+
+.header__icon span,
+div .header__icon {
+    color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+
+    .high-minded-head-section .high-minded-head .left-content p{
+        display: none;
+    }
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-8,
+    .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .high-minded-head-section .high-minded-head {
+        padding: 15px;
+    }
+
+    .high-minded-head-section .high-minded-head .left-content h1 {
+        font-size: 62px;
+        margin-bottom: 27px;
+    }
+
+    .high-minded-head-section .high-minded-head .left-content h1 span {
+        margin-left: 10%;
+    }
+
+    .high-minded-head-section .high-minded-head .left-content h2 {
+        font-size: 59px;
+        line-height: 100%;
+        margin-top: 0;
+    }
+
+    .high-minded-head-section .high-minded-head .right-content img {
+        width: 70%;
+        max-width: 199px;
+    }
+}

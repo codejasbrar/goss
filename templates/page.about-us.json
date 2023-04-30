@@ -1,0 +1,158 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "b8350657-0077-4b23-93e5-9ff45633d21c": {
+      "type": "about-us-head",
+      "settings": {
+        "heading": "Gossamer looks at <br> <span> the world—travel, art, <\/span> <br> culture, and food—   <br> <span>through a green lens. <\/span>",
+        "description": "We tell stories that channel the mindset of someone having their best high: interviews, features, photo essays, recommendations, and more that will pique your curiosity, make you laugh, change your perspective, or just give you something to do on a slow, stoned Sunday."
+      }
+    },
+    "f532616a-f6df-4784-84fe-85e16be408ae": {
+      "type": "heading-content-link",
+      "settings": {
+        "heading": "Contact",
+        "description": "For editorial, distribution, and press inquiries—or to just say hello—you can reach us at",
+        "linkurl": "#",
+        "linktext": "hi@gossamer.co"
+      }
+    },
+    "78513953-0ff0-444c-bc06-458a69094a0e": {
+      "type": "heading-content-link",
+      "settings": {
+        "heading": "Partnerships",
+        "description": "For advertising and partnership opportunities, please email us at",
+        "linkurl": "#",
+        "linktext": "partnerships@gossamer.co"
+      }
+    },
+    "654d7c78-85c0-4793-92fb-d5824514b2e2": {
+      "type": "heading-content-link-two",
+      "settings": {
+        "heading": "Team",
+        "descriptionone": "Verena von Pfetten <br>\nCo-founder",
+        "linkurlone": "#",
+        "linktextone": "@vonverena",
+        "followtextone": "FOLLOW",
+        "descriptiontwo": "David Weiner <br>\nCo-founder",
+        "linkurltwo": "#",
+        "linktexttwo": "@daweiner",
+        "followtexttwo": "FOLLOW"
+      }
+    },
+    "88932dc0-7591-49b3-b79b-fc6e59bbb18a": {
+      "type": "heading-content-link-two",
+      "settings": {
+        "heading": "",
+        "descriptionone": "Verena Michelitsch <br>\nCo-Creative Director",
+        "linkurlone": "#",
+        "linktextone": "@verenschka",
+        "followtextone": "FOLLOW",
+        "descriptiontwo": "Kristina Bartošová <br>\nCo-Creative Director",
+        "linkurltwo": "#",
+        "linktexttwo": "@kristinabartosova",
+        "followtexttwo": "FOLLOW"
+      }
+    },
+    "2084f369-a4eb-4d00-9412-e4bd503c5e1d": {
+      "type": "heading-logo-text",
+      "settings": {
+        "heading": "Press",
+        "logo": "shopify:\/\/shop_images\/Vector.png",
+        "logotext": "“This is a compact press pull-quote.”"
+      }
+    },
+    "d6b8243b-0b86-4373-ba77-705caaf8838d": {
+      "type": "heading-logo-text",
+      "settings": {
+        "heading": "",
+        "logo": "shopify:\/\/shop_images\/Press-Logos_6afe07e1-dfa4-49cd-b7b2-fdf638f9948f.png",
+        "logotext": "“This is a compact press pull-quote.”"
+      }
+    },
+    "e8c02ec2-94c9-4695-8529-2ccb79d97ab5": {
+      "type": "heading-logo-text",
+      "settings": {
+        "heading": "",
+        "logo": "shopify:\/\/shop_images\/Press-Logos_1.png",
+        "logotext": "“This is a compact press pull-quote.”"
+      }
+    },
+    "e72e8005-1484-4bd3-a646-d821855dfb83": {
+      "type": "volumeeight",
+      "settings": {
+        "vimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_332d5483-d278-4b79-962a-c1b33e215851.gif",
+        "vtext": "Volume 8 OUT NOW Volume 8 OUT NOW Volume 8 OUT NOW",
+        "vbackground": "#ffef80",
+        "explore-title": "Featuring",
+        "explore-b1": "JASON STEWART",
+        "explore-b1u": "",
+        "explore-b2": "Kenisha White",
+        "explore-b2u": "",
+        "explore-b3": "Pia Riverola & More",
+        "explore-b3u": "",
+        "explore-button": "Explore",
+        "explore-buttonurl": ""
+      }
+    },
+    "4daef9ac-d8a9-479d-a75f-6a92cf7a600b": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18482577146135__4daef9ac-d8a9-479d-a75f-6a92cf7a600b-16807033503ef21a4b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--18482577146135__4daef9ac-d8a9-479d-a75f-6a92cf7a600b-16807033503ef21a4b-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you sign up for our (very good) newsletter, featuring recommendations, interviews, products, launches, and more.<\/p>"
+          }
+        },
+        "template--18482577146135__4daef9ac-d8a9-479d-a75f-6a92cf7a600b-16807033503ef21a4b-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18482577146135__4daef9ac-d8a9-479d-a75f-6a92cf7a600b-16807033503ef21a4b-0",
+        "template--18482577146135__4daef9ac-d8a9-479d-a75f-6a92cf7a600b-16807033503ef21a4b-1",
+        "template--18482577146135__4daef9ac-d8a9-479d-a75f-6a92cf7a600b-16807033503ef21a4b-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b8350657-0077-4b23-93e5-9ff45633d21c",
+    "f532616a-f6df-4784-84fe-85e16be408ae",
+    "78513953-0ff0-444c-bc06-458a69094a0e",
+    "654d7c78-85c0-4793-92fb-d5824514b2e2",
+    "88932dc0-7591-49b3-b79b-fc6e59bbb18a",
+    "2084f369-a4eb-4d00-9412-e4bd503c5e1d",
+    "d6b8243b-0b86-4373-ba77-705caaf8838d",
+    "e8c02ec2-94c9-4695-8529-2ccb79d97ab5",
+    "e72e8005-1484-4bd3-a646-d821855dfb83",
+    "4daef9ac-d8a9-479d-a75f-6a92cf7a600b"
+  ]
+}

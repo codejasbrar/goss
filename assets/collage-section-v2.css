@@ -1,0 +1,72 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-heading-content-section .image-and-heading {
+    background-color: #CBEDD0;
+}
+
+.image-heading-content-section .image-and-heading .inner-div {
+    padding: 20px;
+}
+
+.image-heading-content-section .image-and-heading .img-two {
+    float: right;
+    margin-bottom: 50px;
+}
+
+.image-heading-content-section .image-and-heading h2 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    margin-top: 5em;
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.image-heading-content-section .center-content {
+    padding: 0 5em;
+}
+
+.image-heading-content-section .center-content p {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #0A3422;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width:768px) {
+    .image-heading-content-section .image-and-heading div.inner-div{
+        padding: 20px;
+    }
+    .image-heading-content-section .image-and-heading h2 {
+        font-size: 28px;
+        line-height: 22.95px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .image-heading-content-section .image-and-heading img {
+        float: none;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .image-heading-content-section .center-content {
+        padding: 20px;
+    }
+
+    .image-heading-content-section .center-content p {
+        font-size: 17px;
+        line-height: 22.95px;
+    }
+}

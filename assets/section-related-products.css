@@ -1,0 +1,112 @@
+.related-products {
+  display: block;
+}
+
+.related-products__heading {
+  font-family: 'Ginto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  font-feature-settings: 'liga' off;
+  color: #0A3422;
+  margin-bottom:49.25px;
+
+}
+
+.product-card-wrapper .card__content .card__information{
+  display:flex;
+  justify-content:space-between;
+}
+.product-card-wrapper .card__content .card__information .card-information{
+  width:50%;
+  text-align:right;
+}
+
+product-recommendations .product-card-wrapper .card__information .card__heading,
+product-recommendations .product-card-wrapper .card__information .price-item {
+  font-family: "Neue";
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #0A3422;
+}
+
+product-recommendations .product-card-wrapper .card__information .card__heading{
+  font-weight: 700;
+  padding-right:30px;
+}
+product-recommendations .caption-with-letter-spacing{
+  font-family:'Neue';
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #0A3422;
+  text-transform: capitalize;
+}
+
+product-recommendations .product-card-wrapper .card__information .price,.card-information>*:not(.visually-hidden:first-child)+*:not(.rating){
+  margin:0;
+  margin-top:0;
+}
+product-recommendations .quick-add {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  visibility: hidden;
+  transition: visibility .2s ease-in-out;
+}
+product-recommendations .quick-add .quick-add__submit{
+  background: #F4F5EF;
+  border-radius: 4px;
+  color: #1C1D1C;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  --border-offset:none;
+}
+product-recommendations li:hover .quick-add {
+  visibility: visible;
+
+}
+product-recommendations .card-wrapper{
+  margin-bottom:0;
+}
+@media Screen and (max-width:767px){
+  product-recommendations .product-card-wrapper .card__content .card__information .card-information{
+    width:auto;
+    text-align:left;
+    margin-top:0;
+  }
+  .related-products__heading {
+    font-size: 36px;
+    margin-bottom: 73px;
+    margin-top: 10px;
+  }
+  .grid--1-col-tablet-down .grid__item{
+    width:290px;
+    max-width:290px;
+    margin-right:20px;
+  }
+  product-recommendations .product-card-wrapper .card__information .card__heading {
+    padding-right: 15px;
+  }
+  product-recommendations .product-card-wrapper .card__information .card__heading, product-recommendations .product-card-wrapper .card__information .price-item {
+    font-family: 'Neue65';
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  product-recommendations .caption-with-letter-spacing {
+    font-family: 'Neue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

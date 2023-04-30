@@ -1,0 +1,127 @@
+.high-minded-winking-section {
+    background-color: #F6D9C3;
+}
+
+.high-minded-winking-section .high-minded-winking {
+    padding: 30px;
+}
+
+.high-minded-winking-section .high-minded-winking .left-content h2 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 101%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    margin-top: 0;
+}
+
+.high-minded-winking-section .high-minded-winking .left-content h2 span {
+    vertical-align: top;
+}
+
+.high-minded-winking-section .high-minded-winking .left-content h2 img {
+    margin-left: 20px;
+}
+
+.high-minded-winking-section .high-minded-winking .left-content h3 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    margin: 0;
+
+}
+
+.high-minded-winking-section .high-minded-winking .left-content h3 a {
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.08em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #0A3422;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-8 {
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-4 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.col-2 {
+    max-width: 16.66%;
+    flex: 0 0 16.66%;
+}
+
+.article .header__menu-item span,
+.article .mega-menu__content a {
+    color: #fff;
+}
+
+.header__menu-item .icon path {
+    fill: #fff;
+}
+
+.header__icon span,
+div .header__icon {
+    color: #fff;
+}
+
+@media only screen and (max-width:768px) {
+
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-8,
+    .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .high-minded-winking-section .high-minded-winking .left-content h2 {
+        font-size: 48px;
+    }
+
+    .high-minded-winking-section .high-minded-winking .left-content h2 img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .high-minded-winking-section .high-minded-winking .left-content h3 {
+        font-size: 28px;
+    }
+}

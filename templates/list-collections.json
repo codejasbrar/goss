@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "847d68f8-8c73-493d-a36d-fedb1e2f7d4d": {
+      "type": "collections-list",
+      "blocks": {
+        "d0f38784-8b08-4018-b3de-137757bfc7dc": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "holiday-gift-sets",
+            "collectiontitle": "Energy",
+            "collectionimage": "shopify:\/\/shop_images\/image_45.png"
+          }
+        },
+        "6fc66843-787d-4af0-8efc-96dc80f93566": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "focus",
+            "collectiontitle": "Focus",
+            "collectionimage": "shopify:\/\/shop_images\/Dawn-Hero.png"
+          }
+        },
+        "b3e6a174-cd70-4ba5-9299-907633557d5d": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "gossamer-strange-paradise",
+            "collectiontitle": "Sleep",
+            "collectionimage": "shopify:\/\/shop_images\/dusk-mockup_1.png"
+          }
+        },
+        "c86c23ba-4572-4677-b410-8dfc30ac8586": {
+          "type": "explore_collection",
+          "settings": {
+            "collection": "frontpage",
+            "collectiontitle": "Calm",
+            "collectionimage": "shopify:\/\/shop_images\/image_48.png"
+          }
+        }
+      },
+      "block_order": [
+        "d0f38784-8b08-4018-b3de-137757bfc7dc",
+        "6fc66843-787d-4af0-8efc-96dc80f93566",
+        "b3e6a174-cd70-4ba5-9299-907633557d5d",
+        "c86c23ba-4572-4677-b410-8dfc30ac8586"
+      ],
+      "settings": {
+        "headingtext": "Explore our Collections"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "",
+        "sort": "alphabetical",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "eb6f5051-10df-4d2f-b6b5-6f5cd277c934": {
+      "type": "volumeeight",
+      "settings": {
+        "vimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_3aa67368-e323-4706-8be2-b8419d5d188b.gif",
+        "vtext": "Volume 8 OUT NOW Volume 8 OUT NOW Volume 8 OUT NOW",
+        "vbackground": "#ffef80",
+        "explore-title": "Featuring",
+        "explore-b1": "JASON STEWART",
+        "explore-b1u": "",
+        "explore-b2": "Kenisha White",
+        "explore-b2u": "",
+        "explore-b3": "Pia Riverola & More",
+        "explore-b3u": "",
+        "explore-button": "Explore",
+        "explore-buttonurl": ""
+      }
+    },
+    "38ef2c49-814e-4f0f-8668-f5a60f773155": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18355019579694__38ef2c49-814e-4f0f-8668-f5a60f773155-1679566778fcc9e5ca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--18355019579694__38ef2c49-814e-4f0f-8668-f5a60f773155-1679566778fcc9e5ca-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--18355019579694__38ef2c49-814e-4f0f-8668-f5a60f773155-1679566778fcc9e5ca-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18355019579694__38ef2c49-814e-4f0f-8668-f5a60f773155-1679566778fcc9e5ca-0",
+        "template--18355019579694__38ef2c49-814e-4f0f-8668-f5a60f773155-1679566778fcc9e5ca-1",
+        "template--18355019579694__38ef2c49-814e-4f0f-8668-f5a60f773155-1679566778fcc9e5ca-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "847d68f8-8c73-493d-a36d-fedb1e2f7d4d",
+    "main",
+    "eb6f5051-10df-4d2f-b6b5-6f5cd277c934",
+    "38ef2c49-814e-4f0f-8668-f5a60f773155"
+  ]
+}

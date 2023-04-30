@@ -1,0 +1,33 @@
+
+* { margin: 0;box-sizing:border-box; }
+.how-to-banner-container{max-width:1220px;margin:0 auto;}
+.howf-line,.hows-line,.howt-line{
+    display: flex;
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 145.844px;
+    line-height: 101%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+}
+.howf-line{
+    justify-content: left;
+}
+.hows-line{
+    justify-content: left;
+    padding-left:85px;
+}
+.howt-line{
+    justify-content: right;
+}
+@media screen and (max-width:768px){
+    .how-to-banner-container{max-width:100%;margin:0 auto;}
+    .howf-line,.hows-line,.howt-line{
+        font-size: 90px;
+    }
+    .howt-line {
+        text-align: right;
+    }
+
+}

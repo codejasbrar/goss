@@ -1,0 +1,67 @@
+<section class="collage-section" id="collage-section">
+    <div class="collage">
+      <div class="row">
+        <div class="col-12 col-md-12 content_block">
+          <div class="content">
+            {% if section.settings.imageone != blank %}
+                <img src="{{ section.settings.imageone | img_url: 'master' }}">
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-6 content_block text-and-image">
+          <div class="text-and-image-content">
+            {% if section.settings.heading != blank %}
+            <div class="heading">
+              <h2>{{ section.settings.heading }}</h2>
+            </div>
+            {% endif %}
+            {% if section.settings.imagethree != blank %}
+            <div class="image">
+              <img src="{{ section.settings.imagethree | img_url: 'master' }}">
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-6 col-md-6 content_block">
+          <div class="content">
+            {% if section.settings.imagetwo != blank %}
+              <img src="{{ section.settings.imagetwo | img_url: 'master' }}">
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "Collage Section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "imageone",
+          "label": "Image One"
+        }, {
+          "type": "image_picker",
+          "id": "imagetwo",
+          "label": "Image Two"
+        }, {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        }, {
+          "type": "image_picker",
+          "id": "imagethree",
+          "label": "Image Three"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Collage Section"
+        }
+      ]
+  
+    }
+  {% endschema %}

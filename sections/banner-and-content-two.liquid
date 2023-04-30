@@ -1,0 +1,40 @@
+<section class="banner-and-content-two-section" id="banner-and-content-two-section">
+    <div class="banner-and-content-two">
+        <div class="banners-dragable">
+            <div class="images">
+                {% for block in section.blocks %}
+                 {% if block.settings.image != blank %}
+                     <img src="{{ block.settings.image | img_url: 'master' }}">
+                 {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+    {
+      "name": "Image scroller",
+      "max_blocks": 4,
+      "settings": [],
+      "blocks": [
+        {
+         "type": "Image",
+         "name": "image",
+         "settings": [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Image scroller"
+        }
+      ]
+  
+    }
+  {% endschema %}

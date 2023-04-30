@@ -1,0 +1,71 @@
+<section class="how-to-section" id="how-to-section">
+    <div class="how-to-content">
+      <div class="row content_row">
+        <div class="col-3 col-md-3 content_block">
+          <div class="left-content">
+            {% if section.settings.headingone != blank %}
+              <h2>{{ section.settings.headingone }}</h2>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-6 col-md-6 empty_block">&nbsp;</div>
+        <div class="col-3 col-md-3 content_block">
+          <div class="right-content right-image">
+            {% if section.settings.image != blank %}
+              <img src="{{ section.settings.image | img_url: 'master' }}">
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="row content_row">
+        <div class="col-12 col-md-12 content_block">
+          <div class="left-content left-text-centent">
+            {% if section.settings.headingtwo != blank %}
+              <h2>{{ section.settings.headingtwo }}</h2>
+            {% endif %}
+            {% if section.settings.linktext != blank and section.settings.linkurl != blank %}
+              <a href="{{ section.settings.linkurl }}">{{ section.settings.linktext }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "How To",
+      "settings": [
+        {
+          "type": "text",
+          "id": "headingone",
+          "label": "Heading One"
+        },
+        {
+          "type": "text",
+          "id": "headingtwo",
+          "label": "Heading Two"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "linktext",
+          "label": "Link Text"
+        }, {
+          "type": "url",
+          "id": "linkurl",
+          "label": "Link Url"
+        }
+      ],
+      "presets": [
+        {
+          "name": "How To"
+        }
+      ]
+  
+    }
+  {% endschema %}

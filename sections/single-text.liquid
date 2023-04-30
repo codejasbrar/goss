@@ -1,0 +1,352 @@
+
+{% assign content_align = section.settings.content_align %}
+{% assign content_v_align = section.settings.content_v_align %}
+{% assign content_h_align = section.settings.content_h_align %}
+<style>
+ * { margin: 0;box-sizing:border-box; }
+ .text_section {
+  position:relative;
+  padding: {{ section.settings.padding-v }}px {{ section.settings.padding-h }}px;
+}
+.text_section .section_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: {{content_h_align}};
+  align-items: {{content_v_align}};
+  box-sizing: border-box;
+  text-align:{{ content_align }};
+}
+.content-area > p {
+  font-family:'Ginto';
+  font-size: {{section.settings.text_size}}px;
+  color: {{section.settings.text_color}};
+  line-height:101%;
+}
+.content-area > p img {
+vertical-align: -webkit-baseline-middle;
+}
+@media screen and (max-width:767px){
+.content-area > p img {
+    max-height:30px;
+}
+ .text_section {
+    padding: {{ section.settings.padding-vm }}px {{ section.settings.padding-hm }}px;
+ }
+ .content-area > p {
+   font-size: {{section.settings.text_sizem}}px;
+   letter-spacing:-0.02em;
+ }
+ .text_section .section_container{
+   justify-content: {{section.settings.content_h_alignm}};
+   align-items: {{section.settings.content_v_alignm}};
+   text-align:{{ section.settings.content_alignm }};
+ }
+
+}
+</style>
+
+
+<section class="text_section">
+    <div class="section_container">
+        <div class="content-area">
+            <p>
+            {% if section.settings.content-image != blank %}
+                <img src="{{ section.settings.content-image | image_url }}" >
+            {% endif %}
+            {{section.settings.text}}
+            </p>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Single Text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "content-image",
+      "label": "Add Image in start to Text"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Write Content",
+      "default": "Gossamer looks at the world—travel, design, art, culture, and food—through a green lens."
+    },
+    {
+      "type": "range",
+      "id":   "text_size",
+      "label": {
+          "en": "Text Size"
+      },
+      "min":0,
+      "max":100,
+      "step":1,
+      "unit":"px",
+      "default": 38
+    },
+    {
+      "type": "range",
+      "id":   "padding-v",
+      "label": {
+          "en": "Section top-bottom Padding"
+      },
+      "min":0,
+      "max":500,
+      "step":5,
+      "unit":"px",
+      "default": 25
+     },
+      {
+        "type": "range",
+        "id":   "padding-h",
+        "label": {
+            "en": "Section left-right Padding"
+        },
+        "min":0,
+        "max":500,
+        "step":5,
+        "unit":"px",
+        "default": 30
+       },
+     {
+       "type": "range",
+       "id":   "content_width",
+       "label": {
+           "en": "Content Max Width"
+       },
+       "min":0,
+       "max":1000,
+       "step":10,
+       "unit":"px",
+       "default": 890
+      },
+     {
+         "type": "select",
+         "id":   "content_align",
+         "label": {
+             "en": "Content Alignment"
+         },
+         "options": [
+             {
+                 "value": "center",
+                 "label": {
+                     "en": "Center"
+                 }
+             },
+             {
+                 "value": "left",
+                 "label": {
+                     "en": "Left (Default)"
+                 }
+             },
+             {
+                 "value": "right",
+                 "label": {
+                     "en": "right"
+                 }
+             }
+         ],
+         "default": "left"
+     },
+     {
+       "type": "select",
+       "id":   "content_v_align",
+       "label": {
+           "en": "Content verticle Alignment"
+       },
+       "options": [
+           {
+               "value": "center",
+               "label": {
+                   "en": "Middle(Default)"
+               }
+           },
+           {
+               "value": "start",
+               "label": {
+                   "en": "Top"
+               }
+           },
+           {
+               "value": "end",
+               "label": {
+                   "en": "Bottom"
+               }
+           }
+       ],
+       "default": "center"
+   },
+   {
+         "type": "select",
+         "id":   "content_h_align",
+         "label": {
+             "en": "Content Horizontal Alignment"
+         },
+         "options": [
+             {
+                 "value": "center",
+                 "label": {
+                     "en": "Center"
+                 }
+             },
+             {
+                 "value": "left",
+                 "label": {
+                     "en": "left(Default)"
+                 }
+             },
+             {
+                 "value": "right",
+                 "label": {
+                     "en": "right"
+                 }
+             }
+         ],
+         "default": "left"
+     },
+     {
+         "type":  "color",
+         "id":    "text_color",
+         "label": {
+             "en": "Text Color"
+         },
+         "default": "#0A3422"
+     },
+     {
+        "type":    "header",
+        "content": {
+            "en": "Mobile"
+        }
+    },
+    {
+      "type": "range",
+      "id":   "text_sizem",
+      "label": {
+          "en": "Text Size"
+      },
+      "min":0,
+      "max":100,
+      "step":1,
+      "unit":"px",
+      "default": 25
+    },
+   {
+       "type": "select",
+       "id":   "content_align_m",
+       "label": {
+           "en": "Content Alignment"
+       },
+       "options": [
+           {
+               "value": "center",
+               "label": {
+                   "en": "Center"
+               }
+           },
+           {
+               "value": "left",
+               "label": {
+                   "en": "Left (Default)"
+               }
+           },
+           {
+               "value": "right",
+               "label": {
+                   "en": "right"
+               }
+           }
+       ],
+       "default": "left"
+   },
+   {
+     "type": "select",
+     "id":   "content_v_align_m",
+     "label": {
+         "en": "Content verticle Alignment"
+     },
+     "options": [
+         {
+             "value": "center",
+             "label": {
+                 "en": "Middle(Default)"
+             }
+         },
+         {
+             "value": "start",
+             "label": {
+                 "en": "Top"
+             }
+         },
+         {
+             "value": "end",
+             "label": {
+                 "en": "Bottom"
+             }
+         }
+     ],
+     "default": "center"
+ },
+ {
+       "type": "select",
+       "id":   "content_h_align_m",
+       "label": {
+           "en": "Content Horizontal Alignment"
+       },
+       "options": [
+           {
+               "value": "center",
+               "label": {
+                   "en": "Center"
+               }
+           },
+           {
+               "value": "left",
+               "label": {
+                   "en": "left(Default)"
+               }
+           },
+           {
+               "value": "right",
+               "label": {
+                   "en": "right"
+               }
+           }
+       ],
+       "default": "left"
+    },
+     {
+       "type": "range",
+       "id":   "padding-vm",
+       "label": {
+           "en": "Section top-bottom Padding"
+       },
+       "min":0,
+       "max":500,
+       "step":5,
+       "unit":"px",
+       "default": 20
+      },
+       {
+         "type": "range",
+         "id":   "padding-hm",
+         "label": {
+             "en": "Section left-right Padding"
+         },
+         "min":0,
+         "max":500,
+         "step":5,
+         "unit":"px",
+         "default": 20
+        }
+
+    ],
+    "presets": [
+      {
+        "name": "Single Text"
+      }
+      ]
+}
+{% endschema %}
+

@@ -1,0 +1,109 @@
+{{ 'glossary-head.css' | asset_url | stylesheet_tag }}
+<section class="glossary-section" id="glossary-section">
+    <div class="glossary">
+      <div class="row title_content_row">
+        <div class="col-12 col-md-12 title_content_block">
+          <div class="left-content">
+            {% if page.title != blank %}
+              <h1>{{ page.title }}</h1>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="row heading_content_row">
+        <div class="col-3 col-md-3 empty_block">&nbsp;</div>
+        <div class="col-9 col-md-9 heading_content_block">
+          <div class="left-content">
+            {%- for block in section.blocks -%}
+              {% case block.type %}
+                {% when 'glossary_headings' %}
+                <a href="#{{ block.settings.heading }}">{{ block.settings.heading }}</a>
+              {% endcase %}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+      <div class="row heading_accordion_content_row">
+        {%- for block in section.blocks -%}
+          <div class="col-12 col-md-12 {{ block.type }} {% if block.settings.heading != blank %} heading-border-top {% endif %}">
+            <div class="row">
+              {% case block.type %}
+                {% when 'glossary_headings' %}
+                <div class="col-3 col-md-3 left_heading_content_block">
+                  <div class="left-content">
+                    {% if block.settings.heading != blank %}
+                      <h2 id="{{ block.settings.heading }}">{{ block.settings.heading }}</h2>
+                    {% endif %}
+                  </div>
+                </div>
+                {% when 'glossary_accordions' %}
+                <div class="col-3 col-md-3 empty_block">&nbsp;</div>
+                <div class="col-9 col-md-9 accordion_content_block">
+                  <div class="right-content">
+                    <div class="accordion">
+                      <div class="accordion-item">
+                        <div class="accordion-item-header">
+                          {% if block.settings.accordion_title != blank %}
+                            {{ block.settings.accordion_title }}
+                          {% endif %}
+                        </div>
+                        <div class="accordion-item-body">
+                          <div class="accordion-item-body-content">
+                            {% if block.settings.accordion_description != blank %}
+                              {{ block.settings.accordion_description }}
+                            {% endif %}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {% endcase %}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "Glossary Head",
+      "tag": "section",
+      "max_blocks": 500,
+      "settings": [],
+      "blocks": [
+        {
+          "type": "glossary_headings",
+          "name": "Glossary Headings",
+          "settings": [
+            {
+              "type": "text",
+              "id": "heading",
+              "label": "Heading"
+            }
+          ]
+        }, {
+          "type": "glossary_accordions",
+          "name": "Glossary Accordions",
+          "settings": [
+            {
+              "type": "text",
+              "id": "accordion_title",
+              "label": "Accordion Title"
+            }, {
+              "type": "text",
+              "id": "accordion_description",
+              "label": "Accordion Description"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Glossary Head"
+        }
+      ]
+  
+    }
+  {% endschema %}

@@ -1,0 +1,80 @@
+.collage-section {
+    padding: 60px 0 30px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.text-and-image {
+    background-color: #CBEDD0;
+}
+
+.text-and-image-content {
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.collage-section img {
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.text-and-image-content .image {
+    margin-bottom: 23px;
+}
+
+.text-and-image-content img {
+    width: 100%;
+    max-width: 292px;
+
+}
+
+.text-and-image-content h2 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #141414;
+}
+
+@media only screen and (max-width:768px) {
+
+    .col-12,
+    .col-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .text-and-image-content {
+        padding: 15px 20px;
+    }
+
+    .text-and-image-content h2 {
+        font-size: 28px;
+    }
+    .collage-section .full-image img {
+        scale: 1.4;
+        transform-origin: left;
+        padding: 20px 0;
+    }
+
+    .collage-section .collage-heading h2 {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,107 @@
+.heading-logo-text-section .heading-logo-text {
+    padding: 20px 30px;
+}
+
+.heading-logo-text-border-top {
+    border-top: 0.75px solid #585858;
+}
+
+.heading-logo-text-section .heading-logo-text .center-content {
+    margin-top: 10px;
+}
+
+.heading-logo-text-section .heading-logo-text .left-content h2 {
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+}
+
+.heading-logo-text-section .heading-logo-text .center-content p {
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #0A3422;
+    margin-top: 29px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-8 {
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-9 {
+    max-width: 75%;
+    flex: 0 0 75%;
+}
+
+.col-7 {
+    max-width: 58.33%;
+    flex: 0 0 58.33%;
+}
+
+.col-4 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.col-2 {
+    max-width: 16.66%;
+    flex: 0 0 16.66%;
+}
+
+@media only screen and (max-width:768px) {
+
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .heading-logo-text-section .heading-logo-text {
+        padding: 15px;
+    }
+
+    .heading-logo-text-section .heading-logo-text .left-content h2 {
+        font-size: 19px;
+    }
+
+    .heading-logo-text-section .heading-logo-text .center-content p {
+        font-size: 17px;
+        margin-top: 29px;
+        width: 80%;
+    }
+}

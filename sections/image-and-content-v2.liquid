@@ -1,0 +1,95 @@
+<section class="banner-and-content-two-section {{ section.settings.css_class }}" id="banner-and-content-two-section">
+    <div class="banner-and-content-two">
+      {% if section.settings.heading != blank %}
+      <div class="row heading_row">
+        <div class="col-8 col-md-8 heading_block">
+          <div class="left-content">
+            <h2>{{ section.settings.heading }}</h2>
+          </div>
+        </div>
+        <div class="col-4 col-md-4 empty_block"></div>
+      </div>
+      {% endif %}
+      <div class="row content_row">
+        {% if section.settings.image_position == 'right' %}
+        <div class="col-3 col-md-3 empty_block">&nbsp;</div>
+        {% else %}
+        <div class="col-3 col-md-3 left_content_block">
+          <div class="left-content left">
+            {% if section.settings.leftimage != blank %}
+            <img src="{{ section.settings.leftimage | img_url: 'master' }}">
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+        <div class="col-6 col-md-6 content_block">
+          <div class="center-content">
+            {% if section.settings.description != blank %}
+            <p>{{ section.settings.description | newline_to_br }}</p>
+            {% endif %}
+          </div>
+        </div>
+
+        {% if section.settings.image_position == 'left' %}
+        <div class="col-3 col-md-3 empty_block">&nbsp;</div>
+        {% else %}
+        <div class="col-3 col-md-3 left_content_block">
+          <div class="left-content right">
+            {% if section.settings.leftimage != blank %}
+            <img src="{{ section.settings.leftimage | img_url: 'master' }}">
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "Image and content v2",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Content Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }, 
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image position",
+          "options": [
+              {
+                "label": "Left",
+                "value": "left"
+              },
+              {
+                "label": "Right",
+                "value": "right"
+              }
+              ]
+        }, 
+        {
+          "type": "image_picker",
+          "id": "leftimage",
+          "label": "Left Image"
+        }, 
+        {
+          "type": "text",
+          "id": "css_class",
+          "label": "Custom css class"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Image and content v2"
+        }
+      ]
+  
+    }
+  {% endschema %}

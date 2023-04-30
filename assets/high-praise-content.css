@@ -1,0 +1,135 @@
+.high-praise-content-section {
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col-8 {
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-4 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-2 {
+    max-width: 15%;
+    flex: 0 0 15%;
+}
+
+.col-7 {
+    max-width: 60%;
+    flex: 0 0 60%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.high-praise-content-section .center-content {
+    padding: 0 1em;
+}
+
+.high-praise-content-section .left-content h2 {
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #0A3422;
+    margin-top: 26px;
+    padding-right: 40px;
+}
+
+.high-praise-content-section .left-content p {
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #0A3422;
+}
+
+.high-praise-content-section .center-image {
+    text-align: center;
+}
+
+.high-praise-content-section .center-content p {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #0A3422;
+}
+
+.high-praise-content .content_block .center-image{
+    margin: 50px 0 40px 0;
+}
+
+.high-praise-content-section .center-content p a {
+    color: #0A3422;
+    text-transform: uppercase;
+    font-family: Neue;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.08em;
+}
+
+.high-praise-content-section .center-content {
+    padding: 0 50px;
+}
+
+@media only screen and (max-width:768px) {
+
+    .col-3,
+    .col-4,
+    .col-7,
+    .col-8 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .empty_block {
+        display: none;
+    }
+
+    .high-praise-content-section {
+        padding: 10px;
+    }
+
+    .high-praise-content-section .left-content h2 {
+        font-size: 26px;
+        line-height: 120%;
+    }
+
+    .high-praise-content-section .center-content p {
+        font-size: 17px;
+        line-height: 135%;
+    }
+
+    .high-praise-content-section .center-content {
+        padding: 5px;
+    }
+
+    .high-praise-content-section .center-image img {
+        width: 100%;
+    }
+
+    .high-praise-content-section .empty_block {
+        display: none;
+    }
+}

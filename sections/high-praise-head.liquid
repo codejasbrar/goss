@@ -1,0 +1,27 @@
+<section class="high-praise-section" id="high-praise-section">
+    <div class="high-praise">
+      <div class="text-content">
+        <h1>{{ article.title }}</h1>
+      </div>
+      <div class="high-praise-img">
+        <img src="{{article.image | img_url : 'master'}}">
+      </div>
+      <div class="text-content">
+        <h2>{{ article.content }}</h2>
+      </div>
+    </div>
+  </section>
+  
+  {% schema %}
+    {
+      "name": "High Praise Head",
+      "tag": "section",
+      "settings": [],
+      "presets": [
+        {
+          "name": "High Praise Head"
+        }
+      ]
+  
+    }
+  {% endschema %}

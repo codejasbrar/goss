@@ -1,0 +1,61 @@
+.article-two-banner-section {
+    margin-top: 85px;
+    padding: 10px 30px;
+}
+
+.article-two-top-section .article-two-banner-section img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 150px;
+}
+
+.article-two-top-section .article-two-banner-section .text-content h1 {
+    font-family: 'Ginto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 114px;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    margin: 0;
+}
+
+.article-version-2 .header__menu-item span,
+.article-version-2 .mega-menu__content a {
+    color: #0A3422;
+}
+
+.article-version-2 .header__menu-item .icon path {
+    fill: #0A3422;
+}
+
+.article-version-2 .header__icon span,
+.article-version-2 div .header__icon {
+    color: #0A3422;
+}
+
+@media only screen and (min-width:1280px) {
+    .article-two-top-section .article-two-banner-section img {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .article-two-top-section .article-two-banner-section img {
+        height: 582px;
+    }
+
+    .article-two-top-section .article-two-banner-section .text-content {
+        width: 100%;
+    }
+
+    .article-two-top-section .article-two-banner-section .text-content h1 {
+        font-size: 58px;
+        line-height: 82px;
+    }
+}
+@media only screen and (max-width: 480px){
+    div.article-two-banner-section{
+        padding: 10px 20px;
+    }
+}
