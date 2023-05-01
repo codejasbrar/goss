@@ -40,40 +40,35 @@
                       <ul>
                         <li>
                           {%- for block in section.blocks -%}
-                            {% case block.type %}
-                              {% when 'print_headings' %}
+                          
                               {% if block.settings.print_title != blank %}
-                                <a href="#{{ block.settings.print_title | replace: ' ','_' }}" class="{% if forloop.index == 1 %} active {% endif %}">{{ block.settings.print_title }}</a>
+                                <a href="#{{ block.settings.print_title | replace: ' ','_' | replace: '.','_' }}" class="{{ forloop.index }}{% if forloop.index == 3 %} active {% endif %}">{{ block.settings.print_title }}</a>
                               {% endif %}
-                            {% endcase %}
+                              
                           {% endfor %}
                         </li>
                       </ul>
                     </nav>
                   </div>
                 </div>
-                <div class="col-9">
+                <div class="col-9 vhgvh">
                   <div class="right-section">
                     <div class="main-content">
                       <div class="row">
                         {%- for block in section.blocks -%}
-                          {% case block.type %}
-                            {% when 'print_headings' %}
-                            {% if block.settings.print_subtitle != blank %}
-                              <div class="col-md-12 stockists-right-section {% unless block.settings.print_subtitle != blank %} no_headings {% endunless %} {% if forloop.index == 1 %}active{% endif %}" id="{{ block.settings.print_title | replace: ' ','_' }}">
-                                {% if block.settings.print_subtitle != blank %}
+                          {% if block.settings.print_subtitle != blank %}
+                            <div class="stockists-right-section {% unless block.settings.print_subtitle != blank %} no_headings {% endunless %} {% if forloop.index == 1 %}active{% endif %}" id="{{ block.settings.print_title | replace: ' ','_' | replace: '.','_' }}">
                                   <h2>{{ block.settings.print_subtitle }}</h2>
+                            
+                               <div class="content">
+                                {% if block.settings.print_content != blank %}
+                                   {{ block.settings.print_content | newline_to_br }}
                                 {% endif %}
-                              </div>
-                            {% endif %}
-                            {% when 'print_content' %}
-                            <div class="col-3 content {{ forloop.index0 }}">
-                              {% if block.settings.print_content != blank %}
-                                <p>{{ block.settings.print_content }}</p>
-                              {% endif %}
+                               </div>
                             </div>
-                          {% endcase %}
-                        {% endfor %}
+                          {% endif %}
+                            
+                        {%- endfor -%}
                       </div>
                     </div>
                   </div>
@@ -87,12 +82,20 @@
                       <ul>
                         <li>
                           {%- for block in section.blocks -%}
+
+                          {% if block.settings.products_title != blank %}
+                          <a href="#{{ block.settings.products_title | replace: ' ','_' | replace: '.','_' }}" class="{{ forloop.index }}{% if forloop.index == 3 %} active {% endif %}">{{ block.settings.products_title }}</a>
+                        {% endif %}
+
+                        {% comment %}
                             {% case block.type %}
                               {% when 'products_headings' %}
                               {% if block.settings.products_title != blank %}
                                 <a href="#{{ block.settings.products_title | replace: ' ','_' }}" class="{% if forloop.index == 1 %} active {% endif %}">{{ block.settings.products_title }}</a>
                               {% endif %}
                             {% endcase %}
+                        {% endcomment %}
+
                           {% endfor %}
                         </li>
                       </ul>
@@ -104,6 +107,20 @@
                     <div class="main-content">
                       <div class="row">
                         {%- for block in section.blocks -%}
+
+                        {% if block.settings.products_subtitle != blank %}
+                        <div class="stockists-right-section {% unless block.settings.products_subtitle != blank %} no_headings {% endunless %} {% if forloop.index == 1 %}active{% endif %}" id="{{ block.settings.products_title | replace: ' ','_' | replace: '.','_' }}">
+                              <h2>{{ block.settings.products_subtitle }}</h2>
+                        
+                           <div class="content">
+                            {% if block.settings.products_content != blank %}
+                               {{ block.settings.products_content | newline_to_br }}
+                            {% endif %}
+                           </div>
+                        </div>
+                      {% endif %}
+
+                      {% comment %}
                           {% case block.type %}
                             {% when 'products_headings' %}
                             {% if block.settings.products_subtitle != blank %}
@@ -120,6 +137,9 @@
                               {% endif %}
                             </div>
                           {% endcase %}
+
+                          {% endcomment %}
+
                         {% endfor %}
                       </div>
                     </div>
@@ -150,61 +170,59 @@
           ]
         },
         {
-          "type": "print_headings",
-          "name": "Print Headings",
-          "settings": [
-            {
-              "type": "text",
-              "id": "print_title",
-              "label": "Print Title"
-            }, {
-              "type": "text",
-              "id": "print_subtitle",
-              "label": "Print Subtitle"
-            }, {
-              "type": "richtext",
-              "id": "print_information",
-              "label": "Print Information"
-            }
-          ]
-        },
-        {
           "type": "print_content",
           "name": "Print content",
           "settings": [
+          {
+            "type": "text",
+            "id": "print_title",
+            "label": "Print Title",
+            "default": "Title"
+          }, {
+            "type": "text",
+            "id": "print_subtitle",
+            "label": "Print Subtitle",
+            "default": "Subtitle"
+          }, {
+            "type": "richtext",
+            "id": "print_information",
+            "label": "Print Information",
+            "default": "<p>Information</p>"
+          },
             {
-              "type": "text",
+              "type": "html",
               "id": "print_content",
-              "label": "Print content"
+              "label": "Print content",
+              "default": "<p>Content</p>"
             }
           ]
         },
-        {
-          "type": "products_headings",
-          "name": "Products Headings",
-          "settings": [
-            {
-              "type": "text",
-              "id": "products_title",
-              "label": "Products Title"
-            }, {
-              "type": "text",
-              "id": "products_subtitle",
-              "label": "Products Subtitle"
-            }, {
-              "type": "richtext",
-              "id": "products_information",
-              "label": "Products Information"
-            }
-          ]
-        }, {
+ {
           "type": "products_content",
           "name": "Products content",
           "settings": [
+
+          {
+            "type": "text",
+            "id": "products_title",
+            "label": "Products Title",
+            "default": "Products Title"
+          }, {
+            "type": "text",
+            "id": "products_subtitle",
+            "label": "Products Subtitle",
+            "default": "Products SubTitle"
+          }, {
+            "type": "richtext",
+            "id": "products_information",
+            "label": "Products Information",
+            "default": "<p>Products Information</p>"
+          },
             {
-              "type": "text",
+              "type": "html",
               "id": "products_content",
-              "label": "Products content"
+              "label": "Products content",
+              "default": "<p>Products content</p>"
             }
           ]
         }

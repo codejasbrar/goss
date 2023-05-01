@@ -35,31 +35,43 @@
                     {% endif %}
                 </div>
                 <div class="spliter-bar" style="background-color:#FFEC73;">
-                    <div class="bar-content" >
-                        <p>
-                          {% if section.settings.spaceimage != blank %}
-                          <img src="{{section.settings.spaceimage | img_url }}" > 
-                          {% endif %}
-                          {% if section.settings.spacegif != blank %}
-                          <img src="{{section.settings.spacegif | img_url }}" > 
-                          {% endif %}
-                          <span class="volbartxt">
-                            <img src="{{ 'leftbrace.svg' | asset_url }}">
-                            {{ section.settings.spacetext }} 
-                            <img src="{{ 'rightbrace.svg' | asset_url }}">
-                          </span> 
-                          {% if section.settings.spaceimage != blank %}
-                          <img src="{{section.settings.spaceimage | img_url }}" > 
-                          {% endif %}
-                          {% if section.settings.spacegif != blank %}
-                          <img src="{{section.settings.spacegif | img_url }}" > 
-                          {% endif %}
-                          <span class="volbartxt">
-                            <img src="{{ 'leftbrace.svg' | asset_url }}"> 
-                            {{ section.settings.spacetext }} 
-                            <img src="{{ 'rightbrace.svg' | asset_url }}">
-                          </span>
-                        </p>
+                    <div class="bar-content marquee-swiper-new" >
+                      <div class="swiper-wrapper">
+                        {% for block in section.blocks %}
+                        {% case block.type %}
+                        
+                        {%- when 'spaceimage' -%}
+                          <div class="swiper-slide">
+                            {% if block.settings.spaceimage != blank %}
+                            <span class="volbarimg">
+                              <img src="{{block.settings.spaceimage | img_url }}" > 
+                            </span>
+                            {% endif %}
+                          </div>
+
+                        {%- when 'spacegif' -%}
+                          <div class="swiper-slide">
+                            {% if block.settings.spacegif != blank %}
+                            <span class="volbargif">
+                              <img src="{{block.settings.spacegif | img_url }}" > 
+                            </span>
+                            {% endif %}
+                          </div>
+
+                        {%- when 'spacetext' -%}
+                          <div class="swiper-slide">
+                            {% if block.settings.spacetext != blank %}
+                            <span class="volbartxt">
+                              <img src="{{ 'leftbrace.svg' | asset_url }}">
+                              <span>{{ block.settings.spacetext }}</span>
+                              <img src="{{ 'rightbrace.svg' | asset_url }}">
+                            </span> 
+                            {% endif %}
+                          </div>
+                          {% endcase %}
+                        {% endfor %}
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,23 +158,43 @@
          "type": "image_picker",
          "id": "splitimage",
          "label": "Select Image"
-     },
-     {
-         "type": "image_picker",
-         "id": "spaceimage",
-         "label": "Bar Image"
-     },
-     {
-         "type": "image_picker",
-         "id": "spacegif",
-         "label": "Bar Gif"
-     },
-     {
-         "type": "text",
-         "id": "spacetext",
-         "label": "Bar Text"
      }
     ],
+    "blocks": [
+      {
+        "type": "spaceimage",
+        "name": "Space image",
+        "settings": [
+            {
+                  "type": "image_picker",
+                  "id": "spaceimage",
+                  "label": "Bar Image"
+                }
+                ]
+              },
+              {
+                "type": "spacegif",
+                "name": "Space gif",
+                "settings": [
+                    {
+                          "type": "image_picker",
+                          "id": "spacegif",
+                          "label": "Space gif"
+                        }
+                        ]
+                      },
+                      {
+                        "type": "spacetext",
+                        "name": "Space text",
+                        "settings": [
+                            {
+                                  "type": "text",
+                                  "id": "spacetext",
+                                  "label": "Space text"
+                                }
+                                ]
+                              }
+        ],
     "presets": [
       {
         "name": "Hero banner"

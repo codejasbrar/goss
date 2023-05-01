@@ -466,10 +466,10 @@
       }
     </script>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js'></script>
   </head>
 
-  <body class="gradient {{ template.name }} {{ template | remove: 'article.' | remove: 'page.' }} {{ page.title | remove: 'page.' | replace: ' ','_' }} {% if page.title contains 'Certificate' %} certificate_analysis{% endif %}">
+  <body class="gradient body-tag {{ template.name }} {{ template | remove: 'article.' | remove: 'page.' }} {{ page.title | remove: 'page.' | replace: ' ','_' }} {% if page.title contains 'Certificate' %} certificate_analysis{% endif %} {% if template.name contains '404' %} Page_Not_Found {% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -528,6 +528,8 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    {% render 'product-reviews-modal' %}
+    {% section 'screensaver-head' %}
   </body>
   <style>   
   .reviews-section .copy-link .spr-badge .spr-badge-caption {

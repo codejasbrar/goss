@@ -1,0 +1,132 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {}
+    },
+    "894f41ad-6394-4366-94f7-d9ec7a43750a": {
+      "type": "high-praise-head",
+      "settings": {}
+    },
+    "5e38ad64-1cf5-40f5-9dce-ada87b948197": {
+      "type": "high-praise-content",
+      "settings": {
+        "title": "our weekly list of recommendations for people who also like to smoke weed.",
+        "date": "FEBRUARY 11, 2023",
+        "heading": "Riddles by Royal  Key Organics",
+        "image": "shopify:\/\/shop_images\/image_40.png",
+        "description": "<p>I was introduced to this <a href=\"#\" target=\"_blank\" title=\"#\">California-based cultivator<\/a> by one of the founders of <a href=\"#\" target=\"_blank\" title=\"#\">Rose<\/a>, who uses <a href=\"#\" target=\"_blank\" title=\"#\">Royal Key<\/a> flower for some of their Delights. Yesterday evening, I helped myself to a couple hits of one of their <a href=\"#\" target=\"_blank\" title=\"#\">pre-rolls<\/a> before heading out on a sunset stroll and I’m here to share the good news: Royal Key’s Riddles is the goldilocks of weed strains. It’s elevating but not anxiety inducing, relaxing without leaving you sluggish, and offers the kind of potent but clear-as-a-bell high I dream about. Later that evening, I found myself singing along to <a href=\"#\" target=\"_blank\" title=\"#\">Zach Bryan’s<\/a> rendition of <a href=\"#\" target=\"_blank\" title=\"#\">“You Are My Sunshine”<\/a> while tending to a pot of Amatriciana sauce (reply to this email if you want the recipe), and as far as I’m concerned, that song could have been written about Riddles. —VvP<\/p>"
+      }
+    },
+    "50abff73-5106-47f3-b8cd-b20cd902a4d0": {
+      "type": "high-praise-content",
+      "settings": {
+        "title": "",
+        "date": "",
+        "heading": "PLay time",
+        "image": "shopify:\/\/shop_images\/image_41.png",
+        "description": "<p>The New York City Ballet, whose ‘22\/‘23 season opened September 20th, just celebrated its 10th Fall Fashion Gala. The event also premiered choreographer Gianna Reisen’s new piece Play Time, which is part of the <a href=\"#\" target=\"_blank\" title=\"#\">NYCB II program<\/a> and features an original soundtrack by Solange Knowles, as well as costumes designed by Alejandro Gómez Palomo of Palomo Spain (whose <a href=\"#\" target=\"_blank\" title=\"#\">collections<\/a> I’ve adoringly followed for years). In other words, my dream. I just grabbed tickets, but they’re going fast—you can find them <a href=\"#\" target=\"_blank\" title=\"#\">here<\/a>. —PR<\/p>"
+      }
+    },
+    "af60276b-4da1-4d04-9fa9-fc97f0992bba": {
+      "type": "high-praise-content",
+      "settings": {
+        "title": "",
+        "date": "",
+        "heading": "SEAGLASS  CAROUSEL",
+        "image": "shopify:\/\/shop_images\/image_41-2.png",
+        "description": "<p>When I came across a video of the <a href=\"#\" target=\"_blank\" title=\"#\">SeaGlass Carousel<\/a> in Battery Park while on a stoned scroll through TikTok, I immediately thought, I can’t be that high, right? Swirling around in a giant iridescent <a href=\"#\" target=\"_blank\" title=\"#\">fiberglass fish<\/a> illuminated with LED lights meant to mimic deep sea bioluminescence is now at the top of my list of rainy day activities for the weekend. (It’s also a perfect spot to microdose.) -PR<\/p>"
+      }
+    },
+    "1f158718-b747-4072-9a29-f1a4307e8101": {
+      "type": "how-to-section",
+      "settings": {
+        "headingone": "How to",
+        "headingtwo": "Roll A <br> Sensible Joint",
+        "image": "shopify:\/\/shop_images\/image_67_1030854b-e012-4c6c-bf01-33fabe4cda62.png",
+        "linktext": "Read More",
+        "linkurl": "#"
+      }
+    },
+    "1327840c-8615-464d-a8e3-f3608aa50a17": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18659328327982__1327840c-8615-464d-a8e3-f3608aa50a17-1681312673d1b89c8a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe",
+            "heading_size": "h1"
+          }
+        },
+        "template--18659328327982__1327840c-8615-464d-a8e3-f3608aa50a17-1681312673d1b89c8a-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you sign up for our (very good) newsletter, featuring recommendations, interviews, products, launches, and more.<\/p>"
+          }
+        },
+        "template--18659328327982__1327840c-8615-464d-a8e3-f3608aa50a17-1681312673d1b89c8a-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18659328327982__1327840c-8615-464d-a8e3-f3608aa50a17-1681312673d1b89c8a-0",
+        "template--18659328327982__1327840c-8615-464d-a8e3-f3608aa50a17-1681312673d1b89c8a-1",
+        "template--18659328327982__1327840c-8615-464d-a8e3-f3608aa50a17-1681312673d1b89c8a-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "894f41ad-6394-4366-94f7-d9ec7a43750a",
+    "5e38ad64-1cf5-40f5-9dce-ada87b948197",
+    "50abff73-5106-47f3-b8cd-b20cd902a4d0",
+    "af60276b-4da1-4d04-9fa9-fc97f0992bba",
+    "1f158718-b747-4072-9a29-f1a4307e8101",
+    "1327840c-8615-464d-a8e3-f3608aa50a17"
+  ]
+}

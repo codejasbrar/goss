@@ -1,0 +1,56 @@
+.collection-hero .product-collection{
+  font-family: 'Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #0A3422;
+  margin-bottom:13px;
+}
+.collection-hero .product-collection .elips{
+  width: 2px;
+  height: 2px;
+  background: #0A3422;
+  margin:3px 8px;
+  border-radius:100%;
+  display: inline-block;
+}
+.collection-hero .collection-hero__title  {
+  font-family: 'Ginto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #0A3422;
+  margin-top: 20px;
+}
+.collection-hero__description {
+  font-family: 'Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #0A3422;
+}
+
+@media screen and (max-width: 767px){
+  .collection-hero .product-collection{
+    font-size: 11px;
+    line-height: 13px;
+  }
+  .collection-hero .collection-hero__title  {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 101%;
+    margin-top:25px;
+    margin-bottom:50px ;
+  }
+  .collection-hero__description {
+    font-size: 21px;
+    max-width: 287px;
+  }
+}

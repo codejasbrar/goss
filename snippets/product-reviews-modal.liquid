@@ -1,0 +1,31 @@
+<div class="container">
+<div id="overlay">
+  <div id="popup">
+    <h2 class="popup_title"> {{ product.title }} </h2>
+    <div id="close">
+        <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 26L24.9378 1" stroke="#0A3422" stroke-width="1.5" stroke-miterlimit="10"/>
+          <path d="M23.4694 24.4664L1 1" stroke="#0A3422" stroke-width="1.5" stroke-miterlimit="10"/>
+        </svg>            
+    </div>
+    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+  </div>
+</div>
+</div>
+
+
+<script>
+
+$(document).ready(function(){
+    $('.spr-summary-starrating').click(function() {
+      $('#overlay').fadeIn(300);  
+      $('body').addClass('overflow-hidden');
+      $('html').addClass('overflow-hidden');
+    });
+    $('#close').click(function() {
+      $('#overlay').fadeOut(300);
+      $('body').removeClass('overflow-hidden');
+      $('html').removeClass('overflow-hidden');
+    });
+});
+</script>

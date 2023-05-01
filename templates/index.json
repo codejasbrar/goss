@@ -2,6 +2,108 @@
   "sections": {
     "548c6bc5-f241-4c3a-a70d-e8834aad4524": {
       "type": "hero-banner",
+      "blocks": {
+        "225c51e4-0c31-45f6-ac83-5cd8cb4e8ddd": {
+          "type": "spaceimage",
+          "settings": {
+            "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg"
+          }
+        },
+        "a0158f95-a545-4853-bc72-34674cfa6876": {
+          "type": "spacetext",
+          "settings": {
+            "spacetext": "VOLUME 8 NOW AVAILABLE"
+          }
+        },
+        "a8f9220e-1c53-47b0-a9e5-438eedb65a8a": {
+          "type": "spaceimage",
+          "settings": {
+            "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg"
+          }
+        },
+        "3f4805d1-7d8d-43e0-ab18-487868cb5bcd": {
+          "type": "spacetext",
+          "settings": {
+            "spacetext": "VOLUME 8 NOW AVAILABLE"
+          }
+        },
+        "89a29108-87e1-4a21-b783-a1da69890e90": {
+          "type": "spaceimage",
+          "settings": {
+            "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg"
+          }
+        },
+        "fcd8c655-14d0-439e-8cc9-dba870d3b71a": {
+          "type": "spacetext",
+          "settings": {
+            "spacetext": "VOLUME 8 NOW AVAILABLE"
+          }
+        },
+        "c86bd373-b9aa-4145-910a-0663880961a9": {
+          "type": "spaceimage",
+          "settings": {
+            "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg"
+          }
+        },
+        "7cddec71-3067-4089-b111-3d0a9c9e14fb": {
+          "type": "spacetext",
+          "settings": {
+            "spacetext": "VOLUME 8 NOW AVAILABLE"
+          }
+        },
+        "3f06deab-e343-45ef-bb38-28798a816296": {
+          "type": "spaceimage",
+          "settings": {
+            "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg"
+          }
+        },
+        "f088f8bd-4f4d-4f39-a8a6-d7f2da532261": {
+          "type": "spacetext",
+          "settings": {
+            "spacetext": "VOLUME 8 NOW AVAILABLE"
+          }
+        },
+        "4d12c415-b74d-486a-a775-6f0dd4030e40": {
+          "type": "spaceimage",
+          "settings": {
+            "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg"
+          }
+        },
+        "679b48a3-eb32-490f-8729-b0dbc2065d0f": {
+          "type": "spacetext",
+          "settings": {
+            "spacetext": "VOLUME 8 NOW AVAILABLE"
+          }
+        },
+        "13834dd3-0e6c-467a-983e-79122711ce2a": {
+          "type": "spaceimage",
+          "settings": {
+            "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg"
+          }
+        },
+        "e1ebf8e0-4e1f-4068-9440-eb04f75e767c": {
+          "type": "spacetext",
+          "settings": {
+            "spacetext": "VOLUME 8 NOW AVAILABLE"
+          }
+        }
+      },
+      "block_order": [
+        "225c51e4-0c31-45f6-ac83-5cd8cb4e8ddd",
+        "a0158f95-a545-4853-bc72-34674cfa6876",
+        "a8f9220e-1c53-47b0-a9e5-438eedb65a8a",
+        "3f4805d1-7d8d-43e0-ab18-487868cb5bcd",
+        "89a29108-87e1-4a21-b783-a1da69890e90",
+        "fcd8c655-14d0-439e-8cc9-dba870d3b71a",
+        "c86bd373-b9aa-4145-910a-0663880961a9",
+        "7cddec71-3067-4089-b111-3d0a9c9e14fb",
+        "3f06deab-e343-45ef-bb38-28798a816296",
+        "f088f8bd-4f4d-4f39-a8a6-d7f2da532261",
+        "4d12c415-b74d-486a-a775-6f0dd4030e40",
+        "679b48a3-eb32-490f-8729-b0dbc2065d0f",
+        "13834dd3-0e6c-467a-983e-79122711ce2a",
+        "e1ebf8e0-4e1f-4068-9440-eb04f75e767c"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/image_11.png",
         "mb_image": "shopify:\/\/shop_images\/image_12.png",
@@ -12,9 +114,7 @@
         "splitbackground": "#3b9d4b",
         "show_video": true,
         "splitvideo": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c10601426160467e88773d17a20c66cf.webm",
-        "splitimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_b9211253-9800-44cb-8da5-e2efb765dee8.gif",
-        "spaceimage": "shopify:\/\/shop_images\/gossamer-spaced-v8-masthead.svg",
-        "spacetext": "VOLUME 8 NOW AVILABLE"
+        "splitimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_b9211253-9800-44cb-8da5-e2efb765dee8.gif"
       }
     },
     "image_banner": {
@@ -228,7 +328,7 @@
         "padding_rightm": 20,
         "explore-title": "Evergreen",
         "explore-button": "Explore Articles",
-        "explore-buttonurl": "",
+        "explore-buttonurl": "https:\/\/shop.gossamer.co\/blogs\/news",
         "blog-copy": "Evergreen introduction copy here. This is dummy text. It is intended to be read but has no meaning.",
         "blog": "news",
         "post_limit": 7,
@@ -241,7 +341,7 @@
       "type": "volumeeight",
       "settings": {
         "vimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif.gif",
-        "vtext": "Volume 8 OUT NOW Volume 8 OUT NOW Volume 8 OUT NOW",
+        "vtext": "Volume 8 OUT NOW",
         "vbackground": "#ffef80",
         "explore-title": "FEATURING",
         "explore-b1": "JASON STEWART",
@@ -256,6 +356,7 @@
     },
     "4bd63cd7-2a4d-45f7-88b4-00c8352056d3": {
       "type": "icons-3d",
+      "disabled": true,
       "settings": {}
     },
     "7f7de537-1f5a-417f-a43b-5176c0e7890a": {

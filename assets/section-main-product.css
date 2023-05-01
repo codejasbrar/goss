@@ -1748,7 +1748,8 @@ a.product__text {
    font-weight: 500;
    font-size: 15px;
    line-height: 20px;
-  width:auto;
+   width:auto;
+   padding: 0 10px;
  }
 .desksticky span {
   display: flex;

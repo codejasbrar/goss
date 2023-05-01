@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    },
+    "de15cec6-a954-4990-bd6f-316da794592c": {
+      "type": "404-not-found",
+      "settings": {
+        "title": "Oh no! You lost?<br>or high?",
+        "background_image": "shopify:\/\/shop_images\/404.png",
+        "heading": "You might like",
+        "product_image": "shopify:\/\/shop_images\/Mask_group.png",
+        "btn_text": "Shop Product Name",
+        "btn_url": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "de15cec6-a954-4990-bd6f-316da794592c"
+  ]
+}

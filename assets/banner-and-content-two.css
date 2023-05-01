@@ -1,0 +1,132 @@
+.banner-and-content-two .banners-dragable {
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.banner-and-content-two .banners-dragable .images {
+    width: 150%;
+    text-align: center;
+}
+ 
+.banners-dragable .images img {
+    max-width: 600px;
+    margin-right: -5px;
+}
+
+.banner-and-content-two .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.col-8 {
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-4 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.content_row {
+    align-items: flex-end;
+}
+
+.left_content_block .left-content {
+    margin-bottom: 80%;
+}
+
+
+.banner-and-content-two .banners-dragable::-webkit-scrollbar {
+    display: none;
+}
+
+.banner-and-content-two .banners-dragable .images img {
+    cursor: grab;
+}
+
+.banner-and-content-two .left-content h2 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    margin-top: 15px;     
+    margin-bottom: 50px;
+}
+
+.banner-and-content-two .center-content p {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    color: #0A3422;
+    margin-bottom: 40px;
+}
+
+.banner-and-content-two .left-content img {
+    margin-top: 30px;
+}
+
+.banner-and-content-two .col-6.content_block {
+    padding: 0 2em;
+}
+
+@media only screen and (max-width:768px) {
+    .banner-and-content-two div.row{
+        padding: 0 20px;
+    }
+    .banner-and-content-two div.col-6.content_block{
+        padding: 0;
+    }
+    .banner-and-content-two .banners-dragable .images img {
+        width: 50%;
+    }
+
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-8 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .left_content_block .left-content {
+        margin-bottom: 0;
+    }
+
+    .banner-and-content-two .left-content h2 {
+        font-size: 28px;
+        line-height: 22.95px;
+    }
+
+    .banner-and-content-two .center-content p {
+        font-size: 17px;
+        line-height: 22.95px;
+    }
+
+    .banner-and-content-two .center-content {
+        padding: 0;
+    }
+
+    .banner-and-content-two .left-content img {
+        margin-top: 0;
+        width: 100%;
+    }
+}

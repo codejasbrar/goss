@@ -6,9 +6,25 @@
         </div>
         {% endif %}
         {% if  section.settings.vtext != blank %}
-            <div class="volume-text">
+        <div class="bar-content marquee-swiper-volume" >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide volume-text">
                 <p>{{ section.settings.vtext }}</p>
             </div>
+            <div class="swiper-slide volume-text">
+                <p>{{ section.settings.vtext }}</p>
+            </div>
+            <div class="swiper-slide volume-text">
+                <p>{{ section.settings.vtext }}</p>
+            </div>
+            <div class="swiper-slide volume-text">
+                <p>{{ section.settings.vtext }}</p>
+            </div>
+            <div class="swiper-slide volume-text">
+                <p>{{ section.settings.vtext }}</p>
+            </div>
+          </div>
+        </div>
         {% endif %}
 
     <div class="explore-volume">

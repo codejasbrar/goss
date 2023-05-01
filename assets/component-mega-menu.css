@@ -156,3 +156,8 @@ li.menu_all_link a{
 .mega-menu__list--condensed .mega-menu__link {
   font-weight: normal;
 }
+
+.right_side_image .img-box img{
+  max-height: 409px;
+  object-fit: cover;
+}

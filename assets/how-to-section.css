@@ -1,0 +1,115 @@
+.how-to-section {
+    background-color: #CBEDD0;
+}
+
+.how-to-section .how-to-content {
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.col-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-8 {
+    max-width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-4 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+}
+
+.col-3 {
+    max-width: 25%;
+    flex: 0 0 25%;
+}
+
+.how-to-section .left-content h2 {
+    font-family: 'Domaine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 101%;
+    letter-spacing: -0.04em;
+    color: #0A3422;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.how-to-section .left-text-centent {
+    position: relative;
+    margin-top: 50px;
+}
+
+.how-to-section .left-text-centent h2 {
+    margin: 0;
+}
+
+.how-to-section .left-content a {
+    font-family: 'Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.08em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #0A3422;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-underline-offset: 3px;
+}
+
+.how-to-section .right-content {
+    text-align: right;
+}
+
+@media only screen and (max-width:768px) {
+
+    .how-to-section .left-content a{
+        position: relative;
+    }
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-8,
+    .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .how-to-section .how-to-content {
+        padding: 10px;
+    }
+
+    .how-to-section .left-content h2 {
+        font-size: 72px;
+        line-height: 101%;
+    }
+
+    .how-to-section .empty_block {
+        display: none;
+    }
+
+    .how-to-section .right-image {
+        text-align: center;
+    }
+
+    .how-to-section .right-content {
+        text-align: center;
+    }
+}

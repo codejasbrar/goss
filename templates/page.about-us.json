@@ -65,7 +65,7 @@
       "type": "heading-logo-text",
       "settings": {
         "heading": "Press",
-        "logo": "shopify:\/\/shop_images\/Vector.png",
+        "logo": "shopify:\/\/shop_images\/Press-Logos.svg",
         "logotext": "“This is a compact press pull-quote.”"
       }
     },
@@ -73,7 +73,7 @@
       "type": "heading-logo-text",
       "settings": {
         "heading": "",
-        "logo": "shopify:\/\/shop_images\/Press-Logos_6afe07e1-dfa4-49cd-b7b2-fdf638f9948f.png",
+        "logo": "shopify:\/\/shop_images\/Press-Logos-2.svg",
         "logotext": "“This is a compact press pull-quote.”"
       }
     },
@@ -81,25 +81,25 @@
       "type": "heading-logo-text",
       "settings": {
         "heading": "",
-        "logo": "shopify:\/\/shop_images\/Press-Logos_1.png",
+        "logo": "shopify:\/\/shop_images\/Press-Logos-3.svg",
         "logotext": "“This is a compact press pull-quote.”"
       }
     },
     "e72e8005-1484-4bd3-a646-d821855dfb83": {
       "type": "volumeeight",
       "settings": {
-        "vimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_332d5483-d278-4b79-962a-c1b33e215851.gif",
+        "vimage": "shopify:\/\/shop_images\/ezgif.com-video-to-gif_b9211253-9800-44cb-8da5-e2efb765dee8.gif",
         "vtext": "Volume 8 OUT NOW Volume 8 OUT NOW Volume 8 OUT NOW",
         "vbackground": "#ffef80",
         "explore-title": "Featuring",
         "explore-b1": "JASON STEWART",
         "explore-b1u": "",
         "explore-b2": "Kenisha White",
-        "explore-b2u": "",
+        "explore-b2u": "shopify:\/\/blogs\/news\/article-title",
         "explore-b3": "Pia Riverola & More",
         "explore-b3u": "",
         "explore-button": "Explore",
-        "explore-buttonurl": ""
+        "explore-buttonurl": "shopify:\/\/collections\/calm"
       }
     },
     "4daef9ac-d8a9-479d-a75f-6a92cf7a600b": {

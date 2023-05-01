@@ -1,0 +1,77 @@
+{% if section.settings.show %}
+<link rel="stylesheet" href="{{ 'screensaver-head.css' | asset_url }}" >
+<section class="screensaver-section" id="screensaver-section">
+    <div class="screensaver">
+      <input
+        type="hidden"
+        value="{{ section.settings.timer }}"
+        id="screensaver-timer-input">
+      <div class="row">
+        <div class="col-12 col-md-12 title_content_block">
+          <div class="center-content">
+            {% if section.settings.headingone != blank %}
+              <h2>{{ section.settings.headingone }}</h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-12 col-md-12 icon_content_block">
+          <div class="center-content">
+            {% if section.settings.icon != blank %}
+              <img src="{{ section.settings.icon | img_url : 'master'}}">
+            {% endif %}
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-12 col-md-12 title_content_block">
+          <div class="center-content">
+            {% if section.settings.headingtwo != blank %}
+              <h2>{{ section.settings.headingtwo }}</h2>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% schema %}
+    {
+      "name": "Screensaver Head",
+      "tag": "section",
+      "settings": [
+      {
+        "type": "checkbox",
+        "id": "show",
+        "label": "Enable screensaver"
+      },
+        {
+          "type": "text",
+          "id": "headingone",
+          "label": "Heading One"
+        }, {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        }, {
+          "type": "text",
+          "id": "headingtwo",
+          "label": "Heading Two"
+        }, {
+          "type": "text",
+          "id": "timer",
+          "label": "Time (1sec = 1000)"
+        }
+      ],
+      "presets": [
+        {
+          "name": "Screensaver Head"
+        }
+      ]
+  
+    }
+  {% endschema %}

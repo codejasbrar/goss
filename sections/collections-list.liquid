@@ -1,31 +1,22 @@
+<style>
 
+</style>
 <section class="collections_section">
     <div class="section_container">
         <div class="section_header">
             <h1>{{ section.settings.headingtext }}</h1>
         </div>
-          <div class="section_content">
-            {% comment %}
+        <div class="section_content">
             <div class="collection_content">
                {%- for block in section.blocks -%}
                     <a class="single_collection full-unstyled-link" href="{{ block.settings.collection.url }}">
                       <span class="coll-h"> {{ block.settings.collectiontitle }} 
                         <span class="coll-p"> {{ block.settings.collection.products_count }} </span>
                       </span> 
-                     {% if block.settings.collectionimage != blank %}
+                      <!-- {% if block.settings.collectionimage != blank %}
                       {% include 'icons-3d' id: block.settings.collectiontitle, url: block.settings.collectionimage %}
-                      {% endif %}
+                      {% endif %} -->
                       <img src="{{ block.settings.collectionimage | image_url }}">
-                    </a>
-               {%- endfor -%}
-            </div>
-            {% endcomment %}
-            <div class="collection_content">
-               {%- for block in section.blocks -%}
-                    <a class="single_collection full-unstyled-link" href="{{ block.settings.collection.url }}"><span class="coll-h"> {{ block.settings.collectiontitle }} <span class="coll-p"> {{ block.settings.collection.products_count }} </span></span>
-    				  <span class="video__wrapper">
-                        {% include 'js-icons-3d' loopid: forloop.index, url: block.settings.collectionimage %}
-                      </span>
                     </a>
                {%- endfor -%}
             </div>

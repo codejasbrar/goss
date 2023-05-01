@@ -1,8 +1,8 @@
-.stockists-right-section {
+/* .stockists-right-section {
     position: sticky;
     top: 0;
-    background: #cbeed0;
-}
+     background: #cbeed0; 
+} */
 .Stockists main#MainContent {
     margin-top: -85px;
     background-color: #CBEDD0;
@@ -145,6 +145,11 @@
     line-height: 100%;
     letter-spacing: -0.04em;
     color: #0A3422;
+    background-color: #CBEDD0;
+    padding: 15px 0;
+    margin: 0;
+    position: sticky;
+    top: 0;
 }
 
 .stockists-section .main-content p {
@@ -169,9 +174,35 @@
     letter-spacing: 0.08em;
     color: #0A3422;
     display: block;
+    margin-bottom: 10px;
+}
+.stockists-right-section {
+    display: inline-block;
+    width: 100%;
+}
+.stockists-section .main-content .content br {
+    display: none;
+}
+.stockists-section .main-content .content p br {
+    display: block;
 }
 
 @media only screen and (max-width:768px) {
+
+    .stockists-section .main-content div.content p {
+        max-width: 50%;
+        padding: 0 20px 0 0;
+        min-width: auto;
+    }
+    .title_content_block{
+        padding: 0 20px;
+    }
+    .heading_content_block{
+        padding: 0 20px;
+    }
+    .stockists-section .tab button{
+        color: #0a3422;
+    }
 
     .col-3,
     .col-9,
@@ -190,8 +221,7 @@
     }
 
     .stockists-section {
-        padding: 20px;
-        padding-bottom: 50px;
+        padding: 20px 0 50px 0;
     }
 
     .stockists-section .title_content_block h1 {
@@ -215,8 +245,14 @@
     }
 
     .stockists-section .side-bar-row {
-        position: relative;
-        top: unset;
+        /* position: relative;
+        top: unset; */
         border-bottom: 1px solid #585858;
+        padding: 0 20px;
+        background-color: #cbeed0;
+        z-index: 9;
+    }
+    .right-section{
+        padding: 0 20px;
     }
 }

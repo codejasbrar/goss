@@ -13,6 +13,57 @@ let SwiperTop = new Swiper('.marquee-swiper', {
     allowTouchMove: false
   });
 
+let SwiperTopNew = new Swiper('.marquee-swiper-new', {
+    loop: true,
+    spaceBetween: 0,
+    centeredSlides: false,
+    speed: 5000,
+    autoplay: {
+      delay: 1
+    },
+    freeMode: true,
+    freeModeMomentum: false,
+    slidesPerView: 3,
+    allowTouchMove: false,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      320: {
+        slidesPerView: 2.2,
+        spaceBetween: 10,
+      }
+    }
+  });
+
+  let SwiperTopVolume = new Swiper('.marquee-swiper-volume', {
+    loop: true,
+    spaceBetween: 0,
+    centeredSlides: false,
+    speed: 5000,
+    autoplay: {
+      delay: 1
+    },
+    freeMode: true,
+    freeModeMomentum: false,
+    slidesPerView: 3,
+    allowTouchMove: false,
+    breakpoints: {
+      1440: {
+          slidesPerView: 1.7,
+          spaceBetween: 20,
+        },
+      640: {
+        slidesPerView: 1.5,
+        spaceBetween: 20,
+      },
+      320: {
+        slidesPerView: 0.7,
+        spaceBetween: 10,
+      }
+    }
+  });
   // Collapsible Accordions (FAQs and Glossary Page)
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 accordionItemHeaders.forEach(accordionItemHeader => {
@@ -52,14 +103,14 @@ function navHighlighter() {
         const sectionHeight = current.offsetHeight;
         const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute("id");
-        // if (
-        //     scrollY > sectionTop &&
-        //     scrollY <= sectionTop + sectionHeight
-        // ) {
-        //     document.querySelector(".navigation a[href*=" + sectionId + "]").classList.add("active");
-        // } else {
-        //     document.querySelector(".navigation a[href*=" + sectionId + "]").classList.remove("active");
-        // }
+        if (
+            scrollY > sectionTop &&
+            scrollY <= sectionTop + sectionHeight
+        ) {
+            document.querySelector(".navigation a[href*=" + sectionId + "]").classList.add("active");
+        } else {
+            document.querySelector(".navigation a[href*=" + sectionId + "]").classList.remove("active");
+        }
     });
 }
 

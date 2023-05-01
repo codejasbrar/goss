@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {}
+    },
+    "61beb309-019a-431e-8abf-8eb815480133": {
+      "type": "article-head",
+      "disabled": true,
+      "settings": {}
+    },
+    "97abffc8-b710-4f3e-980b-2247f554a6b1": {
+      "type": "article-head-two",
+      "settings": {}
+    },
+    "c6380baa-dc8d-4c94-921e-6f512849dbbe": {
+      "type": "image-and-content",
+      "settings": {
+        "list": "<p>As Told to Gossamer.<br\/><br\/>photographed by <a href=\"#\" target=\"_blank\" title=\"#\">Meghan Marin<\/a> in New York City.<br\/><br\/>This interview has been edited and condensed for clarity<\/p>",
+        "heading": "",
+        "content": "",
+        "show_video": false,
+        "rightvideo": "",
+        "rightimage": "shopify:\/\/shop_images\/volume-8-trim_1.png",
+        "imagetitle": "From SPACE: Vol.8",
+        "buynowurl": "#",
+        "buynowtext": "BUY NOW",
+        "css_class": ""
+      }
+    },
+    "69d82a36-b071-48fc-84b5-477bf1beca9e": {
+      "type": "banner-and-content-two",
+      "blocks": {
+        "d0241db8-2b41-43f2-8a79-ce235db3253c": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_69.png"
+          }
+        },
+        "adfd394f-aacf-48a2-a35f-f5d1b53aa499": {
+          "type": "Image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_70.png"
+          }
+        }
+      },
+      "block_order": [
+        "d0241db8-2b41-43f2-8a79-ce235db3253c",
+        "adfd394f-aacf-48a2-a35f-f5d1b53aa499"
+      ],
+      "settings": {}
+    },
+    "833a637f-983f-4d6b-9b25-317b55fbb354": {
+      "type": "image-and-content-v2",
+      "settings": {
+        "heading": "My dad moved when I was five, but my parents lived in the same building.",
+        "description": "<p>I’ve been creative my whole life. I’ve always acted, and I loved to paint, sing, and make clothes. I was just a creative soul in general, and still am. I’m a bit of a jack of all trades, master of none.<br\/><br\/>My relationship with acting changed when I started working for real. It’s a transition to monetize your hobby. I felt pressure in a way that I didn’t when I was doing theater for community and creativity and my own internal exploration. To suddenly come onto a set and feel like you're costing someone millions of dollars, that you could be messing with somebody’s 10-year journey of trudging through the mud to get to this point, that hopefully you don’t ruin it, and that it’s on you to make their money back—I felt a lot of pressure about that.<br\/><br\/>I actually had a very painful relationship with being on set for a while. But in the last year or two, I’ve really started to enjoy my time there. I think that it just comes a little bit with age and a little bit with exposure. I’ve gotten older, my confidence has grown, and as my body of work grows, I’m able to fall back on the work that I’m proud of. It’s finally fun for me. I started loving acting. Now it's okay for me to take risks and it’s okay for me to not be the best. It’s okay for me to perform in my own way. I’ve come prepared.<br\/><\/p><p>I find it surprising that more theater programs don’t have classes that really focus on what it’s like to be on a set, because I think most actors, whether or not they have plans to do camera acting, will most likely end up in front of one at some point. And I do think it is quite different. Some actors don’t feel that way, but I believe that the energy output, the basic movement and tenets of performing, the way one shifts for camera versus on stage feel very different.<br\/><br\/>I didn’t major in theater, but I was lucky that my college had a class called “Acting for the Camera.” I took that class two semesters in a row because I felt like I had no idea how to do it and that it was a skill I should learn. I’ve been doing so much camera work now that I feel a little bit lost when I’m presented with theater auditions. I feel like I have unlearned those skills. It used to be my comfort, and now I am just more used to being on a set.<\/p>",
+        "image_position": "left",
+        "leftimage": "shopify:\/\/shop_images\/image_75.png",
+        "css_class": "mobile_reverse"
+      }
+    },
+    "5e3542bd-bb2a-4c03-96fb-93742205bbbc": {
+      "type": "collage-section",
+      "settings": {
+        "imageone": "shopify:\/\/shop_images\/image_76.png",
+        "imagetwo": "shopify:\/\/shop_images\/image_73.png",
+        "heading": "I once had a really terrible    experience with an edible. It knocked me flat.",
+        "imagethree": "shopify:\/\/shop_images\/image_28.png"
+      }
+    },
+    "2257c54d-5e25-44e5-bf0f-2f00091cfd2f": {
+      "type": "image-and-content-v2",
+      "settings": {
+        "heading": "",
+        "description": "<p>This might be a little controversial, but I’m actually pretty straight-edge. That’s largely because I once had a really terrible experience with an edible. It knocked me flat. Since then, I’ve been horrified at the prospect of anything like that ever happening to me again. So I’ve sworn off everything.<br\/><br\/>I don’t think I respond very well to weed, generally. But I think everyone’s brain and body chemistry are quite different. It’s fascinating to me when people feel really great on weed, because I’m like, Wow, I just chemically don’t understand it. For example, my partner loves smoking weed to be creative, and it doesn’t do that at all for me. But if I drink a little bit, I feel so open to the universe, and I feel love and gentleness toward those around me. Some people feel that way if they’re smoking. For other people, it’s shrooms. But I’m somebody who likes to be in control of my mind. Even drinking, if I’m tipsy for more than 20 minutes, I’m over it.<br\/><br\/>I haven’t tried shrooms yet, but I would love to. My partner keeps telling me he thinks I would love them. But again, now I’m terrified of anything ever going wrong. It took me a year to be able to talk about my bad experience without starting to cry.<br\/><\/p>",
+        "image_position": "left",
+        "css_class": ""
+      }
+    },
+    "54a3f54f-273b-4f4d-9280-09b0772b1b7e": {
+      "type": "image-and-content-v2",
+      "settings": {
+        "heading": "I have so many friends who microdose or take full trips, and it really, really helps them see their depression or anxiety in a different way.",
+        "description": "<p>I think most people have had some sort of negative experience with a substance. But I don’t really want to be ruled by fear, so I do have an interest in trying weed again or trying other things like shrooms. I have so many friends who microdose or take full trips, and it really, really helps them see their depression or anxiety in a different way.<br\/><br\/>I take antidepressants. I think Xanax is a wonderful thing for people to have as a tool in order to not feel despair. I think it’s amazing to have different tools that you can use with intention and in moderation to allow you to be your full true self. And to me, if that’s weed, if that’s sometimes moderate or intentional drinking, or shrooms, or whatever it is, then that’s great.<br\/><br\/>DMT is also interesting. Of course, there’s ayahuasca, the classic. I think all of these things—again, with intentionality—are quite powerful. And it’s anything, right? I think about it with sugar, too. I love sugar and I think, How do I use this with intention in my life? I love to bake and share that with people. It’s the way I express my love and the way I express love to myself.<\/p>",
+        "image_position": "left",
+        "css_class": ""
+      }
+    },
+    "9d45a1bb-4981-4029-b759-6fd2d85ebd90": {
+      "type": "collage-section-v2",
+      "settings": {
+        "imageone": "shopify:\/\/shop_images\/image_80.png",
+        "imagetwo": "shopify:\/\/shop_images\/image_79.png",
+        "heading": "It’s all about what perfect potion will make you an open, vulnerable, expressive person who can feel all the things, and not just one thing.",
+        "description": "<p>I clearly have a lot of fear tied up in these things and I don’t like that. I do want to try dipping my toe in, even with something like ecstasy. I just think each individual is just quite different. Each individual needs different things, different chemicals. It’s like how one prescription of antidepressant doesn’t work for everybody. Some people can tolerate Lexapro, some can tolerate Zoloft, some can tolerate Wellbutrin, and so on. But you have to try them to figure it out. It’s all about what perfect potion will make you an open, vulnerable, expressive person who can feel all the things, and not just one thing.<br\/><br\/>Soothing rituals can take different forms. I think there’s the treats version of that where I’m like, I just want cookies and to do nothing. That’s usually if I’ve had a really tough and stressful work week. Then I’ll lean into that. And then there’s YouTube, which I really love. I love watching historical costuming and sewing. I love watching painting. I love watching cooking. I find cooking sounds really soothing, like ASMR. That is usually what I do to relax myself. And I love watching birth videos.<br\/><br\/>Since I can remember, I’ve always wanted to be a mother, and hopefully I have the opportunity to do that in my life. I’ve just always felt in my bones that it was something I was meant to be. I was always sort of baby crazy and loved children, and it turned into this obsession with birth, and the transition of identity for a mother, or a person giving birth.<br\/><br\/>I think in some ways it’s one of the last truly mystical things that we have in this world, where people are like, “Wow, maybe there is a God,” right? It’s something that we have so little control over, a process that touches life and death, where we tap into our most primal, and deepest selves, and where you see the true power of the body, particularly women’s bodies. And newborn babies feel like this gift from the universe. They feel like these completely untouched little creatures who we, as adults, still don't fully understand.<br\/><br\/>Over the years, my interest in wanting to be a good parent, and wanting to be a good mother, transitioned into me really obsessing over the birth process, and how cool I think it is. And also how sexy I think it is. It’s such an interesting thing. Life comes from sex and life comes from, I don’t know, just such a bodily experience. But as somebody who hasn't done this before, I’m also sure I romanticize a lot of it in ways.<\/p>"
+      }
+    },
+    "36dd6ad2-de92-48bf-9dcd-193d9e566ada": {
+      "type": "image-and-content-v3",
+      "settings": {
+        "heading": "I’ve thought that if acting doesn’t work out, midwifery would be my plan B.",
+        "banner": "shopify:\/\/shop_images\/image_77.png"
+      }
+    },
+    "6d940b41-61dc-4247-b35d-5b0b26da3cb4": {
+      "type": "image-and-content",
+      "settings": {
+        "list": "<p>THIS INTERVIEW HAS BEEN EDITED AND CONDENSED FOR CLARITY.<br\/><br\/>IF YOU LIKE THIS CONVERSATION, PLEASE FEEL FREE TO SHARE IT WITH FRIENDS OR ENEMIES. SUBSCRIBE TO OUR NEWSLETTER <a href=\"https:\/\/gossamerhq.myshopify.com\/blogs\/news\/article-title-3?#\" target=\"_blank\">HERE<\/a>.<\/p>",
+        "heading": "",
+        "content": "<p>I read books about it. I watch a lot of documentaries and videos about it. I love watching birth videos. I watch midwife videos. I watch lactation videos. I find it fascinating. And not just the birth, but also the processes before and after pregnancy. I’ve actually been wanting to take a doula program. I would love to learn midwifery. It’s weird to say this, but I’ve thought that if acting doesn’t work out, midwifery would be my plan B. Life is long, who knows what’ll happen? Midwifery is a little bit unfeasible for me right now because I would have to fully pause my acting career to go to medical school, but I feel like I could at least be a doula.<br\/><br\/>I’ve always been interested in women’s rights and health, and women needing support. I have a friend who is an abortion doula. She helps people process that decision, stays with them during it, and helps them process afterward. This interests me profoundly as well. I think everybody is gifted with some random passion, and mine happens to be this one. And it gets stronger with each passing day.<\/p>",
+        "show_video": false,
+        "rightvideo": "",
+        "rightimage": "shopify:\/\/shop_images\/image_78.png",
+        "imagetitle": "",
+        "buynowurl": "",
+        "buynowtext": "",
+        "css_class": "image_bottom"
+      }
+    },
+    "7eca5c24-fa42-4931-be56-81fc6c7882df": {
+      "type": "product-mayalsolikearticle",
+      "blocks": {
+        "509f2a8e-2382-4be0-90a0-3c298543cd0d": {
+          "type": "article",
+          "settings": {
+            "article-text": "Jason Stewart",
+            "article-link": ""
+          }
+        },
+        "c5405f76-2c71-4172-a476-c1f64e500261": {
+          "type": "article",
+          "settings": {
+            "article-text": "Hillary Taymore",
+            "article-link": ""
+          }
+        },
+        "c73165d4-4a55-4e33-902e-89a193daf47d": {
+          "type": "article",
+          "settings": {
+            "article-text": "Chella Man",
+            "article-link": ""
+          }
+        },
+        "93e785d2-d051-4fca-bf71-d4a93d28ebaa": {
+          "type": "article",
+          "settings": {
+            "article-text": "Pia Riverola",
+            "article-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "509f2a8e-2382-4be0-90a0-3c298543cd0d",
+        "c5405f76-2c71-4172-a476-c1f64e500261",
+        "c73165d4-4a55-4e33-902e-89a193daf47d",
+        "93e785d2-d051-4fca-bf71-d4a93d28ebaa"
+      ],
+      "settings": {
+        "sectionbackground": "#cbedd0",
+        "reco-image": "shopify:\/\/shop_images\/mecca-james-williams.png",
+        "reco-title": "Mecca James-Williams — The multi-hyphenate stylist on smoking with a purpose, life in Jamaica, and running “full face” into joy.",
+        "reco-copy": "",
+        "reco-text": "READ MORE",
+        "review-link": "",
+        "reco-subtitle": "You might also like",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "61beb309-019a-431e-8abf-8eb815480133",
+    "97abffc8-b710-4f3e-980b-2247f554a6b1",
+    "c6380baa-dc8d-4c94-921e-6f512849dbbe",
+    "69d82a36-b071-48fc-84b5-477bf1beca9e",
+    "833a637f-983f-4d6b-9b25-317b55fbb354",
+    "5e3542bd-bb2a-4c03-96fb-93742205bbbc",
+    "2257c54d-5e25-44e5-bf0f-2f00091cfd2f",
+    "54a3f54f-273b-4f4d-9280-09b0772b1b7e",
+    "9d45a1bb-4981-4029-b759-6fd2d85ebd90",
+    "36dd6ad2-de92-48bf-9dcd-193d9e566ada",
+    "6d940b41-61dc-4247-b35d-5b0b26da3cb4",
+    "7eca5c24-fa42-4931-be56-81fc6c7882df"
+  ]
+}

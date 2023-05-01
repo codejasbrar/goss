@@ -1,0 +1,218 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {}
+    },
+    "61beb309-019a-431e-8abf-8eb815480133": {
+      "type": "article-head",
+      "disabled": true,
+      "settings": {}
+    },
+    "97abffc8-b710-4f3e-980b-2247f554a6b1": {
+      "type": "article-head-two",
+      "settings": {}
+    },
+    "c6380baa-dc8d-4c94-921e-6f512849dbbe": {
+      "type": "image-and-content",
+      "settings": {
+        "list": "{{ article.metafields.custom.image_and_content_left_content | metafield_tag }}",
+        "heading": "The actress on midwifery, mushrooms, and the edible experience that made her cry.",
+        "content": "",
+        "rightimage": "{{ article.metafields.custom.image_and_content_right_image.value }}",
+        "imagetitle": "{{ article.metafields.custom.image_and_content_right_title.value }}",
+        "buynowurl": "{{ article.metafields.custom.image_and_content_button_url.value }}",
+        "buynowtext": "{{ article.metafields.custom.image_and_content_button_text.value }}",
+        "css_class": ""
+      }
+    },
+    "69d82a36-b071-48fc-84b5-477bf1beca9e": {
+      "type": "banner-and-content-two",
+      "blocks": {
+        "d0241db8-2b41-43f2-8a79-ce235db3253c": {
+          "type": "Image",
+          "settings": {
+            "image": "{{ article.metafields.custom.banner_and_content_image_1.value }}"
+          }
+        },
+        "adfd394f-aacf-48a2-a35f-f5d1b53aa499": {
+          "type": "Image",
+          "settings": {
+            "image": "{{ article.metafields.custom.banner_and_content_image_2.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "d0241db8-2b41-43f2-8a79-ce235db3253c",
+        "adfd394f-aacf-48a2-a35f-f5d1b53aa499"
+      ],
+      "settings": {}
+    },
+    "833a637f-983f-4d6b-9b25-317b55fbb354": {
+      "type": "image-and-content-v2",
+      "settings": {
+        "heading": "{{ article.metafields.custom.banner_and_content_heading.value }}",
+        "description": "{{ article.metafields.custom.banner_and_content_description | metafield_tag }}",
+        "image_position": "left",
+        "leftimage": "{{ article.metafields.custom.banner_and_content_left_image.value }}"
+      }
+    },
+    "5e3542bd-bb2a-4c03-96fb-93742205bbbc": {
+      "type": "collage-section",
+      "settings": {
+        "imageone": "{{ article.metafields.custom.collage_big_image.value }}",
+        "imagetwo": "{{ article.metafields.custom.collage_right_image.value }}",
+        "heading": "{{ article.metafields.custom.collage_left_heading.value }}",
+        "imagethree": "{{ article.metafields.custom.collage_left_image.value }}"
+      }
+    },
+    "2257c54d-5e25-44e5-bf0f-2f00091cfd2f": {
+      "type": "image-and-content-v2",
+      "settings": {
+        "heading": "",
+        "description": "<p>{{ article.metafields.custom.collage_description | metafield_tag }}<\/p>",
+        "image_position": "left"
+      }
+    },
+    "54a3f54f-273b-4f4d-9280-09b0772b1b7e": {
+      "type": "image-and-content-v2",
+      "settings": {
+        "heading": "{{ article.metafields.custom.collage_bottom_middle_heading.value }}",
+        "description": "{{ article.metafields.custom.collage_bottom_description | metafield_tag }}",
+        "image_position": "left"
+      }
+    },
+    "9d45a1bb-4981-4029-b759-6fd2d85ebd90": {
+      "type": "collage-section-v2",
+      "settings": {
+        "imageone": "{{ article.metafields.custom.collage_v2_image_1.value }}",
+        "imagetwo": "{{ article.metafields.custom.collage_v2_image_2.value }}",
+        "heading": "{{ article.metafields.custom.collage_v2_heading_text.value }}",
+        "description": "{{ article.metafields.custom.collage_v2_bottom_content | metafield_tag }}"
+      }
+    },
+    "36dd6ad2-de92-48bf-9dcd-193d9e566ada": {
+      "type": "image-and-content-v3",
+      "settings": {
+        "heading": "<p>{{ article.metafields.custom.image_and_content_v3_heading.value }}<\/p>",
+        "banner": "{{ article.metafields.custom.image_and_content_v3_image.value }}"
+      }
+    },
+    "6d940b41-61dc-4247-b35d-5b0b26da3cb4": {
+      "type": "image-and-content",
+      "settings": {
+        "list": "{{ article.metafields.custom.image_and_content_v2_left_content | metafield_tag }}",
+        "heading": "",
+        "content": "{{ article.metafields.custom.image_and_content_v2_middle_content_ | metafield_tag }}",
+        "rightimage": "{{ article.metafields.custom.image_and_content_v2_right_image.value }}",
+        "imagetitle": "",
+        "buynowurl": "",
+        "buynowtext": "",
+        "css_class": "image_bottom"
+      }
+    },
+    "7eca5c24-fa42-4931-be56-81fc6c7882df": {
+      "type": "product-mayalsolikearticle",
+      "blocks": {
+        "509f2a8e-2382-4be0-90a0-3c298543cd0d": {
+          "type": "article",
+          "settings": {
+            "article-text": "Jason Stewart",
+            "article-link": ""
+          }
+        },
+        "c5405f76-2c71-4172-a476-c1f64e500261": {
+          "type": "article",
+          "settings": {
+            "article-text": "Hillary Taymore",
+            "article-link": ""
+          }
+        },
+        "c73165d4-4a55-4e33-902e-89a193daf47d": {
+          "type": "article",
+          "settings": {
+            "article-text": "Chella Man",
+            "article-link": ""
+          }
+        },
+        "93e785d2-d051-4fca-bf71-d4a93d28ebaa": {
+          "type": "article",
+          "settings": {
+            "article-text": "Pia Riverola",
+            "article-link": ""
+          }
+        }
+      },
+      "block_order": [
+        "509f2a8e-2382-4be0-90a0-3c298543cd0d",
+        "c5405f76-2c71-4172-a476-c1f64e500261",
+        "c73165d4-4a55-4e33-902e-89a193daf47d",
+        "93e785d2-d051-4fca-bf71-d4a93d28ebaa"
+      ],
+      "settings": {
+        "sectionbackground": "#cbedd0",
+        "reco-image": "shopify:\/\/shop_images\/mecca-james-williams.png",
+        "reco-title": "Mecca James-Williams — The multi-hyphenate stylist on smoking with a purpose, life in Jamaica, and running “full face” into joy.",
+        "reco-copy": "",
+        "reco-text": "Read More",
+        "review-link": "",
+        "reco-subtitle": "You might also like",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "61beb309-019a-431e-8abf-8eb815480133",
+    "97abffc8-b710-4f3e-980b-2247f554a6b1",
+    "c6380baa-dc8d-4c94-921e-6f512849dbbe",
+    "69d82a36-b071-48fc-84b5-477bf1beca9e",
+    "833a637f-983f-4d6b-9b25-317b55fbb354",
+    "5e3542bd-bb2a-4c03-96fb-93742205bbbc",
+    "2257c54d-5e25-44e5-bf0f-2f00091cfd2f",
+    "54a3f54f-273b-4f4d-9280-09b0772b1b7e",
+    "9d45a1bb-4981-4029-b759-6fd2d85ebd90",
+    "36dd6ad2-de92-48bf-9dcd-193d9e566ada",
+    "6d940b41-61dc-4247-b35d-5b0b26da3cb4",
+    "7eca5c24-fa42-4931-be56-81fc6c7882df"
+  ]
+}

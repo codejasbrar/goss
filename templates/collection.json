@@ -1,0 +1,201 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847": {
+      "type": "collection-accordian",
+      "blocks": {
+        "template--18355019284782__c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847-1679643778e0b6571e-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.faq_title_1.value }}",
+            "icon": "none",
+            "row_content": "<p>{{ collection.metafields.custom.faq_content_1 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--18355019284782__c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847-1679643778e0b6571e-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.faq_title_2.value }}",
+            "icon": "none",
+            "row_content": "<p>{{ collection.metafields.custom.faq_content_2 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--18355019284782__c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847-1679643778e0b6571e-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.faq_title_3.value }}",
+            "icon": "none",
+            "row_content": "<p>{{ collection.metafields.custom.faq_content_3 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18355019284782__c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847-1679643778e0b6571e-0",
+        "template--18355019284782__c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847-1679643778e0b6571e-1",
+        "template--18355019284782__c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847-1679643778e0b6571e-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "portrait",
+        "youmaytext": "{{ collection.metafields.custom.recommended_products_title.value }}",
+        "youmayalsolike": "{{ collection.metafields.custom.recommended_products.value }}",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 36,
+        "padding_bottomm": 36,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "318bd13b-86a1-471f-b741-3ec2b4321280": {
+      "type": "section-product-reviews",
+      "settings": {
+        "sectionbackground": "#cbedd0",
+        "review-image": "shopify:\/\/shop_images\/image_46.svg",
+        "review-title": "“These instantly calm me down but also provide a little bit of joy for me to look forward to…HIGHly recommend!!",
+        "review-copy": "",
+        "review-text": "Read more Reviews",
+        "review-link": "",
+        "padding_top": 20,
+        "padding_bottom": 40,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 32,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    },
+    "cbe8de92-e58a-4493-a21b-24606c2c5aba": {
+      "type": "quote-slider",
+      "blocks": {
+        "8c202adc-a4b6-4871-8381-83ed99b2ae26": {
+          "type": "Slide",
+          "settings": {
+            "quote_image": "shopify:\/\/shop_images\/Press-Logos.png",
+            "quotecontent": "“This is a compact, animated press pull-quote slider.”"
+          }
+        },
+        "970cc205-9822-4aa9-8c23-2a20195db1db": {
+          "type": "Slide",
+          "settings": {
+            "quote_image": "shopify:\/\/shop_images\/Press-Logos2.png",
+            "quotecontent": "“This is a compact, animated press pull-quote slider.”"
+          }
+        }
+      },
+      "block_order": [
+        "8c202adc-a4b6-4871-8381-83ed99b2ae26",
+        "970cc205-9822-4aa9-8c23-2a20195db1db"
+      ],
+      "settings": {
+        "headingtext": "",
+        "sectionbackground": "#cbedd0"
+      }
+    },
+    "60f5d2a4-390b-4229-9724-2032c0e483cd": {
+      "type": "Collection-featured-Product",
+      "settings": {
+        "vimage": "{{ collection.metafields.custom.feature_image.value }}",
+        "vtext": "{{ collection.metafields.custom.feature_scroll_text.value }}",
+        "scrollpro": "{{ collection.metafields.custom.feature_product_name.value }}",
+        "scrollimage": "{{ collection.metafields.custom.feature_product_icon.value }}",
+        "fbackground": "shopify:\/\/shop_images\/Screenshot_2023-02-01_at_14.16_1.svg",
+        "vbackground": "",
+        "feature-title": "{{ collection.metafields.custom.feature_bar_text.value }}",
+        "feature-button": "{{ collection.metafields.custom.feature_button_text.value }}",
+        "feature-buttonurl": "{{ collection.metafields.custom.feature_button_url.value }}"
+      }
+    },
+    "54f76e27-80d5-49a5-9a72-c1aa7465e340": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18355019284782__54f76e27-80d5-49a5-9a72-c1aa7465e340-1679643844f6a0716e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe",
+            "heading_size": "h1"
+          }
+        },
+        "template--18355019284782__54f76e27-80d5-49a5-9a72-c1aa7465e340-1679643844f6a0716e-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you sign up for our (very good) newsletter, featuring recommendations, interviews, products, launches, and more.<\/p>"
+          }
+        },
+        "template--18355019284782__54f76e27-80d5-49a5-9a72-c1aa7465e340-1679643844f6a0716e-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--18355019284782__54f76e27-80d5-49a5-9a72-c1aa7465e340-1679643844f6a0716e-0",
+        "template--18355019284782__54f76e27-80d5-49a5-9a72-c1aa7465e340-1679643844f6a0716e-1",
+        "template--18355019284782__54f76e27-80d5-49a5-9a72-c1aa7465e340-1679643844f6a0716e-2"
+      ],
+      "settings": {
+        "color_scheme": "#f05d41",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 30,
+        "padding_right": 30,
+        "padding_topm": 20,
+        "padding_bottomm": 20,
+        "padding_leftm": 20,
+        "padding_rightm": 20
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "c2d5f9f1-424a-4d0e-9e22-5a0da3dbf847",
+    "product-grid",
+    "318bd13b-86a1-471f-b741-3ec2b4321280",
+    "cbe8de92-e58a-4493-a21b-24606c2c5aba",
+    "60f5d2a4-390b-4229-9724-2032c0e483cd",
+    "54f76e27-80d5-49a5-9a72-c1aa7465e340"
+  ]
+}

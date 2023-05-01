@@ -143,6 +143,16 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "screensaver-head": {
+        "type": "screensaver-head",
+        "settings": {
+          "show": false,
+          "headingone": "too high? call",
+          "icon": "shopify:\/\/shop_images\/image_93.png",
+          "headingtwo": "202-too-high",
+          "timer": "10000"
+        }
       }
     },
     "content_for_index": []
